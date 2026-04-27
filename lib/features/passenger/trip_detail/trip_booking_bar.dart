@@ -1,0 +1,48 @@
+import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:micromasr/core/constants/app_strings.dart';
+import 'package:micromasr/core/extensions/context_extensions.dart';
+import 'package:micromasr/core/extensions/size_extensions.dart';
+import 'package:micromasr/core/routing/app_route_constant.dart';
+import 'package:micromasr/core/widgets/app_button.dart';
+import 'package:micromasr/core/widgets/horizontal_space.dart';
+
+class TripBookingBar extends StatelessWidget {
+  const TripBookingBar({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Positioned(
+      bottom: 0,
+      left: 0,
+      right: 0,
+      child: Container(
+        padding: EdgeInsets.fromLTRB(24.aw, 16.ah, 24.aw, 32.ah),
+        decoration: BoxDecoration(
+          color: context.colors.surface,
+          borderRadius: const BorderRadius.vertical(top: Radius.circular(32)),
+          boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: 0.1), blurRadius: 20, offset: const Offset(0, -5))],
+        ),
+        child: Row(
+          children: [
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text('15 ${AppStrings.egp}', style: context.headlineLargeTextStyle.copyWith(color: const Color(0xFFF09063), fontWeight: FontWeight.bold)),
+                Text(AppStrings.tripTotal, style: context.bodySmallTextStyle.copyWith(color: context.colors.textSecondary)),
+              ],
+            ),
+            const HorizontalSpace(32),
+            Expanded(
+              child: AppButton(
+                label: AppStrings.bookNowLarge,
+                onPressed: () => context.push(AppRouteConstants.passengerSeats),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}

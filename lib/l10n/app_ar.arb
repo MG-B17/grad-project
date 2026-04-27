@@ -1,0 +1,67 @@
+{
+  "@@locale": "ar",
+  "@@last_modified": "2026-04-26",
+
+  "appName": "ميكرو مصر",
+
+  "next": "التالي",
+  "back": "رجوع",
+  "skip": "تخطى",
+  "start": "ابدأ",
+  "confirm": "تأكيد",
+  "cancel": "إلغاء",
+  "save": "حفظ",
+  "retry": "إعادة المحاولة",
+  "logout": "تسجيل الخروج",
+  "loading": "جاري التحميل...",
+
+  "passenger": "راكب",
+  "driver": "سائق",
+  "selectRole": "اختار دورك",
+
+  "signIn": "تسجيل الدخول",
+  "signUp": "إنشاء حساب",
+  "phoneNumber": "رقم الهاتف",
+  "password": "كلمة المرور",
+  "fullName": "الاسم بالكامل",
+  "email": "البريد الإلكتروني",
+  "otpVerification": "التحقق من الرمز",
+  "resendCode": "إعادة إرسال الرمز",
+
+  "onboarding1Title": "تتبع في الوقت الحقيقي",
+  "onboarding1Subtitle": "اعرف مكان الميكروباص قبل ما توصل",
+  "onboarding2Title": "احجز مقعدك بسهولة",
+  "onboarding2Subtitle": "احجز من موبايلك في ثوان",
+  "onboarding3Title": "ادفع بأمان",
+  "onboarding3Subtitle": "دفع إلكتروني سريع وآمن",
+
+  "home": "الرئيسية",
+  "trips": "رحلاتي",
+  "notifications": "الإشعارات",
+  "profile": "حسابي",
+  "earnings": "أرباحي",
+
+  "availableRides": "الميكروباصات المتاحة",
+  "bookNow": "احجز",
+  "searchDestination": "اروح فين؟",
+
+  "bookingConfirmed": "تم الحجز بنجاح!",
+  "trackNow": "تتبع الآن",
+
+  "online": "متاح",
+  "offline": "غير متاح",
+  "accept": "قبول",
+  "decline": "رفض",
+  "completeTrip": "إنهاء الرحلة",
+
+  "pendingVerification": "جاري مراجعة بياناتك",
+  "pendingVerificationBody": "سيتم إخطارك فور الموافقة على حسابك",
+
+  "genericError": "حدث خطأ، يرجى المحاولة مرة أخرى",
+  "networkError": "تحقق من اتصالك بالإنترنت",
+  "noRidesAvailable": "مفيش ميكروباصات متاحة دلوقتي",
+  "noTripHistory": "مسافرتش قبل كدة",
+  "noNotifications": "مفيش إشعارات",
+  "noEarningsToday": "مفيش رحلات النهارده",
+  "sessionExpired": "انتهت جلستك، سجل الدخول مرة أخرى"
+}
