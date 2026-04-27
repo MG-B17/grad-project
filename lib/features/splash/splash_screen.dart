@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:micromasr/core/routing/app_route_constant.dart';
-import 'package:micromasr/features/splash/presentation/widget/splash_view.dart';
+import 'package:micromasr/core/app_route_constant.dart';
+import 'package:micromasr/features/splash/splash_view.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -30,5 +30,16 @@ class _SplashScreenState extends State<SplashScreen> {
     return const SplashView();
   }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 

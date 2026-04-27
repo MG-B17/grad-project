@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:micromasr/core/extensions/context_extensions.dart';
+import 'package:micromasr/core/context_extensions.dart';
 
 class PassengerAuthAppBar extends StatelessWidget implements PreferredSizeWidget {
   const PassengerAuthAppBar({
@@ -40,3 +40,14 @@ class PassengerAuthAppBar extends StatelessWidget implements PreferredSizeWidget
   @override
   Size get preferredSize => const Size.fromHeight(kToolbarHeight);
 }
+
+
+
+
+
+
+
+
+
+
+

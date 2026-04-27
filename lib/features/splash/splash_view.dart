@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:micromasr/core/extensions/context_extensions.dart';
-import 'package:micromasr/core/extensions/size_extensions.dart';
+import 'package:micromasr/core/context_extensions.dart';
+import 'package:micromasr/core/size_extensions.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
@@ -65,7 +65,7 @@ class _SplashViewState extends State<SplashView>
 
                 // Footer text: "With pride from Egypt" (Figma: displayLarge style)
                 Text(
-                  'بكل فخر من مصر',
+                  'Ø¨ÙƒÙ„ ÙØ®Ø± Ù…Ù† Ù…ØµØ±',
                   style: context.displayLargeTextStyle.copyWith(
                     color: context.colors.onPrimary,
                   ),
@@ -79,3 +79,13 @@ class _SplashViewState extends State<SplashView>
     );
   }
 }
+
+
+
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:micromasr/core/extensions/context_extensions.dart';
-import 'package:micromasr/core/extensions/size_extensions.dart';
+import 'package:micromasr/core/context_extensions.dart';
+import 'package:micromasr/core/size_extensions.dart';
 
 class RoleCard extends StatelessWidget {
   const RoleCard({
@@ -105,3 +105,14 @@ class RoleCard extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+

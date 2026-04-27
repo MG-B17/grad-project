@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:micromasr/core/constants/app_strings.dart';
-import 'package:micromasr/core/extensions/context_extensions.dart';
-import 'package:micromasr/core/extensions/size_extensions.dart';
+import 'package:micromasr/core/app_strings.dart';
+import 'package:micromasr/core/context_extensions.dart';
+import 'package:micromasr/core/size_extensions.dart';
 
 class PassengerShell extends StatelessWidget {
   const PassengerShell({
@@ -65,3 +65,14 @@ class PassengerShell extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+

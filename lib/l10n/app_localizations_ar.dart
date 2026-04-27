@@ -1,166 +1,180 @@
-// ignore: unused_import
+﻿// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
 
-/// The translations for Arabic (`ar`).
+// The translations for Arabic (`ar`).
 class AppLocalizationsAr extends AppLocalizations {
   AppLocalizationsAr([String locale = 'ar']) : super(locale);
 
   @override
-  String get appName => 'ميكرو مصر';
+  String get appName => 'Ù…ÙŠÙƒØ±Ùˆ Ù…ØµØ±';
 
   @override
-  String get next => 'التالي';
+  String get next => 'Ø§Ù„ØªØ§Ù„ÙŠ';
 
   @override
-  String get back => 'رجوع';
+  String get back => 'Ø±Ø¬ÙˆØ¹';
 
   @override
-  String get skip => 'تخطى';
+  String get skip => 'ØªØ®Ø·Ù‰';
 
   @override
-  String get start => 'ابدأ';
+  String get start => 'Ø§Ø¨Ø¯Ø£';
 
   @override
-  String get confirm => 'تأكيد';
+  String get confirm => 'ØªØ£ÙƒÙŠØ¯';
 
   @override
-  String get cancel => 'إلغاء';
+  String get cancel => 'Ø¥Ù„ØºØ§Ø¡';
 
   @override
-  String get save => 'حفظ';
+  String get save => 'Ø­ÙØ¸';
 
   @override
-  String get retry => 'إعادة المحاولة';
+  String get retry => 'Ø¥Ø¹Ø§Ø¯Ø© Ø§Ù„Ù…Ø­Ø§ÙˆÙ„Ø©';
 
   @override
-  String get logout => 'تسجيل الخروج';
+  String get logout => 'ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø®Ø±ÙˆØ¬';
 
   @override
-  String get loading => 'جاري التحميل...';
+  String get loading => 'Ø¬Ø§Ø±ÙŠ Ø§Ù„ØªØ­Ù…ÙŠÙ„...';
 
   @override
-  String get passenger => 'راكب';
+  String get passenger => 'Ø±Ø§ÙƒØ¨';
 
   @override
-  String get driver => 'سائق';
+  String get driver => 'Ø³Ø§Ø¦Ù‚';
 
   @override
-  String get selectRole => 'اختار دورك';
+  String get selectRole => 'Ø§Ø®ØªØ§Ø± Ø¯ÙˆØ±Ùƒ';
 
   @override
-  String get signIn => 'تسجيل الدخول';
+  String get signIn => 'ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„';
 
   @override
-  String get signUp => 'إنشاء حساب';
+  String get signUp => 'Ø¥Ù†Ø´Ø§Ø¡ Ø­Ø³Ø§Ø¨';
 
   @override
-  String get phoneNumber => 'رقم الهاتف';
+  String get phoneNumber => 'Ø±Ù‚Ù… Ø§Ù„Ù‡Ø§ØªÙ';
 
   @override
-  String get password => 'كلمة المرور';
+  String get password => 'ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±';
 
   @override
-  String get fullName => 'الاسم بالكامل';
+  String get fullName => 'Ø§Ù„Ø§Ø³Ù… Ø¨Ø§Ù„ÙƒØ§Ù…Ù„';
 
   @override
-  String get email => 'البريد الإلكتروني';
+  String get email => 'Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ';
 
   @override
-  String get otpVerification => 'التحقق من الرمز';
+  String get otpVerification => 'Ø§Ù„ØªØ­Ù‚Ù‚ Ù…Ù† Ø§Ù„Ø±Ù…Ø²';
 
   @override
-  String get resendCode => 'إعادة إرسال الرمز';
+  String get resendCode => 'Ø¥Ø¹Ø§Ø¯Ø© Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„Ø±Ù…Ø²';
 
   @override
-  String get onboarding1Title => 'تتبع في الوقت الحقيقي';
+  String get onboarding1Title => 'ØªØªØ¨Ø¹ ÙÙŠ Ø§Ù„ÙˆÙ‚Øª Ø§Ù„Ø­Ù‚ÙŠÙ‚ÙŠ';
 
   @override
-  String get onboarding1Subtitle => 'اعرف مكان الميكروباص قبل ما توصل';
+  String get onboarding1Subtitle => 'Ø§Ø¹Ø±Ù Ù…ÙƒØ§Ù† Ø§Ù„Ù…ÙŠÙƒØ±ÙˆØ¨Ø§Øµ Ù‚Ø¨Ù„ Ù…Ø§ ØªÙˆØµÙ„';
 
   @override
-  String get onboarding2Title => 'احجز مقعدك بسهولة';
+  String get onboarding2Title => 'Ø§Ø­Ø¬Ø² Ù…Ù‚Ø¹Ø¯Ùƒ Ø¨Ø³Ù‡ÙˆÙ„Ø©';
 
   @override
-  String get onboarding2Subtitle => 'احجز من موبايلك في ثوان';
+  String get onboarding2Subtitle => 'Ø§Ø­Ø¬Ø² Ù…Ù† Ù…ÙˆØ¨Ø§ÙŠÙ„Ùƒ ÙÙŠ Ø«ÙˆØ§Ù†';
 
   @override
-  String get onboarding3Title => 'ادفع بأمان';
+  String get onboarding3Title => 'Ø§Ø¯ÙØ¹ Ø¨Ø£Ù…Ø§Ù†';
 
   @override
-  String get onboarding3Subtitle => 'دفع إلكتروني سريع وآمن';
+  String get onboarding3Subtitle => 'Ø¯ÙØ¹ Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ Ø³Ø±ÙŠØ¹ ÙˆØ¢Ù…Ù†';
 
   @override
-  String get home => 'الرئيسية';
+  String get home => 'Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ©';
 
   @override
-  String get trips => 'رحلاتي';
+  String get trips => 'Ø±Ø­Ù„Ø§ØªÙŠ';
 
   @override
-  String get notifications => 'الإشعارات';
+  String get notifications => 'Ø§Ù„Ø¥Ø´Ø¹Ø§Ø±Ø§Øª';
 
   @override
-  String get profile => 'حسابي';
+  String get profile => 'Ø­Ø³Ø§Ø¨ÙŠ';
 
   @override
-  String get earnings => 'أرباحي';
+  String get earnings => 'Ø£Ø±Ø¨Ø§Ø­ÙŠ';
 
   @override
-  String get availableRides => 'الميكروباصات المتاحة';
+  String get availableRides => 'Ø§Ù„Ù…ÙŠÙƒØ±ÙˆØ¨Ø§ØµØ§Øª Ø§Ù„Ù…ØªØ§Ø­Ø©';
 
   @override
-  String get bookNow => 'احجز';
+  String get bookNow => 'Ø§Ø­Ø¬Ø²';
 
   @override
-  String get searchDestination => 'اروح فين؟';
+  String get searchDestination => 'Ø§Ø±ÙˆØ­ ÙÙŠÙ†ØŸ';
 
   @override
-  String get bookingConfirmed => 'تم الحجز بنجاح!';
+  String get bookingConfirmed => 'ØªÙ… Ø§Ù„Ø­Ø¬Ø² Ø¨Ù†Ø¬Ø§Ø­!';
 
   @override
-  String get trackNow => 'تتبع الآن';
+  String get trackNow => 'ØªØªØ¨Ø¹ Ø§Ù„Ø¢Ù†';
 
   @override
-  String get online => 'متاح';
+  String get online => 'Ù…ØªØ§Ø­';
 
   @override
-  String get offline => 'غير متاح';
+  String get offline => 'ØºÙŠØ± Ù…ØªØ§Ø­';
 
   @override
-  String get accept => 'قبول';
+  String get accept => 'Ù‚Ø¨ÙˆÙ„';
 
   @override
-  String get decline => 'رفض';
+  String get decline => 'Ø±ÙØ¶';
 
   @override
-  String get completeTrip => 'إنهاء الرحلة';
+  String get completeTrip => 'Ø¥Ù†Ù‡Ø§Ø¡ Ø§Ù„Ø±Ø­Ù„Ø©';
 
   @override
-  String get pendingVerification => 'جاري مراجعة بياناتك';
+  String get pendingVerification => 'Ø¬Ø§Ø±ÙŠ Ù…Ø±Ø§Ø¬Ø¹Ø© Ø¨ÙŠØ§Ù†Ø§ØªÙƒ';
 
   @override
-  String get pendingVerificationBody => 'سيتم إخطارك فور الموافقة على حسابك';
+  String get pendingVerificationBody => 'Ø³ÙŠØªÙ… Ø¥Ø®Ø·Ø§Ø±Ùƒ ÙÙˆØ± Ø§Ù„Ù…ÙˆØ§ÙÙ‚Ø© Ø¹Ù„Ù‰ Ø­Ø³Ø§Ø¨Ùƒ';
 
   @override
-  String get genericError => 'حدث خطأ، يرجى المحاولة مرة أخرى';
+  String get genericError => 'Ø­Ø¯Ø« Ø®Ø·Ø£ØŒ ÙŠØ±Ø¬Ù‰ Ø§Ù„Ù…Ø­Ø§ÙˆÙ„Ø© Ù…Ø±Ø© Ø£Ø®Ø±Ù‰';
 
   @override
-  String get networkError => 'تحقق من اتصالك بالإنترنت';
+  String get networkError => 'ØªØ­Ù‚Ù‚ Ù…Ù† Ø§ØªØµØ§Ù„Ùƒ Ø¨Ø§Ù„Ø¥Ù†ØªØ±Ù†Øª';
 
   @override
-  String get noRidesAvailable => 'مفيش ميكروباصات متاحة دلوقتي';
+  String get noRidesAvailable => 'Ù…ÙÙŠØ´ Ù…ÙŠÙƒØ±ÙˆØ¨Ø§ØµØ§Øª Ù…ØªØ§Ø­Ø© Ø¯Ù„ÙˆÙ‚ØªÙŠ';
 
   @override
-  String get noTripHistory => 'مسافرتش قبل كدة';
+  String get noTripHistory => 'Ù…Ø³Ø§ÙØ±ØªØ´ Ù‚Ø¨Ù„ ÙƒØ¯Ø©';
 
   @override
-  String get noNotifications => 'مفيش إشعارات';
+  String get noNotifications => 'Ù…ÙÙŠØ´ Ø¥Ø´Ø¹Ø§Ø±Ø§Øª';
 
   @override
-  String get noEarningsToday => 'مفيش رحلات النهارده';
+  String get noEarningsToday => 'Ù…ÙÙŠØ´ Ø±Ø­Ù„Ø§Øª Ø§Ù„Ù†Ù‡Ø§Ø±Ø¯Ù‡';
 
   @override
-  String get sessionExpired => 'انتهت جلستك، سجل الدخول مرة أخرى';
+  String get sessionExpired => 'Ø§Ù†ØªÙ‡Øª Ø¬Ù„Ø³ØªÙƒØŒ Ø³Ø¬Ù„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ù…Ø±Ø© Ø£Ø®Ø±Ù‰';
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

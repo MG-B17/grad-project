@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
-import 'package:micromasr/core/constants/app_strings.dart';
-import 'package:micromasr/core/extensions/context_extensions.dart';
-import 'package:micromasr/core/extensions/size_extensions.dart';
-import 'package:micromasr/features/role_toggle/presentation/widgets/role_card.dart';
+﻿import 'package:flutter/material.dart';
+import 'package:micromasr/core/app_strings.dart';
+import 'package:micromasr/core/context_extensions.dart';
+import 'package:micromasr/core/size_extensions.dart';
+import 'package:micromasr/features/role_toggle/role_card.dart';
 
 class RoleToggleView extends StatelessWidget {
   const RoleToggleView({
@@ -81,3 +81,14 @@ class RoleToggleView extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+

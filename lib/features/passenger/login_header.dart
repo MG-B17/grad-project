@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:micromasr/core/constants/app_radius.dart';
-import 'package:micromasr/core/extensions/context_extensions.dart';
-import 'package:micromasr/core/extensions/size_extensions.dart';
-import 'package:micromasr/core/widgets/vertical_space.dart';
+import 'package:micromasr/core/app_radius.dart';
+import 'package:micromasr/core/context_extensions.dart';
+import 'package:micromasr/core/size_extensions.dart';
+import 'package:micromasr/core/vertical_space.dart';
 
 class LoginHeader extends StatelessWidget {
   const LoginHeader({super.key});
@@ -39,7 +39,7 @@ class LoginHeader extends StatelessWidget {
             ),
             const VerticalSpace(8),
             Text(
-              'مرحباً بيك! 👋',
+              'Ù…Ø±Ø­Ø¨Ø§Ù‹ Ø¨ÙŠÙƒ! ðŸ‘‹',
               style: context.bodyLargeTextStyle.copyWith(
                 color: context.colors.secondary,
                 fontWeight: FontWeight.bold,
@@ -51,3 +51,14 @@ class LoginHeader extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
