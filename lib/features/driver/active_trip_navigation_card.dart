@@ -24,8 +24,8 @@ class ActiveTripNavigationCard extends StatelessWidget {
           Column(
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
-              Text('Ø§Ù†Ø¹Ø·Ù ÙŠØ³Ø§Ø±Ø§Ù‹ Ø¨Ø¹Ø¯ Ù¢Ù Ù  Ù…ØªØ±', style: context.titleMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold)),
-              Text('Ø´Ø§Ø±Ø¹ Ø§Ù„Ø¬Ø§Ù…Ø¹Ø© Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠ', style: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary)),
+              Text('انعطف يساراً بعد ٢٠٠ متر', style: context.titleMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold)),
+              Text('شارع الجامعة الرئيسي', style: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary)),
             ],
           ),
           SizedBox(width: 16.aw),

@@ -17,7 +17,7 @@ class BalanceCard extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           Text(
-            'Ø±ØµÙŠØ¯ Ø§Ù„Ù…ØªØ§Ø­', 
+            'رصيد المتاح', 
             style: context.bodyMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold),
           ),
           SizedBox(height: AppSpacing.sm.ah),
@@ -28,7 +28,7 @@ class BalanceCard extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.only(bottom: 6.ah, right: 8.aw),
                 child: Text(
-                  'Ø¬Ù†ÙŠÙ‡', 
+                  'جنيه', 
                   style: context.titleMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold),
                 ),
               ),
@@ -40,7 +40,7 @@ class BalanceCard extends StatelessWidget {
           ),
           SizedBox(height: 4.ah),
           Text(
-            'Ø¢Ø®Ø± ØªØ­Ø¯ÙŠØ«: Ù…Ù†Ø° Ø¯Ù‚ÙŠÙ‚ØªÙŠÙ†', 
+            'آخر تحديث: منذ دقيقتين', 
             style: context.bodySmallTextStyle.copyWith(color: context.colors.textSecondary, fontSize: 10),
           ),
           SizedBox(height: AppSpacing.xl.ah),
@@ -48,7 +48,7 @@ class BalanceCard extends StatelessWidget {
             children: [
               Expanded(
                 child: _ActionBtn(
-                  title: 'Ø³Ø¬Ù„\nØ§Ù„Ø³Ø­ÙˆØ¨Ø§Øª', 
+                  title: 'سجل\nالسحوبات', 
                   icon: Icons.history_rounded, 
                   isPrimary: false, 
                   darkGreen: darkGreen, 
@@ -59,7 +59,7 @@ class BalanceCard extends StatelessWidget {
               SizedBox(width: AppSpacing.md.aw),
               Expanded(
                 child: _ActionBtn(
-                  title: 'Ø³Ø­Ø¨\nØ§Ù„Ø£Ø±Ø¨Ø§Ø­', 
+                  title: 'سحب\nالأرباح', 
                   icon: Icons.account_balance_wallet_outlined, 
                   isPrimary: true, 
                   darkGreen: darkGreen, 

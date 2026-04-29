@@ -13,13 +13,13 @@ class CurrentPayoutCard extends StatelessWidget {
       decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(24), boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: 0.03), blurRadius: 10, offset: const Offset(0, 4))], border: const Border(right: BorderSide(color: Colors.lightGreen, width: 4))),
       child: Column(children: [
         Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
-          Container(padding: EdgeInsets.symmetric(horizontal: 12.aw, vertical: 4.ah), decoration: BoxDecoration(color: Colors.lightGreen.withValues(alpha: 0.2), borderRadius: BorderRadius.circular(16)), child: Text('Ù†Ø´Ø·', style: context.bodySmallTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold))),
-          Row(children: [Text('Ù…Ø­ÙØ¸Ø© ÙÙˆØ¯Ø§ÙÙˆÙ† ÙƒØ§Ø´', style: context.titleMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold)), SizedBox(width: 12.aw), Container(padding: EdgeInsets.all(10.aw), decoration: const BoxDecoration(color: Color(0xFFF2EFE8), shape: BoxShape.circle), child: Icon(Icons.account_balance_wallet_outlined, color: darkGreen, size: 24.aw))]),
+          Container(padding: EdgeInsets.symmetric(horizontal: 12.aw, vertical: 4.ah), decoration: BoxDecoration(color: Colors.lightGreen.withValues(alpha: 0.2), borderRadius: BorderRadius.circular(16)), child: Text('نشط', style: context.bodySmallTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold))),
+          Row(children: [Text('محفظة فودافون كاش', style: context.titleMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold)), SizedBox(width: 12.aw), Container(padding: EdgeInsets.all(10.aw), decoration: const BoxDecoration(color: Color(0xFFF2EFE8), shape: BoxShape.circle), child: Icon(Icons.account_balance_wallet_outlined, color: darkGreen, size: 24.aw))]),
         ]),
         SizedBox(height: AppSpacing.md.ah), Divider(color: Colors.grey[200]), SizedBox(height: AppSpacing.md.ah),
         Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
-          Container(padding: EdgeInsets.symmetric(horizontal: 16.aw, vertical: 6.ah), decoration: BoxDecoration(color: const Color(0xFFF2EFE8), borderRadius: BorderRadius.circular(16)), child: Text('ØªØ¹Ø¯ÙŠÙ„', style: context.bodyMediumTextStyle.copyWith(color: Colors.lightGreen, fontWeight: FontWeight.bold))),
-          Text('Ø±Ù‚Ù…: Ù Ù¡Ù ***Ù¥Ù¦Ù§', style: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary)),
+          Container(padding: EdgeInsets.symmetric(horizontal: 16.aw, vertical: 6.ah), decoration: BoxDecoration(color: const Color(0xFFF2EFE8), borderRadius: BorderRadius.circular(16)), child: Text('تعديل', style: context.bodyMediumTextStyle.copyWith(color: Colors.lightGreen, fontWeight: FontWeight.bold))),
+          Text('رقم: ٠١٠***٥٦٧', style: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary)),
         ]),
       ]),
     );

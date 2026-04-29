@@ -65,7 +65,7 @@ class _SplashViewState extends State<SplashView>
 
                 // Footer text: "With pride from Egypt" (Figma: displayLarge style)
                 Text(
-                  'Ø¨ÙƒÙ„ ÙØ®Ø± Ù…Ù† Ù…ØµØ±',
+                  'بكل فخر من مصر',
                   style: context.displayLargeTextStyle.copyWith(
                     color: context.colors.onPrimary,
                   ),

@@ -23,7 +23,7 @@ class DriverNewRideRequestScreen extends StatelessWidget {
               SizedBox(height: AppSpacing.xl.ah),
               _HeaderSection(),
               SizedBox(height: AppSpacing.xxl.ah),
-              const RideRequestTimer(value: 0.7, seconds: 'Ù¡Ù¢', orangeColor: orangeColor),
+              const RideRequestTimer(value: 0.7, seconds: '١٢', orangeColor: orangeColor),
               SizedBox(height: AppSpacing.xxl.ah),
               const RideRequestCard(darkGreen: darkGreen, orangeColor: orangeColor),
               SizedBox(height: AppSpacing.xl.ah),
@@ -45,9 +45,9 @@ class _HeaderSection extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text('Ø·Ù„Ø¨ Ø±Ø­Ù„Ø© Ø¬Ø¯ÙŠØ¯!', style: context.headlineMediumTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.w900)),
+          Text('طلب رحلة جديد!', style: context.headlineMediumTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.w900)),
           SizedBox(height: 4.ah),
-          Text('Ø±Ø§ÙƒØ¨ Ø¨ÙŠØ­Ø¬Ø² Ø¯Ù„ÙˆÙ‚ØªÙŠ', style: context.titleMediumTextStyle.copyWith(color: Colors.lightGreen, fontWeight: FontWeight.bold)),
+          Text('راكب بيحجز دلوقتي', style: context.titleMediumTextStyle.copyWith(color: Colors.lightGreen, fontWeight: FontWeight.bold)),
         ],
       ),
     );
@@ -64,10 +64,10 @@ class _ActionFooter extends StatelessWidget {
       children: [
         GestureDetector(
           onTap: () => Navigator.pop(context),
-          child: Text('Ø±ÙØ¶ Ø§Ù„Ø±Ø­Ù„Ø©', style: context.titleMediumTextStyle.copyWith(color: orangeColor, fontWeight: FontWeight.bold)),
+          child: Text('رفض الرحلة', style: context.titleMediumTextStyle.copyWith(color: orangeColor, fontWeight: FontWeight.bold)),
         ),
         SizedBox(height: AppSpacing.md.ah),
-        Text('Ø³ÙŠØªÙ… ØªÙ…Ø±ÙŠØ± Ø§Ù„Ø·Ù„Ø¨ ØªÙ„Ù‚Ø§Ø¦ÙŠØ§Ù‹ Ø¥Ø°Ø§ Ù„Ù… ØªØ±Ø¯', style: context.bodySmallTextStyle.copyWith(color: Colors.white.withValues(alpha: 0.5))),
+        Text('سيتم تمرير الطلب تلقائياً إذا لم ترد', style: context.bodySmallTextStyle.copyWith(color: Colors.white.withValues(alpha: 0.5))),
       ],
     );
   }

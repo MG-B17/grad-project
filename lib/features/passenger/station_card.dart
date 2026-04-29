@@ -53,7 +53,7 @@ class StationCard extends StatelessWidget {
                   children: [
                     Icon(Icons.directions_bus, size: 14, color: context.colors.primary),
                     const HorizontalSpace(4),
-                    Text('$availableCount Ù…ÙŠÙƒØ±ÙˆØ¨Ø§Øµ Ù…ØªØ§Ø­', style: context.bodySmallTextStyle.copyWith(color: context.colors.textSecondary)),
+                    Text('$availableCount ميكروباص متاح', style: context.bodySmallTextStyle.copyWith(color: context.colors.textSecondary)),
                   ],
                 ),
                 Text(distance, style: context.bodyMediumTextStyle.copyWith(color: const Color(0xFFF09063))),

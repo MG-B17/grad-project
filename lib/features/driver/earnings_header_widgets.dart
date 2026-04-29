@@ -12,7 +12,7 @@ class EarningsHeader extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text('Ø§Ù„Ø£Ø±Ø¨Ø§Ø­', style: context.titleLargeTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.w800)),
+        Text('الأرباح', style: context.titleLargeTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.w800)),
         Icon(Icons.menu_rounded, color: darkGreen),
       ],
     );
@@ -35,11 +35,11 @@ class TimeFilterRow extends StatelessWidget {
             children: [
               Icon(Icons.arrow_drop_down_rounded, color: darkGreen),
               SizedBox(width: 4.aw),
-              Text('Ù‡Ø°Ø§ Ø§Ù„Ø£Ø³Ø¨ÙˆØ¹', style: context.bodyMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.w600)),
+              Text('هذا الأسبوع', style: context.bodyMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.w600)),
             ],
           ),
         ),
-        Text('Ø£Ø±Ø¨Ø§Ø­ÙŠ', style: context.headlineMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.w900)),
+        Text('أرباحي', style: context.headlineMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.w900)),
       ],
     );
   }

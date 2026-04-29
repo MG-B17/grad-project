@@ -13,8 +13,8 @@ class NearbyStationsList extends StatelessWidget {
       child: ListView.separated(
         scrollDirection: Axis.horizontal,
         itemBuilder: (c, i) => StationCard(
-          name: i == 0 ? 'Ù…Ø­Ø·Ø© Ø§Ù„Ø¬Ø§Ù…Ø¹Ø©' : 'Ù…ÙŠØ¯Ø§Ù† Ø§Ù„ØªØ­Ø±ÙŠØ±',
-          distance: '250Ù…',
+          name: i == 0 ? 'محطة الجامعة' : 'ميدان التحرير',
+          distance: '250م',
           availableCount: 3,
           code: '#123',
         ),

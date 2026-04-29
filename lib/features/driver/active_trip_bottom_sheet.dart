@@ -57,8 +57,8 @@ class _PassengerRow extends StatelessWidget {
           Column(
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
-              Text('Ù…Ø­Ù…Ø¯ Ø¬Ù„Ø§Ù„', style: context.titleMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold)),
-              Text('Ù…Ù‚Ø¹Ø¯ Ù£ØŒ Ù¤', style: context.bodyMediumTextStyle.copyWith(color: Colors.lightGreen, fontWeight: FontWeight.bold)),
+              Text('محمد جلال', style: context.titleMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold)),
+              Text('مقعد ٣، ٤', style: context.bodyMediumTextStyle.copyWith(color: Colors.lightGreen, fontWeight: FontWeight.bold)),
             ],
           ),
           SizedBox(width: 12.aw),
@@ -110,13 +110,13 @@ class _TripDetailsRow extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Text('Ø£Ø±Ø¨Ø§Ø­ Ø§Ù„Ø±Ø­Ù„Ø©', style: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary)),
-          Text('Ù£Ù¢ Ø¬Ù†ÙŠÙ‡', style: context.titleMediumTextStyle.copyWith(color: orangeColor, fontWeight: FontWeight.bold)),
+          Text('أرباح الرحلة', style: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary)),
+          Text('٣٢ جنيه', style: context.titleMediumTextStyle.copyWith(color: orangeColor, fontWeight: FontWeight.bold)),
         ]),
         Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
           Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
-            Text('ÙŠØ³ØªÙ†Ø§Ùƒ ÙÙŠ Ù…Ø­Ø·Ø© Ù…ØµØ±', style: context.titleMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold)),
-            Text('Ù¡.Ù¢ ÙƒÙ…', style: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary)),
+            Text('يستناك في محطة مصر', style: context.titleMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold)),
+            Text('١.٢ كم', style: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary)),
           ]),
           SizedBox(width: 8.aw),
           const Icon(Icons.location_on, color: Colors.lightGreen),
@@ -132,7 +132,7 @@ class _SOSButton extends StatelessWidget {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 24.aw, vertical: 8.ah),
       decoration: BoxDecoration(color: Colors.red.withValues(alpha: 0.05), borderRadius: BorderRadius.circular(16), border: Border.all(color: Colors.red.withValues(alpha: 0.2))),
-      child: Text('SOS Ø·ÙˆØ§Ø±Ø¦', style: context.bodyMediumTextStyle.copyWith(color: Colors.red, fontWeight: FontWeight.bold)),
+      child: Text('SOS طوارئ', style: context.bodyMediumTextStyle.copyWith(color: Colors.red, fontWeight: FontWeight.bold)),
     );
   }
 }
@@ -149,7 +149,7 @@ class _StartTripButton extends StatelessWidget {
         width: double.infinity, padding: EdgeInsets.symmetric(vertical: 16.ah),
         decoration: BoxDecoration(color: orangeColor, borderRadius: BorderRadius.circular(32)),
         child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-          Text('ÙˆØµÙ„Øª Ù„Ù„Ø±Ø§ÙƒØ¨ â€” Ø§Ø¨Ø¯Ø£ Ø§Ù„Ø±Ø­Ù„Ø©', style: context.titleMediumTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold)),
+          Text('وصلت للراكب — ابدأ الرحلة', style: context.titleMediumTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold)),
           SizedBox(width: 8.aw),
           const Icon(Icons.route, color: Colors.white),
         ]),

@@ -11,16 +11,16 @@ class SupportSearchHeader extends StatelessWidget {
     return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
       Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
         const SizedBox(width: 24),
-        Text('Ø§Ù„Ø¯Ø¹Ù… ÙˆØ§Ù„Ù…Ø³Ø§Ø¹Ø¯Ø© Ù„Ù„Ø³Ø§Ø¦Ù‚ÙŠÙ†', style: context.titleLargeTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.w800)),
+        Text('الدعم والمساعدة للسائقين', style: context.titleLargeTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.w800)),
         GestureDetector(onTap: () => Navigator.pop(context), child: Container(padding: EdgeInsets.all(8.aw), decoration: BoxDecoration(color: darkGreen.withValues(alpha: 0.05), shape: BoxShape.circle), child: Icon(Icons.arrow_forward_rounded, color: darkGreen))),
       ]),
       SizedBox(height: AppSpacing.xl.ah),
-      Text('ÙƒÙŠÙ ÙŠÙ…ÙƒÙ†Ù†Ø§ Ù…Ø³Ø§Ø¹Ø¯ØªÙƒ Ø§Ù„ÙŠÙˆÙ…ØŸ', textAlign: TextAlign.right, style: context.titleMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold)),
+      Text('كيف يمكننا مساعدتك اليوم؟', textAlign: TextAlign.right, style: context.titleMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold)),
       SizedBox(height: AppSpacing.sm.ah),
       Container(
         decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(24), boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: 0.02), blurRadius: 8, offset: const Offset(0, 2))]),
         padding: EdgeInsets.symmetric(horizontal: AppSpacing.lg.aw, vertical: 4.ah),
-        child: Row(children: [Icon(Icons.search, color: darkGreen), Expanded(child: TextField(textAlign: TextAlign.right, decoration: InputDecoration(border: InputBorder.none, hintText: 'Ø§Ø¨Ø­Ø« Ø¹Ù† Ø³Ø¤Ø§Ù„Ùƒ...', hintStyle: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary))))]),
+        child: Row(children: [Icon(Icons.search, color: darkGreen), Expanded(child: TextField(textAlign: TextAlign.right, decoration: InputDecoration(border: InputBorder.none, hintText: 'ابحث عن سؤالك...', hintStyle: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary))))]),
       ),
     ]);
   }
@@ -31,11 +31,11 @@ class SupportFilterChips extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(mainAxisAlignment: MainAxisAlignment.end, children: [
-      _Chip(label: 'Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª', isActive: false),
+      _Chip(label: 'المستندات', isActive: false),
       SizedBox(width: 8.aw),
-      _Chip(label: 'Ø§Ù„Ø­Ø¬Ø² ÙˆØ§Ù„Ø±Ø­Ù„Ø§Øª', isActive: false),
+      _Chip(label: 'الحجز والرحلات', isActive: false),
       SizedBox(width: 8.aw),
-      _Chip(label: 'Ø§Ù„Ø£Ø±Ø¨Ø§Ø­', isActive: true),
+      _Chip(label: 'الأرباح', isActive: true),
     ]);
   }
 }

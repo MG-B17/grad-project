@@ -25,7 +25,7 @@ class DriverDocumentCenterScreen extends StatelessWidget {
                 children: [
                   const SizedBox(width: 24),
                   Text(
-                    'Ù…Ø±ÙƒØ² Ø§Ù„ÙˆØ«Ø§Ø¦Ù‚',
+                    'مركز الوثائق',
                     style: context.titleLargeTextStyle.copyWith(
                       color: darkGreen,
                       fontWeight: FontWeight.w800,
@@ -51,7 +51,7 @@ class DriverDocumentCenterScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     Text(
-                      'ÙƒÙ„ ÙˆØ«Ø§Ø¦Ù‚Ùƒ Ø³Ø§Ø±ÙŠØ© ÙˆÙ…ÙƒØªÙ…Ù„Ø©',
+                      'كل وثائقك سارية ومكتملة',
                       style: context.bodyMediumTextStyle.copyWith(
                         color: darkGreen,
                         fontWeight: FontWeight.bold,
@@ -67,32 +67,32 @@ class DriverDocumentCenterScreen extends StatelessWidget {
               // Document Cards
               _buildDocCard(
                 context,
-                title: 'Ø±Ø®ØµØ© Ø§Ù„Ù‚ÙŠØ§Ø¯Ø© Ø§Ù„Ø´Ø®ØµÙŠØ©',
-                subtitle: 'ØªÙ†ØªÙ‡ÙŠ Ø®Ù„Ø§Ù„ Ù¨ Ø£Ø´Ù‡Ø±',
+                title: 'رخصة القيادة الشخصية',
+                subtitle: 'تنتهي خلال ٨ أشهر',
                 icon: Icons.badge_outlined,
-                actionText: 'Ø¹Ø±Ø¶/ØªØ­Ø¯ÙŠØ«',
+                actionText: 'عرض/تحديث',
                 isOutline: true,
                 darkGreen: darkGreen,
               ),
               SizedBox(height: AppSpacing.md.ah),
               _buildDocCard(
                 context,
-                title: 'Ø±Ø®ØµØ© ØªØ³ÙŠÙŠØ± Ø§Ù„Ù…Ø±ÙƒØ¨Ø©',
-                subtitle: 'Ø³Ø§Ø±ÙŠØ©',
+                title: 'رخصة تسيير المركبة',
+                subtitle: 'سارية',
                 subtitleIcon: Icons.check,
                 icon: Icons.directions_car_outlined,
-                actionText: 'Ø¹Ø±Ø¶/ØªØ­Ø¯ÙŠØ«',
+                actionText: 'عرض/تحديث',
                 isOutline: true,
                 darkGreen: darkGreen,
               ),
               SizedBox(height: AppSpacing.md.ah),
               _buildDocCard(
                 context,
-                title: 'ØµØ­ÙŠÙØ© Ø§Ù„Ø­Ø§Ù„Ø© Ø§Ù„Ø¬Ù†Ø§Ø¦ÙŠØ©',
-                subtitle: 'ØªØ­ØªØ§Ø¬ ØªØ­Ø¯ÙŠØ« Ø®Ù„Ø§Ù„ Ø´Ù‡Ø±',
+                title: 'صحيفة الحالة الجنائية',
+                subtitle: 'تحتاج تحديث خلال شهر',
                 subtitleColor: const Color(0xFFE28B5A),
                 icon: Icons.shield_outlined,
-                actionText: 'Ø±ÙØ¹ Ø¬Ø¯ÙŠØ¯',
+                actionText: 'رفع جديد',
                 isOutline: false,
                 darkGreen: darkGreen,
               ),
@@ -103,7 +103,7 @@ class DriverDocumentCenterScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   Text(
-                    'Ù…Ø¹Ø§ÙŠÙ†Ø© Ø³Ø±ÙŠØ¹Ø© Ù„Ø¢Ø®Ø± ÙˆØ«ÙŠÙ‚Ø©',
+                    'معاينة سريعة لآخر وثيقة',
                     style: context.titleMediumTextStyle.copyWith(
                       color: darkGreen,
                       fontWeight: FontWeight.bold,

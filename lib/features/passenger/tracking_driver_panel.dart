@@ -40,8 +40,8 @@ class TrackingDriverPanel extends StatelessWidget {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('Ø£Ø­Ù…Ø¯ Ù…Ø­Ù…Ø¯', style: context.titleLargeTextStyle.copyWith(fontWeight: FontWeight.bold)),
-            Text('Ù…ÙŠÙƒØ±ÙˆØ¨Ø§Øµ Ø£Ø¨ÙŠØ¶ - Ø£ Ø¨ Ø¬ 123', style: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary)),
+            Text('أحمد محمد', style: context.titleLargeTextStyle.copyWith(fontWeight: FontWeight.bold)),
+            Text('ميكروباص أبيض - أ ب ج 123', style: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary)),
           ],
         ),
         const Spacer(),

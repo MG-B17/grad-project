@@ -25,7 +25,7 @@ class DriverVehicleDetailsScreen extends StatelessWidget {
                 children: [
                   const SizedBox(width: 24),
                   Text(
-                    'ØªÙØ§ØµÙŠÙ„ Ø§Ù„Ù…Ø±ÙƒØ¨Ø©',
+                    'تفاصيل المركبة',
                     style: context.titleLargeTextStyle.copyWith(
                       color: darkGreen,
                       fontWeight: FontWeight.w800,
@@ -78,7 +78,7 @@ class DriverVehicleDetailsScreen extends StatelessWidget {
                           Icon(Icons.edit_outlined, color: Colors.lightGreen, size: 16.aw),
                           SizedBox(width: 8.aw),
                           Text(
-                            'ØªØ¹Ø¯ÙŠÙ„ ØµÙˆØ±Ø© Ø§Ù„Ù…Ø±ÙƒØ¨Ø©',
+                            'تعديل صورة المركبة',
                             style: context.bodyMediumTextStyle.copyWith(
                               color: Colors.lightGreen,
                               fontWeight: FontWeight.bold,
@@ -113,7 +113,7 @@ class DriverVehicleDetailsScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         Text(
-                          'Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ø§Ù„Ù…Ø±ÙƒØ¨Ø© Ø§Ù„Ø£Ø³Ø§Ø³ÙŠØ©',
+                          'معلومات المركبة الأساسية',
                           style: context.titleMediumTextStyle.copyWith(
                             color: darkGreen,
                             fontWeight: FontWeight.bold,
@@ -132,13 +132,13 @@ class DriverVehicleDetailsScreen extends StatelessWidget {
                     ),
                     SizedBox(height: AppSpacing.lg.ah),
 
-                    _buildInfoRow(context, 'Ù†ÙˆØ¹ Ø§Ù„Ù…Ø±ÙƒØ¨Ø©', 'ØªÙˆÙŠÙˆØªØ§ Ù…ÙŠÙƒØ±ÙˆØ¨Ø§Øµ', darkGreen),
+                    _buildInfoRow(context, 'نوع المركبة', 'تويوتا ميكروباص', darkGreen),
                     SizedBox(height: AppSpacing.md.ah),
-                    _buildInfoRow(context, 'Ø±Ù‚Ù… Ø§Ù„Ù„ÙˆØ­Ø©', 'Ø£ Ø¨ Ø¬ Ù¡Ù¢Ù£Ù¤', const Color(0xFFE28B5A)),
+                    _buildInfoRow(context, 'رقم اللوحة', 'أ ب ج ١٢٣٤', const Color(0xFFE28B5A)),
                     SizedBox(height: AppSpacing.md.ah),
-                    _buildInfoRow(context, 'Ø³Ù†Ø© Ø§Ù„Ù…ÙˆØ¯ÙŠÙ„', 'Ù¢Ù Ù¢Ù¢', darkGreen),
+                    _buildInfoRow(context, 'سنة الموديل', '٢٠٢٢', darkGreen),
                     SizedBox(height: AppSpacing.md.ah),
-                    _buildInfoRow(context, 'Ø¹Ø¯Ø¯ Ø§Ù„Ø±ÙƒØ§Ø¨ Ø§Ù„Ù…Ø³Ù…ÙˆØ­', 'Ù¡Ù¤ Ø±Ø§ÙƒØ¨', darkGreen),
+                    _buildInfoRow(context, 'عدد الركاب المسموح', '١٤ راْب', darkGreen),
                   ],
                 ),
               ),
@@ -172,7 +172,7 @@ class DriverVehicleDetailsScreen extends StatelessWidget {
                           Icon(Icons.check_circle, color: Colors.lightGreen, size: 16.aw),
                           SizedBox(width: 6.aw),
                           Text(
-                            'Ù…Ø±ÙƒØ¨Ø© Ù…Ù…Ù„ÙˆÙƒØ©',
+                            'مركبة مملوكة',
                             style: context.bodyMediumTextStyle.copyWith(
                               color: Colors.lightGreen,
                               fontWeight: FontWeight.bold,
@@ -182,7 +182,7 @@ class DriverVehicleDetailsScreen extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      'Ø­Ø§Ù„Ø© Ø§Ù„Ù…Ù„ÙƒÙŠØ©',
+                      'حالة الملكية',
                       style: context.bodyLargeTextStyle.copyWith(
                         color: darkGreen,
                         fontWeight: FontWeight.bold,
@@ -203,7 +203,7 @@ class DriverVehicleDetailsScreen extends StatelessWidget {
                 ),
                 alignment: Alignment.center,
                 child: Text(
-                  'ØªØ­Ø¯ÙŠØ« Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª',
+                  'تحديث البيانات',
                   style: context.titleMediumTextStyle.copyWith(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,

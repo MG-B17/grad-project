@@ -48,9 +48,9 @@ class ErrorWrapper extends StatelessWidget {
 
     return AppEmptyState(
       icon: Icons.error_outline_rounded,
-      title: 'Ø­Ø¯Ø« Ø®Ø·Ø£',
+      title: 'حدث خطأ',
       message: errorMessage,
-      actionLabel: onRetry != null ? 'Ø¥Ø¹Ø§Ø¯Ø© Ø§Ù„Ù…Ø­Ø§ÙˆÙ„Ø©' : null,
+      actionLabel: onRetry != null ? 'إعادة المحاولة' : null,
       onAction: onRetry,
     );
   }
@@ -62,7 +62,7 @@ class EmptyWrapper extends StatelessWidget {
     required this.isEmpty,
     required this.message,
     required this.child,
-    this.title = 'Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ø¨ÙŠØ§Ù†Ø§Øª',
+    this.title = 'لا يوجد بيانات',
     this.icon = Icons.inbox_rounded,
   });
 

@@ -55,7 +55,7 @@ class _OtpTimerState extends State<OtpTimer> {
           widget.onResend();
         },
         child: Text(
-          'Ø¥Ø¹Ø§Ø¯Ø© Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„ÙƒÙˆØ¯',
+          'إعادة إرسال الكود',
           style: context.bodyLargeTextStyle.copyWith(
             color: context.colors.primary,
             fontWeight: FontWeight.bold,
@@ -65,7 +65,7 @@ class _OtpTimerState extends State<OtpTimer> {
     }
 
     return Text(
-      'Ø¥Ø¹Ø§Ø¯Ø© Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„ÙƒÙˆØ¯ Ø®Ù„Ø§Ù„ ${_formatTime(_secondsRemaining)}',
+      'إعادة إرسال الكود خلال ${_formatTime(_secondsRemaining)}',
       style: context.bodyMediumTextStyle.copyWith(
         color: context.colors.textSecondary,
       ),

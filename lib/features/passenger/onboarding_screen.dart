@@ -20,19 +20,19 @@ class OnboardingData {
 
   static List<OnboardingData> get passengerPages => [
     OnboardingData(
-      title: 'Ù…Ø±Ø­Ø¨Ø§Ù‹ Ø¨Ùƒ ÙÙŠ Ù…ÙŠÙƒØ±Ùˆ Ù…ØµØ±',
-      subtitle: 'Ø£Ø³Ù‡Ù„ Ø·Ø±ÙŠÙ‚Ø© Ù„Ù„ØªÙ†Ù‚Ù„ ÙÙŠ Ù…ØµØ± Ø¨Ø§Ù„Ù…ÙŠÙƒØ±ÙˆØ¨Ø§Øµ',
-      image: 'assets/images/onboarding1.svg',
+      title: 'مرحباً بك في ميكرو مصر',
+      subtitle: 'أسهل طريقة للتنقل في مصر بالميكروباص',
+      image: 'assets/images/onboarding_1.svg',
     ),
     OnboardingData(
-      title: 'Ø§Ø­Ø¬Ø² Ù…Ù‚Ø¹Ø¯Ùƒ',
-      subtitle: 'Ø§Ø®ØªØ± Ø±Ø­Ù„ØªÙƒ ÙˆØ§Ø­Ø¬Ø² Ù…Ù‚Ø¹Ø¯Ùƒ Ù…Ø³Ø¨Ù‚Ø§Ù‹ Ø¨ÙƒÙ„ Ø³Ù‡ÙˆÙ„Ø©',
-      image: 'assets/images/onboarding2.svg',
+      title: 'احجز مقعدك',
+      subtitle: 'اختر رحلتك واحجز مقعدك مسبقاً بكل سهولة',
+      image: 'assets/images/onboarding_2.svg',
     ),
     OnboardingData(
-      title: 'ØªØªØ¨Ø¹ Ø±Ø­Ù„ØªÙƒ',
-      subtitle: 'ØªØ§Ø¨Ø¹ Ù…ÙˆÙ‚Ø¹ Ø§Ù„Ù…ÙŠÙƒØ±ÙˆØ¨Ø§Øµ Ù„Ø­Ø¸Ø© Ø¨Ù„Ø­Ø¸Ø©',
-      image: 'assets/images/onboarding3.svg',
+      title: 'تتبع رحلتك',
+      subtitle: 'تابع موقع الميكروباص لحظة بلحظة',
+      image: 'assets/images/onboarding_3.svg',
     ),
   ];
 }

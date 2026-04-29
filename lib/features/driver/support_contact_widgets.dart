@@ -30,7 +30,7 @@ class NewTicketButton extends StatelessWidget {
     return Container(
       width: double.infinity, padding: EdgeInsets.symmetric(vertical: 16.ah),
       decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(32), border: Border.all(color: Colors.lightGreen)),
-      child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [Icon(Icons.add_circle_outline, color: Colors.lightGreen), SizedBox(width: 8.aw), Text('ÙØªØ­ ØªØ°ÙƒØ±Ø© Ø¯Ø¹Ù… Ø¬Ø¯ÙŠØ¯Ø©', style: context.titleMediumTextStyle.copyWith(color: Colors.lightGreen, fontWeight: FontWeight.bold))]),
+      child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [Icon(Icons.add_circle_outline, color: Colors.lightGreen), SizedBox(width: 8.aw), Text('فتح تذكرة دعم جديدة', style: context.titleMediumTextStyle.copyWith(color: Colors.lightGreen, fontWeight: FontWeight.bold))]),
     );
   }
 }

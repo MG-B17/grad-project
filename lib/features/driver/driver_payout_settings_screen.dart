@@ -23,19 +23,19 @@ class _DriverPayoutSettingsScreenState extends State<DriverPayoutSettingsScreen>
         child: SingleChildScrollView(
           padding: EdgeInsets.symmetric(horizontal: AppSpacing.lg.aw, vertical: AppSpacing.md.ah),
           child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-            const ProfileHeader(title: 'Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„ØµØ±Ù', darkGreen: darkGreen),
+            const ProfileHeader(title: 'إعدادات الصرف', darkGreen: darkGreen),
             SizedBox(height: AppSpacing.xl.ah),
             const CurrentPayoutCard(darkGreen: darkGreen),
             SizedBox(height: AppSpacing.xl.ah),
-            const ProfileSectionHeader(title: 'Ø¥Ø¶Ø§ÙØ© ÙˆØ³ÙŠÙ„Ø© ØµØ±Ù Ø¬Ø¯ÙŠØ¯Ø©', darkGreen: darkGreen),
+            const ProfileSectionHeader(title: 'إضافة وسيلة صرف جديدة', darkGreen: darkGreen),
             SizedBox(height: AppSpacing.md.ah),
-            PayoutMethodRadio(index: 0, selectedIndex: _selectedNewMethod, title: 'Ø­Ø³Ø§Ø¨ Ø¨Ù†ÙƒÙŠ (Eban)', icon: Icons.account_balance_rounded, darkGreen: darkGreen, onTap: (i) => setState(() => _selectedNewMethod = i)),
+            PayoutMethodRadio(index: 0, selectedIndex: _selectedNewMethod, title: 'حساب بنكي (Eban)', icon: Icons.account_balance_rounded, darkGreen: darkGreen, onTap: (i) => setState(() => _selectedNewMethod = i)),
             SizedBox(height: AppSpacing.md.ah),
-            PayoutMethodRadio(index: 1, selectedIndex: _selectedNewMethod, title: 'Ø¥Ù†Ø³ØªØ§ Ø¨Ø§ÙŠ', icon: Icons.payments_outlined, darkGreen: darkGreen, onTap: (i) => setState(() => _selectedNewMethod = i)),
+            PayoutMethodRadio(index: 1, selectedIndex: _selectedNewMethod, title: 'إنستا باي', icon: Icons.payments_outlined, darkGreen: darkGreen, onTap: (i) => setState(() => _selectedNewMethod = i)),
             SizedBox(height: 64.ah),
             _buildConfirmButton(orangeColor),
             SizedBox(height: AppSpacing.md.ah),
-            Text('ØªØ­ÙˆÙŠÙ„ Ø§Ù„Ø£Ø±Ø¨Ø§Ø­ ÙŠØªÙ… ÙÙŠ ÙŠÙˆÙ… Ø§Ù„Ø®Ù…ÙŠØ³ Ù…Ù† ÙƒÙ„ Ø£Ø³Ø¨ÙˆØ¹.', textAlign: TextAlign.center, style: context.bodySmallTextStyle.copyWith(color: Colors.lightGreen)),
+            Text('تحويل الأرباح يتم في يوم الخميس من كل أسبوع.', textAlign: TextAlign.center, style: context.bodySmallTextStyle.copyWith(color: Colors.lightGreen)),
           ]),
         ),
       ),
@@ -46,7 +46,7 @@ class _DriverPayoutSettingsScreenState extends State<DriverPayoutSettingsScreen>
     return Container(
       width: double.infinity, padding: EdgeInsets.symmetric(vertical: 16.ah),
       decoration: BoxDecoration(color: orangeColor, borderRadius: BorderRadius.circular(32)),
-      alignment: Alignment.center, child: Text('ØªØ£ÙƒÙŠØ¯ Ø§Ù„ÙˆØ³ÙŠÙ„Ø© Ø§Ù„Ø£Ø³Ø§Ø³ÙŠØ©', style: context.titleMediumTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold)),
+      alignment: Alignment.center, child: Text('تأكيد الوسيلة الأساسية', style: context.titleMediumTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold)),
     );
   }
 }

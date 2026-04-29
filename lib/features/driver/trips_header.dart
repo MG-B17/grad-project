@@ -16,7 +16,7 @@ class TripsHeader extends StatelessWidget {
         children: [
           Icon(Icons.calendar_month_outlined, color: darkGreen),
           Text(
-            'Ø³Ø¬Ù„ Ø§Ù„Ø±Ø­Ù„Ø§Øª',
+            'سجل الرحلات',
             style: context.titleLargeTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold),
           ),
           Icon(Icons.arrow_forward_ios_rounded, color: darkGreen, size: 20.aw),

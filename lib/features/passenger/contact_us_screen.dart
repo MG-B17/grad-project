@@ -14,30 +14,30 @@ class ContactUsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFF2EFE8),
-      appBar: const ProfileAppBar(title: 'ØªÙˆØ§ØµÙ„ Ù…Ø¹Ù†Ø§'),
+      appBar: const ProfileAppBar(title: 'تواصل معنا'),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20.aw),
         child: Column(
           children: [
             ContactOptionCard(
               icon: Icons.phone_in_talk_rounded,
-              label: 'Ø±Ù‚Ù… Ø§Ù„Ù‡Ø§ØªÙ',
-              value: 'Ù¡Ù©Ù Ù Ù ',
+              label: 'رقم الهاتف',
+              value: '١٩٠٠٠',
               color: Colors.blue,
               onTap: () {},
             ),
             const VerticalSpace(16),
             ContactOptionCard(
               icon: Icons.chat_bubble_rounded,
-              label: 'ÙˆØ§ØªØ³Ø§Ø¨',
-              value: '+Ù¢Ù Ù¡Ù Ù Ù Ù Ù Ù Ù Ù Ù ',
+              label: 'واتساب',
+              value: '+٢٠١٠٠٠٠٠٠٠٠٠',
               color: Colors.green,
               onTap: () {},
             ),
             const VerticalSpace(16),
             ContactOptionCard(
               icon: Icons.email_rounded,
-              label: 'Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ',
+              label: 'البريد الإلكتروني',
               value: 'support@micromasr.com',
               color: Colors.orange,
               onTap: () {},
@@ -53,7 +53,7 @@ class ContactUsScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
                       Text(
-                        'Ø§Ù„ÙØ±Ø¹ Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠ',
+                        'الفرع الرئيسي',
                         style: context.titleLargeTextStyle.copyWith(
                           color: context.colors.primary,
                           fontWeight: FontWeight.bold,
@@ -61,7 +61,7 @@ class ContactUsScreen extends StatelessWidget {
                       ),
                       const VerticalSpace(4),
                       Text(
-                        'Ø§Ù„Ù…Ù†ØµÙˆØ±Ø©ØŒ Ø§Ù„Ù…Ø´Ø§ÙŠØ© Ø§Ù„Ø³ÙÙ„ÙŠØ©ØŒ\nØ¨Ø¬ÙˆØ§Ø± Ù†Ø§Ø¯ÙŠ Ø¬Ø²ÙŠØ±Ø© Ø§Ù„ÙˆØ±Ø¯',
+                        'المنصورة، المشاية السفلية،\nبجوار نادي جزيرة الورد',
                         textAlign: TextAlign.right,
                         style: context.bodyMediumTextStyle.copyWith(
                           color: context.colors.textSecondary,
@@ -94,7 +94,7 @@ class ContactUsScreen extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Text(
-                    'ÙŠÙˆÙ…ÙŠØ§Ù‹ Ù…Ù† Ù© ØµØ¨Ø§Ø­Ø§Ù‹ Ø­ØªÙ‰ Ù¡Ù¡ Ù…Ø³Ø§Ø¡Ù‹',
+                    'يومياً من ٩ صباحاً حتى ١١ مساءً',
                     style: context.bodyMediumTextStyle.copyWith(color: Colors.lightGreen, fontWeight: FontWeight.bold),
                   ),
                   const HorizontalSpace(8),

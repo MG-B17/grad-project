@@ -21,7 +21,7 @@ class RideCard extends StatelessWidget {
         decoration: BoxDecoration(color: context.colors.surface, borderRadius: BorderRadius.circular(24), boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: 0.05), blurRadius: 10, offset: const Offset(0, 5))]),
         child: Column(
           children: [
-            const RideCardHeader(price: 15, driverName: 'Ø£Ø­Ù…Ø¯ Ù…Ø­Ù…Ø¯', completedTrips: 320, avatarInitial: 'Ø£'),
+            const RideCardHeader(price: 15, driverName: 'أحمد محمد', completedTrips: 320, avatarInitial: 'أ'),
             const VerticalSpace(16),
             _buildRouteTimeline(context),
             const VerticalSpace(16),
@@ -41,11 +41,11 @@ class RideCard extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          const StationTag(label: 'Ù…Ø­Ø·Ø© Ù…ØµØ±', isSelected: true),
+          const StationTag(label: 'محطة مصر', isSelected: true),
           Icon(Icons.arrow_back, size: 16, color: context.colors.textSecondary),
-          const StationTag(label: 'ÙˆØ³Ø· Ø§Ù„Ø¨Ù„Ø¯', isSelected: false),
+          const StationTag(label: 'وسط البلد', isSelected: false),
           Icon(Icons.arrow_back, size: 16, color: context.colors.textSecondary),
-          const StationTag(label: 'Ø§Ù„Ø¬Ø§Ù…Ø¹Ø©', isSelected: false),
+          const StationTag(label: 'الجامعة', isSelected: false),
         ],
       ),
     );

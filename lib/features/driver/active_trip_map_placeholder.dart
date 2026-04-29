@@ -27,7 +27,7 @@ class ActiveTripMapPlaceholder extends StatelessWidget {
           ),
           const Center(
             child: Text(
-              'Ø®Ø±ÙŠØ·Ø© Ø­ÙŠØ©\n(Live Map Placeholder)',
+              'خريطة حية\n(Live Map Placeholder)',
               textAlign: TextAlign.center,
               style: TextStyle(color: Color(0x33000000), fontSize: 24, fontWeight: FontWeight.bold),
             ),

@@ -11,7 +11,7 @@ class SupportSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ProfileSection(
-      title: 'Ø§Ù„Ø¯Ø¹Ù… ÙˆØ§Ù„Ù…Ø³Ø§Ø¹Ø¯Ø©',
+      title: 'الدعم والمساعدة',
       children: [
         ProfileMenuItem(
           icon: Icons.help_outline_rounded,

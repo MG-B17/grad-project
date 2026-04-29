@@ -1,7 +1,8 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:micromasr/core/app_spacing.dart';
 import 'package:micromasr/core/context_extensions.dart';
 import 'package:micromasr/core/size_extensions.dart';
+import 'package:micromasr/core/app_strings.dart';
 
 class TripsStatsRow extends StatelessWidget {
   final Color darkGreen;
@@ -13,11 +14,11 @@ class TripsStatsRow extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: AppSpacing.md.aw),
       child: Row(
         children: [
-          Expanded(child: _StatCard(title: 'Ø§Ù„ØªÙ‚ÙŠÙŠÙ…', value: 'Ù¤.Ù©â­ï¸', valueColor: darkGreen)),
+          Expanded(child: _StatCard(title: AppStrings.myRating, value: '4.9 ⭐️', valueColor: darkGreen)),
           SizedBox(width: AppSpacing.sm.aw),
-          Expanded(child: _StatCard(title: 'Ø§Ù„Ø£Ø±Ø¨Ø§Ø­', value: 'Ù¡Ù¢Ù¨Ù  Ø¬', valueColor: const Color(0xFFE28B5A))),
+          Expanded(child: _StatCard(title: 'الأرباح', value: '1280 ج', valueColor: const Color(0xFFE28B5A))),
           SizedBox(width: AppSpacing.sm.aw),
-          Expanded(child: _StatCard(title: 'Ù‡Ø°Ø§ Ø§Ù„Ø´Ù‡Ø±', value: 'Ù¨Ù¤ Ø±Ø­Ù„Ø©', valueColor: darkGreen)),
+          Expanded(child: _StatCard(title: 'هذا الشهر', value: '84 رحلة', valueColor: darkGreen)),
         ],
       ),
     );
@@ -42,14 +43,3 @@ class _StatCard extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-

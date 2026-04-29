@@ -36,23 +36,23 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
   final List<NotificationItem> _notifications = [
     NotificationItem(
       id: '1',
-      title: 'ØªØ£ÙƒÙŠØ¯ Ø§Ù„Ø­Ø¬Ø²',
-      body: 'ØªÙ… ØªØ£ÙƒÙŠØ¯ Ø­Ø¬Ø²Ùƒ Ù„Ù„Ø±Ø­Ù„Ø© Ø§Ù„Ù…ØªØ¬Ù‡Ø© Ø¥Ù„Ù‰ Ø§Ù„Ø¥Ø³ÙƒÙ†Ø¯Ø±ÙŠØ©',
-      time: '10:30 Øµ',
+      title: 'تأكيد الحجز',
+      body: 'تم تأكيد حجزك للرحلة المتجهة إلى الإسكندرية',
+      time: '10:30 ص',
       type: NotificationType.booking,
     ),
     NotificationItem(
       id: '2',
-      title: 'Ø¹Ø±Ø¶ Ø¬Ø¯ÙŠØ¯',
-      body: 'Ø§Ø³ØªÙ…ØªØ¹ Ø¨Ø®ØµÙ… 20% Ø¹Ù„Ù‰ Ø±Ø­Ù„ØªÙƒ Ø§Ù„Ù‚Ø§Ø¯Ù…Ø©',
-      time: '09:15 Øµ',
+      title: 'عرض جديد',
+      body: 'استمتع بخصم 20% على رحلتك القادمة',
+      time: '09:15 ص',
       type: NotificationType.offer,
     ),
     NotificationItem(
       id: '3',
-      title: 'ØªØ­Ø¯ÙŠØ« Ø§Ù„Ø±Ø­Ù„Ø©',
-      body: 'Ø§Ù„Ø³Ø§Ø¦Ù‚ ÙÙŠ Ø§Ù„Ø·Ø±ÙŠÙ‚ Ø¥Ù„ÙŠÙƒ',
-      time: 'Ø£Ù…Ø³',
+      title: 'تحديث الرحلة',
+      body: 'السائق في الطريق إليك',
+      time: 'أمس',
       type: NotificationType.update,
     ),
   ];

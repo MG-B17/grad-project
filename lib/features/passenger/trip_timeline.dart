@@ -24,9 +24,9 @@ class TripTimeline extends StatelessWidget {
             ],
           ),
           const VerticalSpace(20),
-          _buildTimelineItem(context, 'Ù…Ø­Ø·Ø© Ù…ØµØ±', 'Ø§Ù„Ø¢Ù†', const Color(0xFF558B2F), true, true),
-          _buildTimelineItem(context, 'ÙˆØ³Ø· Ø§Ù„Ø¨Ù„Ø¯', '+3 ${AppStrings.minutesSuffix}', const Color(0xFF9CCC65), true, false),
-          _buildTimelineItem(context, 'Ø§Ù„Ø¬Ø§Ù…Ø¹Ø©', '+12 Ø¯Ù‚ÙŠÙ‚Ø©', const Color(0xFFF09063), false, false),
+          _buildTimelineItem(context, 'محطة مصر', 'الآن', const Color(0xFF558B2F), true, true),
+          _buildTimelineItem(context, 'وسط البلد', '+3 ${AppStrings.minutesSuffix}', const Color(0xFF9CCC65), true, false),
+          _buildTimelineItem(context, 'الجامعة', '+12 دقيقة', const Color(0xFFF09063), false, false),
         ],
       ),
     );

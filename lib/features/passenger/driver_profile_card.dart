@@ -35,7 +35,7 @@ class DriverProfileCard extends StatelessWidget {
           children: [
             Row(
               children: [
-                Text('Ø£Ø­Ù…Ø¯ Ù…Ø­Ù…Ø¯', style: context.headlineMediumTextStyle.copyWith(fontWeight: FontWeight.bold, color: context.colors.primary)),
+                Text('أحمد محمد', style: context.headlineMediumTextStyle.copyWith(fontWeight: FontWeight.bold, color: context.colors.primary)),
                 const HorizontalSpace(8),
                 _buildPill(context, '123NQR-', context.colors.outline.withValues(alpha: 0.5), context.colors.onSurface),
               ],
@@ -49,7 +49,7 @@ class DriverProfileCard extends StatelessWidget {
               ],
             ),
             const VerticalSpace(8),
-            _buildPill(context, 'Ù…ÙŠÙƒØ±Ùˆ Ø¨Ø§Øµ', context.colors.background, context.colors.primary),
+            _buildPill(context, 'ميكرو باص', context.colors.background, context.colors.primary),
           ],
         ),
       ],

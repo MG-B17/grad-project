@@ -1,7 +1,8 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:micromasr/core/app_spacing.dart';
 import 'package:micromasr/core/context_extensions.dart';
 import 'package:micromasr/core/size_extensions.dart';
+import 'package:micromasr/core/app_strings.dart';
 
 class ProfileHeader extends StatelessWidget {
   final dynamic profile;
@@ -31,7 +32,7 @@ class ProfileHeader extends StatelessWidget {
               style: context.titleLargeTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold),
             ),
             Text(
-              'Ø³Ø§Ø¦Ù‚ Ù…ÙŠÙƒØ±Ùˆ Ù…ØµØ± Ø§Ù„Ù…Ø¹ØªÙ…Ø¯', 
+              'سائق ميكرو مصر المعتمد', 
               style: context.bodyMediumTextStyle.copyWith(color: Colors.white.withValues(alpha: 0.8)),
             ),
             SizedBox(height: AppSpacing.xl.ah),
@@ -109,11 +110,11 @@ class _HeaderStatsRow extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: AppSpacing.lg.aw),
       child: const Row(
         children: [
-          _StatBox(label: 'Ø±Ø­Ù„Ø©', value: 'Ù¡Ù¢Ù¤'),
+          _StatBox(label: 'رحلة', value: '124'),
           
-          _StatBox(label: 'Ø£Ø±Ø¨Ø§Ø­Ùƒ', value: 'Ù¡Ù¢Ù¨Ù Ø¬'),
+          _StatBox(label: 'أرباحك', value: '1280 ج'),
           
-          _StatBox(label: 'ØªÙ‚ÙŠÙŠÙ…', value: 'Ù¤.Ù©â­ï¸'),
+          _StatBox(label: AppStrings.myRating, value: '4.9 ⭐️'),
         ],
       ),
     );
@@ -149,15 +150,3 @@ class _StatBox extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-

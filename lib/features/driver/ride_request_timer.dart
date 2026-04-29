@@ -43,7 +43,7 @@ class RideRequestTimer extends StatelessWidget {
                 ),
               ),
               Text(
-                'Ø«Ø§Ù†ÙŠØ© Ù„Ù„Ø±Ø¯',
+                'ثانية للرد',
                 style: context.bodyMediumTextStyle.copyWith(
                   color: Colors.lightGreen,
                   fontWeight: FontWeight.bold,

@@ -11,7 +11,7 @@ class OtpHeader extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'ØªØ£ÙƒÙŠØ¯ Ø±Ù‚Ù… Ø§Ù„Ù‡Ø§ØªÙ',
+          'تأكيد رقم الهاتف',
           style: context.headlineLargeTextStyle.copyWith(
             fontWeight: FontWeight.bold,
             color: context.colors.primary,
@@ -27,7 +27,7 @@ class OtpHeader extends StatelessWidget {
     return Row(
       children: [
         Text(
-          'Ø¨Ø¹ØªÙ†Ø§Ù„Ùƒ ÙƒÙˆØ¯ Ø¹Ù„Ù‰ ',
+          'بعتنالك كود على ',
           style: context.bodyLargeTextStyle.copyWith(
             color: context.colors.textSecondary,
           ),

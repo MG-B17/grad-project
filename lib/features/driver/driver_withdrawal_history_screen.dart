@@ -29,7 +29,7 @@ class DriverWithdrawalHistoryScreen extends StatelessWidget {
                     child: const Icon(Icons.person, color: Colors.white),
                   ),
                   Text(
-                    'Ø³Ø¬Ù„ Ø§Ù„Ø³Ø­ÙˆØ¨Ø§Øª',
+                    'سجل السحوبات',
                     style: context.titleLargeTextStyle.copyWith(
                       color: darkGreen,
                       fontWeight: FontWeight.w800,
@@ -53,11 +53,11 @@ class DriverWithdrawalHistoryScreen extends StatelessWidget {
                 itemBuilder: (context, index) {
                   // Mock data
                   final isPending = index == 0;
-                  final statusText = isPending ? 'Ù‚ÙŠØ¯ Ø§Ù„Ù…Ø¹Ø§Ù„Ø¬Ø©' : 'Ù…ÙƒØªÙ…Ù„';
+                  final statusText = isPending ? 'قيد المعالجة' : 'مكتمل';
                   final statusColor = isPending ? orangeColor : Colors.lightGreen;
-                  final amount = index == 1 ? 'Ù¡Ù¢Ù Ù  Ø¬' : 'Ù¤Ù¥Ù  Ø¬';
-                  final date = index == 0 ? 'Ø§Ù„ÙŠÙˆÙ…ØŒ Ù¡Ù :Ù£Ù  Øµ' : 'Ù¡Ù¥ Ø£Ø¨Ø±ÙŠÙ„ØŒ Ù¢:Ù¡Ù¥ Ù…';
-                  final method = index % 2 == 0 ? 'ÙÙˆØ¯Ø§ÙÙˆÙ† ÙƒØ§Ø´' : 'Ø­Ø³Ø§Ø¨ Ø¨Ù†ÙƒÙŠ';
+                  final amount = index == 1 ? '١٢٠٠ ج' : '٤٥٠ ج';
+                  final date = index == 0 ? 'اليوم، ١٠:٣٠ ص' : '١٥ أبريل، ٢:١٥ م';
+                  final method = index % 2 == 0 ? 'فودافون كاش' : 'حساب بنكي';
 
                   return Container(
                     padding: EdgeInsets.all(AppSpacing.md.aw),

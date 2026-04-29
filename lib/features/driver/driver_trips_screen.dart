@@ -54,13 +54,13 @@ class _DriverTripsScreenState extends State<DriverTripsScreen> {
   List<Widget> _buildTripList() {
     if (_selectedTab == 0) {
       return [
-        const TripHistoryCard(time: 'Ù©:Ù¡Ù¥ Øµ', status: 'Ù…ÙƒØªÙ…Ù„Ø© âœ“', isCompleted: true, origin: 'Ù…Ø­Ø·Ø© Ù…ØµØ±', destination: 'Ø§Ù„Ø¬Ø§Ù…Ø¹Ø©', passengerName: 'Ù…Ø­Ù…Ø¯ Ø¬Ù„Ø§Ù„', rating: 'Ù¥â­ï¸', seats: 'Ù…Ù‚Ø¹Ø¯ Ù¤ØŒÙ£', price: 'Ù£Ù¢'),
+        const TripHistoryCard(time: '٩:١٥ ص', status: 'مكتملة ✓', isCompleted: true, origin: 'محطة مصر', destination: 'الجامعة', passengerName: 'محمد جلال', rating: '٥⭐️', seats: 'مقعد ٤،٣', price: '٣٢'),
         SizedBox(height: AppSpacing.md.ah),
-        const TripHistoryCard(time: 'Ù¨:Ù£Ù  Øµ', status: 'Ù…ÙƒØªÙ…Ù„Ø© âœ“', isCompleted: true, origin: 'Ø³ÙŠØ¯ÙŠ Ø¬Ø§Ø¨Ø±', destination: 'Ù…Ø­Ø·Ø© Ù…ØµØ±', passengerName: 'Ø³Ø§Ø±Ø© Ø£Ø­Ù…Ø¯', rating: 'Ù¤.Ù¨â­ï¸', seats: 'Ù…Ù‚Ø¹Ø¯ Ù¡', price: 'Ù¡Ù¥'),
+        const TripHistoryCard(time: '٨:٣٠ ص', status: 'مكتملة ✓', isCompleted: true, origin: 'سيدي جابر', destination: 'محطة مصر', passengerName: 'سارة أحمد', rating: '٤.٨⭐️', seats: 'مقعد ١', price: '١٥'),
       ];
     }
     return [
-      const TripHistoryCard(time: 'Ù§:Ù¤Ù¥ Øµ', status: 'Ù…Ù„ØºÙŠØ© âœ•', isCompleted: false, origin: 'Ø§Ù„Ù…Ù†Ø¯Ø±Ø©', destination: 'Ø³ÙŠØ¯ÙŠ Ø¨Ø´Ø±', passengerName: 'Ø¥Ù„ØºØ§Ø¡ Ø§Ù„Ø±Ø§ÙƒØ¨', rating: '', seats: '', price: 'Ù '),
+      const TripHistoryCard(time: '٧:٤٥ ص', status: 'ملغية ✕', isCompleted: false, origin: 'المندرة', destination: 'سيدي بشر', passengerName: 'إلغاء الراكب', rating: '', seats: '', price: '٠'),
     ];
   }
 }
@@ -73,7 +73,7 @@ class _DateHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return Align(
       alignment: Alignment.centerRight,
-      child: Text('Ø§Ù„ÙŠÙˆÙ…ØŒ Ø§Ù„Ø³Ø¨Øª Ù¢Ù  Ø£Ø¨Ø±ÙŠÙ„', style: context.bodySmallTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold)),
+      child: Text('اليوم، السبت ٢٠ أبريل', style: context.bodySmallTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold)),
     );
   }
 }

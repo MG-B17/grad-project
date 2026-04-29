@@ -11,7 +11,7 @@ class AccountSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ProfileSection(
-      title: 'Ø­Ø³Ø§Ø¨ÙŠ',
+      title: 'حسابي',
       children: [
         ProfileMenuItem(
           icon: Icons.person_outline_rounded,

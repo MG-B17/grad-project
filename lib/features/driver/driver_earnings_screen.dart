@@ -20,9 +20,9 @@ class DriverEarningsScreen extends StatelessWidget {
       todayEarnings: 120.0,
       todayTrips: 5,
       transactions: [
-        DummyTransaction(id: "1", amount: 45.0, date: "Ø§Ù„ÙŠÙˆÙ…", type: "Ø±Ø­Ù„Ø©"),
-        DummyTransaction(id: "2", amount: 75.0, date: "Ø§Ù„ÙŠÙˆÙ…", type: "Ø±Ø­Ù„Ø©"),
-        DummyTransaction(id: "3", amount: 150.0, date: "Ø£Ù…Ø³", type: "Ø³Ø­Ø¨"),
+        DummyTransaction(id: "1", amount: 45.0, date: "اليوم", type: "رحلة"),
+        DummyTransaction(id: "2", amount: 75.0, date: "اليوم", type: "رحلة"),
+        DummyTransaction(id: "3", amount: 150.0, date: "أمس", type: "سحب"),
       ],
     );
 

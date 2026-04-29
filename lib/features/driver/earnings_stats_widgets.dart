@@ -14,15 +14,15 @@ class TodayDetailsCard extends StatelessWidget {
     return DriverCard(
       child: Column(
         children: [
-          const DriverSectionHeader(title: 'ØªÙØ§ØµÙŠÙ„ Ø§Ù„ÙŠÙˆÙ…'),
+          const DriverSectionHeader(title: 'تفاصيل اليوم'),
           SizedBox(height: AppSpacing.md.ah),
           _DetailPill(
-            title: 'Ø¹Ø¯Ø¯ Ø§Ù„Ø±Ø­Ù„Ø§Øª', 
-            value: '${earnings.todayTrips} Ø±Ø­Ù„Ø§Øª', 
+            title: 'عدد الرحلات', 
+            value: '${earnings.todayTrips} رحلات', 
             darkGreen: darkGreen,
           ),
           SizedBox(height: AppSpacing.sm.ah),
-          _DetailPill(title: 'Ø£Ø¹Ù„Ù‰ Ø±Ø­Ù„Ø© Ø§Ù„ÙŠÙˆÙ…', value: 'Ù¤Ù¨ Ø¬Ù†ÙŠÙ‡', darkGreen: darkGreen),
+          _DetailPill(title: 'أعلى رحلة اليوم', value: '٤٨ جنيه', darkGreen: darkGreen),
         ],
       ),
     );
@@ -60,7 +60,7 @@ class TransactionsCard extends StatelessWidget {
     return DriverCard(
       child: Column(
         children: [
-          const DriverSectionHeader(title: 'Ø¢Ø®Ø± Ø§Ù„Ù…Ø¹Ø§Ù…Ù„Ø§Øª'),
+          const DriverSectionHeader(title: 'آخر المعاملات'),
           SizedBox(height: AppSpacing.md.ah),
           ...transactions.map((tx) => _TransactionItem(tx: tx, darkGreen: darkGreen, orangeColor: orangeColor)),
         ],
@@ -76,14 +76,14 @@ class _TransactionItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final isPositive = tx.type == 'Ø±Ø­Ù„Ø©';
+    final isPositive = tx.type == 'رحلة';
     return Padding(
       padding: EdgeInsets.only(bottom: 12.ah),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(
-            '${isPositive ? '+' : '-'}${tx.amount.toInt()} Ø¬', 
+            '${isPositive ? '+' : '-'}${tx.amount.toInt()} ج', 
             style: context.titleMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold),
           ),
           Row(
@@ -92,7 +92,7 @@ class _TransactionItem extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Text(
-                    isPositive ? 'Ø±Ø­Ù„Ø© Ø±ÙƒØ§Ø¨' : 'Ø³Ø­Ø¨ Ø±ØµÙŠØ¯', 
+                    isPositive ? 'رحلة ركاب' : 'سحب رصيد', 
                     style: context.bodyMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.w800),
                   ),
                   Text(

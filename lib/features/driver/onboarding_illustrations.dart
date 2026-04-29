@@ -29,7 +29,7 @@ class DriverHomeIllustration extends StatelessWidget {
               Row(
                 children: [
                   Text(
-                    'ðŸ‘‹ Ø£Ù‡Ù„Ø§Ù‹ ÙŠØ§ Ø£Ø­Ù…Ø¯',
+                    '👋 أهلاً يا أحمد',
                     style: TextStyle(
                       fontSize: 13.aw,
                       fontWeight: FontWeight.w600,
@@ -60,7 +60,7 @@ class DriverHomeIllustration extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  'Ù…ØªØ§Ø­ Ù„Ù„Ø±Ø­Ù„Ø§Øª',
+                  'متاح للرحلات',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 13.aw,
@@ -102,12 +102,12 @@ class DriverHomeIllustration extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
-                Text('Ø£Ø±Ø¨Ø§Ø­ Ø§Ù„ÙŠÙˆÙ…',
+                Text('أرباح اليوم',
                     style: TextStyle(
                         fontSize: 11.aw, color: Colors.grey[600])),
                 SizedBox(height: 4.ah),
                 Text(
-                  'Ù¢Ù¤Ù¥ Ø¬Ù†ÙŠÙ‡',
+                  '٢٤٥ جنيه',
                   style: TextStyle(
                     fontSize: 22.aw,
                     fontWeight: FontWeight.w800,
@@ -135,7 +135,7 @@ class DriverHomeIllustration extends StatelessWidget {
                       Icon(Icons.star_rounded,
                           color: orange, size: 18.aw),
                       SizedBox(height: 4.ah),
-                      Text('Ù¤.Ù©',
+                      Text('٤.٩',
                           style: TextStyle(
                               fontSize: 13.aw,
                               fontWeight: FontWeight.w700,
@@ -157,7 +157,7 @@ class DriverHomeIllustration extends StatelessWidget {
                       Icon(Icons.route_rounded,
                           color: green, size: 18.aw),
                       SizedBox(height: 4.ah),
-                      Text('Ù¨ Ø±Ø­Ù„Ø§Øª',
+                      Text('٨ رحلات',
                           style: TextStyle(
                               fontSize: 13.aw,
                               fontWeight: FontWeight.w700,
@@ -198,7 +198,7 @@ class TripRequestIllustration extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
-              'Ø·Ù„Ø¨ Ø±Ø­Ù„Ø© Ø¬Ø¯ÙŠØ¯',
+              'طلب رحلة جديد',
               style: TextStyle(
                   color: Colors.white70,
                   fontSize: 12.aw),
@@ -215,7 +215,7 @@ class TripRequestIllustration extends StatelessWidget {
               ),
               child: Center(
                 child: Text(
-                  'Ù¢Ù¡',
+                  '٢١',
                   style: TextStyle(
                     color: orange,
                     fontSize: 22.aw,
@@ -243,13 +243,13 @@ class TripRequestIllustration extends StatelessWidget {
                       const Icon(Icons.star_rounded,
                           color: Color(0xFFFFB800), size: 14),
                       SizedBox(width: 4.aw),
-                      Text('Ù¤.Ù¨',
+                      Text('٤.٨',
                           style: TextStyle(
                               color: Colors.white, fontSize: 12.aw)),
                     ],
                   ),
                   Text(
-                    'Ù…Ø­Ù…Ø¯ Ø¬Ù„Ø§Ù„',
+                    'محمد جلال',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 14.aw,
@@ -266,7 +266,7 @@ class TripRequestIllustration extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                Text('Ù…Ø­Ø·Ø© Ù…ØµØ±',
+                Text('محطة مصر',
                     style: TextStyle(
                         color: Colors.white, fontSize: 12.aw)),
                 SizedBox(width: 8.aw),
@@ -278,7 +278,7 @@ class TripRequestIllustration extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                Text('Ø§Ù„Ø¬Ø§Ù…Ø¹Ø©',
+                Text('الجامعة',
                     style: TextStyle(
                         color: Colors.white70, fontSize: 12.aw)),
                 SizedBox(width: 8.aw),
@@ -290,7 +290,7 @@ class TripRequestIllustration extends StatelessWidget {
 
             // Fare
             Text(
-              'Ù£Ù¢ Ø¬Ù†ÙŠÙ‡',
+              '٣٢ جنيه',
               style: TextStyle(
                 color: orange,
                 fontSize: 26.aw,
@@ -299,7 +299,7 @@ class TripRequestIllustration extends StatelessWidget {
               textDirection: TextDirection.rtl,
             ),
             Text(
-              'Ø§Ù„Ø£Ø¬Ø± Ø§Ù„Ù…ØªÙˆÙ‚Ø¹',
+              'الأجر المتوقع',
               style: TextStyle(
                   color: Colors.white54, fontSize: 10.aw),
             ),
@@ -340,7 +340,7 @@ class EarningsIllustration extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
-              'Ø£Ø±Ø¨Ø§Ø­ÙŠ',
+              'أرباحي',
               style: TextStyle(
                 fontSize: 16.aw,
                 fontWeight: FontWeight.w700,
@@ -350,14 +350,14 @@ class EarningsIllustration extends StatelessWidget {
             ),
             SizedBox(height: 4.ah),
             Text(
-              'Ø§Ù„Ø±ØµÙŠØ¯ Ø§Ù„Ù…ØªØ§Ø­',
+              'الرصيد المتاح',
               style: TextStyle(
                   fontSize: 11.aw,
                   color: Colors.grey[500]),
             ),
             SizedBox(height: 4.ah),
             Text(
-              'Ù¡Ù¢Ù¨Ù  Ø¬Ù†ÙŠÙ‡',
+              '١٢٨٠ جنيه',
               style: TextStyle(
                 fontSize: 28.aw,
                 fontWeight: FontWeight.w800,
@@ -367,7 +367,7 @@ class EarningsIllustration extends StatelessWidget {
             ),
             SizedBox(height: 4.ah),
             Text(
-              'Ø§Ù„ÙŠÙˆÙ…',
+              'اليوم',
               style: TextStyle(
                   fontSize: 10.aw,
                   color: Colors.grey[500]),
@@ -414,7 +414,7 @@ class EarningsIllustration extends StatelessWidget {
                 borderRadius: BorderRadius.circular(100),
               ),
               child: Text(
-                'Ø³Ø­Ø¨ Ø§Ù„Ø£Ø±Ø¨Ø§Ø­',
+                'سحب الأرباح',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 13.aw,

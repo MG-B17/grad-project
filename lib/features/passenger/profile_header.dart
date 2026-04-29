@@ -46,7 +46,7 @@ class ProfileHeader extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Ù… Ø¬',
+                        'م ج',
                         style: context.headlineLargeTextStyle.copyWith(
                           color: context.colors.primary,
                           fontWeight: FontWeight.bold,

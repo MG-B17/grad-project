@@ -91,7 +91,7 @@ class _Footer extends StatelessWidget {
       Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
         if (seats.isNotEmpty) Container(padding: EdgeInsets.symmetric(horizontal: 8.aw, vertical: 2.ah), decoration: BoxDecoration(color: const Color(0xFFF2EFE8), borderRadius: BorderRadius.circular(8)), child: Text(seats, style: context.bodySmallTextStyle.copyWith(color: darkGreen, fontSize: 10, fontWeight: FontWeight.bold))),
         SizedBox(height: 4.ah),
-        Row(children: [Text(' Ø¬Ù†ÙŠÙ‡', style: context.bodySmallTextStyle.copyWith(color: isCompleted ? orangeColor : greyColor, fontWeight: FontWeight.bold)), Text(price, style: context.titleMediumTextStyle.copyWith(color: isCompleted ? orangeColor : greyColor, fontWeight: FontWeight.w800))]),
+        Row(children: [Text(' جنيه', style: context.bodySmallTextStyle.copyWith(color: isCompleted ? orangeColor : greyColor, fontWeight: FontWeight.bold)), Text(price, style: context.titleMediumTextStyle.copyWith(color: isCompleted ? orangeColor : greyColor, fontWeight: FontWeight.w800))]),
       ]),
       Row(children: [
         Column(crossAxisAlignment: CrossAxisAlignment.end, children: [

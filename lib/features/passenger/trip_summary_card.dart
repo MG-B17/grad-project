@@ -36,9 +36,9 @@ class TripSummaryCard extends StatelessWidget {
       decoration: BoxDecoration(color: context.colors.background, borderRadius: BorderRadius.circular(16)),
       child: Column(
         children: [
-          _buildStationRow(context, 'Ù†Ù‚Ø·Ø© Ø§Ù„Ø§Ù†Ø·Ù„Ø§Ù‚', 'Ù…Ø­Ø·Ø© Ù…ØµØ±', const Color(0xFF9CCC65), true),
+          _buildStationRow(context, 'نقطة الانطلاق', 'محطة مصر', const Color(0xFF9CCC65), true),
           const VerticalSpace(8),
-          _buildStationRow(context, 'Ø§Ù„ÙˆØ¬Ù‡Ø©', 'Ø§Ù„Ø¬Ø§Ù…Ø¹Ø©', const Color(0xFFF09063), false),
+          _buildStationRow(context, 'الوجهة', 'الجامعة', const Color(0xFFF09063), false),
         ],
       ),
     );
@@ -63,7 +63,7 @@ class TripSummaryCard extends StatelessWidget {
         CircleAvatar(radius: 24, backgroundColor: context.colors.outline.withValues(alpha: 0.2), child: const Icon(Icons.person, color: Colors.white)),
         const HorizontalSpace(12),
         Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Text('Ø£Ø­Ù…Ø¯ Ù…Ø­Ù…Ø¯', style: context.titleMediumTextStyle.copyWith(fontWeight: FontWeight.bold)),
+          Text('أحمد محمد', style: context.titleMediumTextStyle.copyWith(fontWeight: FontWeight.bold)),
           Row(children: [const Icon(Icons.star, color: Colors.orange, size: 14), const HorizontalSpace(4), Text('4.8', style: context.bodySmallTextStyle)]),
         ]),
       ],

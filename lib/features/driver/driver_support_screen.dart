@@ -30,11 +30,11 @@ class _DriverSupportScreenState extends State<DriverSupportScreen> {
             SizedBox(height: AppSpacing.xl.ah),
             _buildFaqList(darkGreen),
             SizedBox(height: AppSpacing.xl.ah),
-            Text('ØªÙˆØ§ØµÙ„ Ù…Ø¨Ø§Ø´Ø±', textAlign: TextAlign.right, style: context.titleMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold)),
+            Text('تواصل مباشر', textAlign: TextAlign.right, style: context.titleMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.bold)),
             SizedBox(height: AppSpacing.md.ah),
-            ContactCard(title: 'Ø§Ù„Ø¯Ø¹Ù… Ø§Ù„ÙÙ†ÙŠ Ø§Ù„Ù…Ø¨Ø§Ø´Ø±', subtitle: 'Ù…ØªØ§Ø­ Ù¢Ù¤ Ø³Ø§Ø¹Ø©', icon: Icons.chat_bubble_outline, iconColor: const Color(0xFFE28B5A), iconBgColor: const Color(0xFFE28B5A).withValues(alpha: 0.1), darkGreen: darkGreen),
+            ContactCard(title: 'الدعم الفني المباشر', subtitle: 'متاح ٢٤ ساعة', icon: Icons.chat_bubble_outline, iconColor: const Color(0xFFE28B5A), iconBgColor: const Color(0xFFE28B5A).withValues(alpha: 0.1), darkGreen: darkGreen),
             SizedBox(height: AppSpacing.md.ah),
-            ContactCard(title: 'Ù…ÙƒØªØ¨ Ø§Ù„Ø¯Ø¹Ù… Ø§Ù„Ù…ÙŠØ¯Ø§Ù†ÙŠ', subtitle: 'Ø§Ù„ÙØ±Ø¹ Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠ - Ø§Ù„Ù…Ù†ØµÙˆØ±Ø©', icon: Icons.location_on_outlined, iconColor: darkGreen, iconBgColor: darkGreen.withValues(alpha: 0.1), darkGreen: darkGreen),
+            ContactCard(title: 'مكتب الدعم الميداني', subtitle: 'الفرع الرئيسي - المنصورة', icon: Icons.location_on_outlined, iconColor: darkGreen, iconBgColor: darkGreen.withValues(alpha: 0.1), darkGreen: darkGreen),
             SizedBox(height: 32.ah),
             const NewTicketButton(),
             SizedBox(height: AppSpacing.xl.ah),
@@ -46,11 +46,11 @@ class _DriverSupportScreenState extends State<DriverSupportScreen> {
 
   Widget _buildFaqList(Color darkGreen) {
     return Column(children: [
-      FaqItem(index: 0, expandedIndex: _expandedIndex, title: 'Ø¥Ø²Ø§ÙŠ Ø£Ø³Ø­Ø¨ Ø£Ø±Ø¨Ø§Ø­ÙŠ Ù„Ù…Ø­ÙØ¸ØªÙŠØŸ', content: 'ØªØ±ÙˆØ­ Ø¹Ù„Ù‰ ØªØ¨ÙˆÙŠØ¨ Ø§Ù„Ø£Ø±Ø¨Ø§Ø­ØŒ ÙˆÙ†Ø¶ØºØ· Ø³Ø­Ø¨ Ø§Ù„Ø£Ø±Ø¨Ø§Ø­ØŒ Ø§Ù„Ù…Ø¨Ù„Øº Ø¨ÙŠÙˆØµÙ„ Ø®Ù„Ø§Ù„ Ù¢Ù¤ Ø³Ø§Ø¹Ø© Ø¹Ù…Ù„ Ø¹Ù„Ù‰ Ø§Ù„Ù…Ø­ÙØ¸Ø© Ø§Ù„Ù…Ø±ØªØ¨Ø·Ø© Ø¨Ø­Ø³Ø§Ø¨Ùƒ.', darkGreen: darkGreen, onTap: (i) => setState(() => _expandedIndex = i)),
+      FaqItem(index: 0, expandedIndex: _expandedIndex, title: 'إزاي أسحب أرباحي لمحفظتي؟', content: 'تروح على تبويب الأرباح، ونضغط سحب الأرباح، المبلغ بيوصل خلال ٢٤ ساعة عمل على المحفظة المرتبطة بحسابك.', darkGreen: darkGreen, onTap: (i) => setState(() => _expandedIndex = i)),
       SizedBox(height: AppSpacing.md.ah),
-      FaqItem(index: 1, expandedIndex: _expandedIndex, title: 'ÙƒÙŠÙÙŠØ© ØªØ­Ø¯ÙŠØ« Ø±Ø®ØµØ© Ø§Ù„Ù‚ÙŠØ§Ø¯Ø©ØŸ', content: 'ÙŠÙ…ÙƒÙ†Ùƒ ØªØ­Ø¯ÙŠØ« Ø±Ø®ØµØ© Ø§Ù„Ù‚ÙŠØ§Ø¯Ø© Ù…Ù† Ø®Ù„Ø§Ù„ Ù…Ø±ÙƒØ² Ø§Ù„ÙˆØ«Ø§Ø¦Ù‚ ÙÙŠ Ø§Ù„Ù…Ù„Ù Ø§Ù„Ø´Ø®ØµÙŠ.', darkGreen: darkGreen, onTap: (i) => setState(() => _expandedIndex = i)),
+      FaqItem(index: 1, expandedIndex: _expandedIndex, title: 'كيفية تحديث رخصة القيادة؟', content: 'يمكنك تحديث رخصة القيادة من خلال مركز الوثائق في الملف الشخصي.', darkGreen: darkGreen, onTap: (i) => setState(() => _expandedIndex = i)),
       SizedBox(height: AppSpacing.md.ah),
-      FaqItem(index: 2, expandedIndex: _expandedIndex, title: 'Ù…Ø§Ø°Ø§ Ø£ÙØ¹Ù„ ÙÙŠ Ø­Ø§Ù„Ø© Ø¹Ø·Ù„ Ø§Ù„Ø³ÙŠØ§Ø±Ø©ØŸ', content: 'ÙŠØ±Ø¬Ù‰ Ø§Ù„ØªÙˆØ§ØµÙ„ Ù…Ø¹ Ø§Ù„Ø¯Ø¹Ù… Ø§Ù„ÙÙ†ÙŠ Ø§Ù„Ù…Ø¨Ø§Ø´Ø± ÙÙˆØ±Ø§Ù‹ ÙˆØ¥Ù„ØºØ§Ø¡ Ø§Ù„Ø±Ø­Ù„Ø© Ø¥Ø°Ø§ ÙƒØ§Ù† Ù‡Ù†Ø§Ùƒ Ø±Ø§ÙƒØ¨.', darkGreen: darkGreen, onTap: (i) => setState(() => _expandedIndex = i)),
+      FaqItem(index: 2, expandedIndex: _expandedIndex, title: 'ماذا أفعل في حالة عطل السيارة؟', content: 'يرجى التواصل مع الدعم الفني المباشر فوراً وإلغاء الرحلة إذا كان هناك راكب.', darkGreen: darkGreen, onTap: (i) => setState(() => _expandedIndex = i)),
     ]);
   }
 }

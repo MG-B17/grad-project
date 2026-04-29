@@ -14,13 +14,13 @@ class HelpCenterScreen extends StatefulWidget {
 }
 
 class _HelpCenterScreenState extends State<HelpCenterScreen> {
-  String selectedCategory = 'Ø§Ù„ÙƒÙ„';
+  String selectedCategory = 'الكل';
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFF2EFE8),
-      appBar: const ProfileAppBar(title: 'Ù…Ø±ÙƒØ² Ø§Ù„Ù…Ø³Ø§Ø¹Ø¯Ø©'),
+      appBar: const ProfileAppBar(title: 'مركز المساعدة'),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20.aw),
         child: Column(
@@ -33,7 +33,7 @@ class _HelpCenterScreenState extends State<HelpCenterScreen> {
                   Icon(Icons.search, color: context.colors.textSecondary),
                   const Spacer(),
                   Text(
-                    'ÙƒÙŠÙ ÙŠÙ…ÙƒÙ†Ù†Ø§ Ù…Ø³Ø§Ø¹Ø¯ØªÙƒØŸ',
+                    'كيف يمكننا مساعدتك؟',
                     style: context.bodySmallTextStyle.copyWith(color: context.colors.textSecondary),
                   ),
                 ],
@@ -45,23 +45,23 @@ class _HelpCenterScreenState extends State<HelpCenterScreen> {
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
-                children: ['Ø§Ù„ÙƒÙ„', 'Ø§Ù„Ø­Ø¬Ø²', 'Ø§Ù„Ø¯ÙØ¹', 'Ø§Ù„Ø£Ù…Ø§Ù†'].map((cat) => _buildCategory(cat)).toList(),
+                children: ['الكل', 'الحجز', 'الدفع', 'الأمان'].map((cat) => _buildCategory(cat)).toList(),
               ),
             ),
             const VerticalSpace(24),
 
             // FAQ List
             const FAQItemTile(
-              question: 'ÙƒÙŠÙ ÙŠÙ…ÙƒÙ†Ù†ÙŠ Ø­Ø¬Ø² Ø±Ø­Ù„Ø©ØŸ',
-              answer: 'ÙŠÙ…ÙƒÙ†Ùƒ Ø­Ø¬Ø² Ø±Ø­Ù„Ø© Ù…Ù† Ø®Ù„Ø§Ù„ Ø§Ø®ØªÙŠØ§Ø± ÙˆØ¬Ù‡ØªÙƒ Ù…Ù† Ø§Ù„ØµÙØ­Ø© Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ© ÙˆØªØ­Ø¯ÙŠØ¯ Ù…ÙˆØ¹Ø¯ Ø§Ù„Ø±Ø­Ù„Ø© Ø§Ù„Ù…Ù†Ø§Ø³Ø¨ Ù„Ùƒ.',
+              question: 'كيف يمكنني حجز رحلة؟',
+              answer: 'يمكنك حجز رحلة من خلال اختيار وجهتك من الصفحة الرئيسية وتحديد موعد الرحلة المناسب لك.',
             ),
             const FAQItemTile(
-              question: 'Ù…Ø§ Ù‡ÙŠ Ø·Ø±Ù‚ Ø§Ù„Ø¯ÙØ¹ Ø§Ù„Ù…ØªØ§Ø­Ø©ØŸ',
-              answer: 'Ù†ÙˆÙØ± Ø¹Ø¯Ø© Ø·Ø±Ù‚ Ù„Ù„Ø¯ÙØ¹ ØªØ´Ù…Ù„ Ø§Ù„Ø¯ÙØ¹ Ø§Ù„Ù†Ù‚Ø¯ÙŠØŒ Ø§Ù„Ø¨Ø·Ø§Ù‚Ø§Øª Ø§Ù„Ø§Ø¦ØªÙ…Ø§Ù†ÙŠØ©ØŒ ÙˆÙÙˆØ¯Ø§ÙÙˆÙ† ÙƒØ§Ø´.',
+              question: 'ما هي طرق الدفع المتاحة؟',
+              answer: 'نوفر عدة طرق للدفع تشمل الدفع النقدي، البطاقات الائتمانية، وفودافون كاش.',
             ),
             const FAQItemTile(
-              question: 'ÙƒÙŠÙ ÙŠÙ…ÙƒÙ†Ù†ÙŠ Ø¥Ù„ØºØ§Ø¡ Ø§Ù„Ø­Ø¬Ø²ØŸ',
-              answer: 'ÙŠÙ…ÙƒÙ†Ùƒ Ø¥Ù„ØºØ§Ø¡ Ø§Ù„Ø­Ø¬Ø² Ù…Ù† Ø®Ù„Ø§Ù„ Ù‚Ø§Ø¦Ù…Ø© "Ø±Ø­Ù„Ø§ØªÙŠ" Ù‚Ø¨Ù„ Ù…ÙˆØ¹Ø¯ Ø§Ù„Ø±Ø­Ù„Ø© Ø¨Ù€ Ù£Ù  Ø¯Ù‚ÙŠÙ‚Ø© Ø¹Ù„Ù‰ Ø§Ù„Ø£Ù‚Ù„.',
+              question: 'كيف يمكنني إلغاء الحجز؟',
+              answer: 'يمكنك إلغاء الحجز من خلال قائمة "رحلاتي" قبل موعد الرحلة بـ ٣٠ دقيقة على الأقل.',
             ),
           ],
         ),

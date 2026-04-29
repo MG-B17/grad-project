@@ -15,7 +15,7 @@ class PersonalInfoScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFF2EFE8),
-      appBar: const ProfileAppBar(title: 'Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ø§Ù„Ø´Ø®ØµÙŠØ©'),
+      appBar: const ProfileAppBar(title: 'المعلومات الشخصية'),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20.aw),
         child: Column(
@@ -37,7 +37,7 @@ class PersonalInfoScreen extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Ù… Ø¬',
+                        'م ج',
                         style: context.headlineLargeTextStyle.copyWith(color: context.colors.primary, fontWeight: FontWeight.bold),
                       ),
                     ),
@@ -62,20 +62,20 @@ class PersonalInfoScreen extends StatelessWidget {
             
             // Info Fields
             AppTextField(
-              label: 'Ø§Ù„Ø§Ø³Ù… Ø§Ù„ÙƒØ§Ù…Ù„',
-              initialValue: 'Ù…ØµØ·ÙÙ‰ Ø¬Ù…Ø§Ù„',
+              label: 'الاسم الكامل',
+              initialValue: 'مصطفى جمال',
               prefixIcon: Icon(Icons.person_outline, color: context.colors.primary),
             ),
             const VerticalSpace(16),
             AppTextField(
-              label: 'Ø±Ù‚Ù… Ø§Ù„Ù‡Ø§ØªÙ',
-              initialValue: 'Ù Ù¡Ù Ù Ù¢Ù£Ù¤Ù¥Ù¦Ù§Ù¨',
+              label: 'رقم الهاتف',
+              initialValue: '٠١٠٠٢٣٤٥٦٧٨',
               prefixIcon: Icon(Icons.phone_android_outlined, color: context.colors.primary),
               keyboardType: TextInputType.phone,
             ),
             const VerticalSpace(16),
             AppTextField(
-              label: 'Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ',
+              label: 'البريد الإلكتروني',
               initialValue: 'mostafa@example.com',
               prefixIcon: Icon(Icons.email_outlined, color: context.colors.primary),
               keyboardType: TextInputType.emailAddress,
@@ -88,7 +88,7 @@ class PersonalInfoScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Text(
-                  'ØªØºÙŠÙŠØ± ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±',
+                  'تغيير كلمة المرور',
                   style: context.titleSmallTextStyle.copyWith(fontWeight: FontWeight.bold, color: context.colors.primary),
                 ),
                 const SizedBox(width: 8),
@@ -97,18 +97,18 @@ class PersonalInfoScreen extends StatelessWidget {
             ),
             const VerticalSpace(16),
             const AppTextField(
-              label: 'ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± Ø§Ù„Ø­Ø§Ù„ÙŠØ©',
+              label: 'كلمة المرور الحالية',
               obscureText: true,
             ),
             const VerticalSpace(12),
             const AppTextField(
-              label: 'ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± Ø§Ù„Ø¬Ø¯ÙŠØ¯Ø©',
+              label: 'كلمة المرور الجديدة',
               obscureText: true,
             ),
 
             const VerticalSpace(40),
             AppButton(
-              label: 'Ø­ÙØ¸ Ø§Ù„ØªØºÙŠÙŠØ±Ø§Øª',
+              label: 'حفظ التغييرات',
               onPressed: () => context.go(AppRouteConstants.passengerProfile),
             ),
             const VerticalSpace(40),

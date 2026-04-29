@@ -25,19 +25,19 @@ class TermsAndConditionsCheckbox extends StatelessWidget {
         Expanded(
           child: Text.rich(
             TextSpan(
-              text: 'Ø£ÙˆØ§ÙÙ‚ Ø¹Ù„Ù‰ ',
+              text: 'أوافق على ',
               style: context.bodyMediumTextStyle,
               children: [
                 TextSpan(
-                  text: 'Ø§Ù„Ø´Ø±ÙˆØ·',
+                  text: 'الشروط',
                   style: context.bodyMediumTextStyle.copyWith(
                     color: context.colors.primary,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                const TextSpan(text: ' Ùˆ '),
+                const TextSpan(text: ' و '),
                 TextSpan(
-                  text: 'Ø³ÙŠØ§Ø³Ø© Ø§Ù„Ø®ØµÙˆØµÙŠØ©',
+                  text: 'سياسة الخصوصية',
                   style: context.bodyMediumTextStyle.copyWith(
                     color: context.colors.primary,
                     fontWeight: FontWeight.bold,

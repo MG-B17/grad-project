@@ -23,7 +23,7 @@ class ProfileStatsRow extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           _StatPill(
-            label: '$trips Ø±Ø­Ù„Ø©',
+            label: '$trips رحلة',
             icon: Icons.directions_bus_outlined,
           ),
           _StatPill(
@@ -32,7 +32,7 @@ class ProfileStatsRow extends StatelessWidget {
             showIconSuffix: true,
           ),
           _StatPill(
-            label: '${balance.toInt()} Ø¬',
+            label: '${balance.toInt()} ج',
             icon: Icons.account_balance_wallet_outlined,
           ),
         ],

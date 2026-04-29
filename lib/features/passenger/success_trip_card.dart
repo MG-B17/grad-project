@@ -20,8 +20,8 @@ class SuccessTripCard extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('Ù…Ø³Ø§Ø± Ø§Ù„Ø±Ø­Ù„Ø©', style: context.labelSmallTextStyle.copyWith(color: context.colors.textSecondary)),
-                  Text('Ø§Ù„ØªØ¬Ù…Ø¹ Ø§Ù„Ø®Ø§Ù…Ø³ â† Ø§Ù„ØªØ­Ø±ÙŠØ±', style: context.titleMediumTextStyle.copyWith(fontWeight: FontWeight.bold)),
+                  Text('مسار الرحلة', style: context.labelSmallTextStyle.copyWith(color: context.colors.textSecondary)),
+                  Text('التجمع الخامس ← التحرير', style: context.titleMediumTextStyle.copyWith(fontWeight: FontWeight.bold)),
                 ],
               ),
             ],
@@ -36,8 +36,8 @@ class SuccessTripCard extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('Ù…ÙˆØ¹Ø¯ Ø§Ù„Ø§Ù†Ø·Ù„Ø§Ù‚', style: context.labelSmallTextStyle.copyWith(color: context.colors.textSecondary)),
-                  Text('Ø§Ù„ÙŠÙˆÙ…ØŒ 9:00 Øµ', style: context.titleMediumTextStyle.copyWith(color: const Color(0xFFF09063), fontWeight: FontWeight.bold)),
+                  Text('موعد الانطلاق', style: context.labelSmallTextStyle.copyWith(color: context.colors.textSecondary)),
+                  Text('اليوم، 9:00 ص', style: context.titleMediumTextStyle.copyWith(color: const Color(0xFFF09063), fontWeight: FontWeight.bold)),
                 ],
               ),
             ],

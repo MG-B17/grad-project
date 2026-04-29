@@ -1,10 +1,11 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:micromasr/core/app_spacing.dart';
 import 'package:micromasr/core/context_extensions.dart';
 import 'package:micromasr/core/size_extensions.dart';
 import 'package:micromasr/core/app_button.dart';
 import 'package:micromasr/core/app_text_field.dart';
 import 'package:micromasr/features/driver/star_rating_bar.dart';
+import 'package:micromasr/core/app_strings.dart';
 
 class DriverRatingModal extends StatefulWidget {
   final String tripId, passengerId, passengerName;
@@ -60,7 +61,7 @@ class _DriverRatingModalState extends State<DriverRatingModal> {
       Navigator.pop(context);
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: const Text('Ø´ÙƒØ±Ø§Ù‹ Ù„ØªÙ‚ÙŠÙŠÙ…Ùƒ!'), 
+          content: const Text(AppStrings.thanksForUsing), 
           backgroundColor: context.colors.primary,
         ),
       );
@@ -87,7 +88,7 @@ class _DriverRatingModalState extends State<DriverRatingModal> {
           const _Handle(),
           _SkipBtn(onTap: () => Navigator.pop(context)),
           Text(
-            'Ù‚ÙŠÙ‘Ù… Ø§Ù„Ø±Ø§ÙƒØ¨ ${widget.passengerName}',
+            'قيّم الراكب ${widget.passengerName}',
             style: context.titleLargeTextStyle.copyWith(
               color: context.colors.onSurface,
               fontWeight: FontWeight.bold,
@@ -103,13 +104,13 @@ class _DriverRatingModalState extends State<DriverRatingModal> {
           SizedBox(height: AppSpacing.xl.ah),
           AppTextField(
             controller: _feedbackController,
-            hintText: 'Ø¥Ø¶Ø§ÙØ© ØªØ¹Ù„ÙŠÙ‚ (Ø§Ø®ØªÙŠØ§Ø±ÙŠ)',
+            hintText: 'إضافة تعليق (اختياري)',
             maxLines: 3,
             readOnly: _isLoading,
           ),
           SizedBox(height: AppSpacing.xxl.ah),
           AppButton(
-            label: _isLoading ? 'Ø¬Ø§Ø±ÙŠ Ø§Ù„Ø¥Ø±Ø³Ø§Ù„...' : 'Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„ØªÙ‚ÙŠÙŠÙ…',
+            label: _isLoading ? 'جاري الإرسال...' : AppStrings.submitRating,
             onPressed: _selectedRating > 0 && !_isLoading ? _submit : () {},
             type: _selectedRating > 0 ? AppButtonType.primary : AppButtonType.secondary,
           ),
@@ -143,21 +144,9 @@ class _SkipBtn extends StatelessWidget {
     child: TextButton(
       onPressed: onTap,
       child: Text(
-        'ØªØ®Ø·ÙŠ',
+        'تخطي',
         style: context.bodyLargeTextStyle.copyWith(color: context.colors.primary),
       ),
     ),
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-

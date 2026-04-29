@@ -21,22 +21,22 @@ class PreferencesSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ProfileSection(
-      title: 'Ø§Ù„ØªÙØ¶ÙŠÙ„Ø§Øª',
+      title: 'التفضيلات',
       children: [
         ProfileMenuItem(
           icon: Icons.language_rounded,
-          label: 'Ø§Ù„Ù„ØºØ©',
-          subtitle: 'Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©',
+          label: 'اللغة',
+          subtitle: 'العربية',
           onTap: () => context.push(AppRouteConstants.language),
         ),
         ProfileMenuItem(
           icon: Icons.notifications_none_rounded,
-          label: 'Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„ØªÙ†Ø¨ÙŠÙ‡Ø§Øª',
+          label: 'إعدادات التنبيهات',
           onTap: () => context.push(AppRouteConstants.notificationSettings),
         ),
         _buildSwitchItem(
           icon: Icons.dark_mode_outlined,
-          label: 'Ø§Ù„ÙˆØ¶Ø¹ Ø§Ù„Ù„ÙŠÙ„ÙŠ',
+          label: 'الوضع الليلي',
           value: isDarkMode,
           onChanged: onDarkModeToggle,
         ),

@@ -39,7 +39,7 @@ class LoginHeader extends StatelessWidget {
             ),
             const VerticalSpace(8),
             Text(
-              'Ù…Ø±Ø­Ø¨Ø§Ù‹ Ø¨ÙŠÙƒ! ðŸ‘‹',
+              'مرحباً بيك! 👋',
               style: context.bodyLargeTextStyle.copyWith(
                 color: context.colors.secondary,
                 fontWeight: FontWeight.bold,

@@ -16,9 +16,9 @@ class _TipSelectorState extends State<TipSelector> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        _buildTipBtn(2, '+2 Ø¬Ù†ÙŠØ©'),
-        _buildTipBtn(5, '+5 Ø¬Ù†ÙŠØ©'),
-        _buildTipBtn(null, 'Ù…Ø¨Ù„Øº Ø¢Ø®Ø±'),
+        _buildTipBtn(2, '+2 جنية'),
+        _buildTipBtn(5, '+5 جنية'),
+        _buildTipBtn(null, 'مبلغ آخر'),
       ],
     );
   }

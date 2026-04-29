@@ -24,7 +24,7 @@ class _PassengerProfileScreenState extends State<PassengerProfileScreen> {
 
   @override
   Widget build(BuildContext context) {
-    const String name = "Ù…ØµØ·ÙÙ‰";
+    const String name = "مصطفى";
     const String phone = "01012345678";
     const int tripsCount = 12;
     const double rating = 4.8;

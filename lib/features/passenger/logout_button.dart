@@ -24,7 +24,7 @@ class LogoutButton extends StatelessWidget {
             Icon(Icons.logout_rounded, color: Colors.red, size: 20.aw),
             const SizedBox(width: 8),
             Text(
-              'ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø®Ø±ÙˆØ¬',
+              'تسجيل الخروج',
               style: context.titleSmallTextStyle.copyWith(
                 color: Colors.red,
                 fontWeight: FontWeight.bold,

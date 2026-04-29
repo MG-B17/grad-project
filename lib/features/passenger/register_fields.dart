@@ -38,7 +38,7 @@ class _RegisterFieldsState extends State<RegisterFields> {
           label: AppStrings.fullName,
           controller: widget.nameController,
           prefixIcon: Icon(Icons.person_outline, color: context.colors.textSecondary),
-          hintText: 'Ù…Ø­Ù…Ø¯ Ø£Ø­Ù…Ø¯',
+          hintText: 'محمد أحمد',
           validator: ValidationUtils.validateRequired,
         ),
         const VerticalSpace(16),

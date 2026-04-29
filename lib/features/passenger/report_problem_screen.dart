@@ -23,7 +23,7 @@ class _ReportProblemScreenState extends State<ReportProblemScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFF2EFE8),
-      appBar: const ProfileAppBar(title: 'Ø¥Ø¨Ù„Ø§Øº Ø¹Ù† Ù…Ø´ÙƒÙ„Ø©'),
+      appBar: const ProfileAppBar(title: 'إبلاغ عن مشكلة'),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20.aw),
         child: Column(
@@ -34,8 +34,8 @@ class _ReportProblemScreenState extends State<ReportProblemScreen> {
             
             // Description Field
             const AppTextField(
-              label: 'ØªÙØ§ØµÙŠÙ„ Ø§Ù„Ù…Ø´ÙƒÙ„Ø©',
-              hintText: 'Ø§Ø´Ø±Ø­ Ø§Ù„Ù…Ø´ÙƒÙ„Ø© Ø¨Ø§Ù„ØªÙØµÙŠÙ„ Ù„Ù…Ø³Ø§Ø¹Ø¯ØªÙ†Ø§ ÙÙŠ Ø­Ù„Ù‡Ø§...',
+              label: 'تفاصيل المشكلة',
+              hintText: 'اشرح المشكلة بالتفصيل لمساعدتنا في حلها...',
               maxLines: 5,
             ),
             const VerticalSpace(24),
@@ -45,7 +45,7 @@ class _ReportProblemScreenState extends State<ReportProblemScreen> {
             const VerticalSpace(40),
             
             AppButton(
-              label: 'Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„Ø¨Ù„Ø§Øº',
+              label: 'إرسال البلاغ',
               onPressed: () => context.go(AppRouteConstants.passengerProfile),
             ),
           ],
@@ -61,12 +61,12 @@ class _ReportProblemScreenState extends State<ReportProblemScreen> {
         child: DropdownButton<String>(
           value: selectedProblemType,
           hint: Text(
-            'Ø§Ø®ØªØ± Ù†ÙˆØ¹ Ø§Ù„Ù…Ø´ÙƒÙ„Ø©',
+            'اختر نوع المشكلة',
             style: context.bodySmallTextStyle.copyWith(color: context.colors.textSecondary),
           ),
           isExpanded: true,
           icon: Icon(Icons.keyboard_arrow_down_rounded, color: context.colors.primary),
-          items: ['ØªØ·Ø¨ÙŠÙ‚ Ø§Ù„Ù‡Ø§ØªÙ', 'Ø§Ù„Ø³Ø§Ø¦Ù‚', 'Ø§Ù„Ø±Ø­Ù„Ø©', 'Ø§Ù„Ø¯ÙØ¹'].map((String value) {
+          items: ['تطبيق الهاتف', 'السائق', 'الرحلة', 'الدفع'].map((String value) {
             return DropdownMenuItem<String>(
               value: value,
               child: Text(value, style: context.bodyMediumTextStyle),
@@ -86,12 +86,12 @@ class _ReportProblemScreenState extends State<ReportProblemScreen> {
           Icon(Icons.cloud_upload_outlined, size: 48.aw, color: context.colors.primary.withValues(alpha: 0.5)),
           const VerticalSpace(12),
           Text(
-            'Ø¥Ø±ÙØ§Ù‚ ØµÙˆØ±Ø© (Ø§Ø®ØªÙŠØ§Ø±ÙŠ)',
+            'إرفاق صورة (اختياري)',
             style: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary),
           ),
           const VerticalSpace(8),
           Text(
-            'ÙŠÙ…ÙƒÙ†Ùƒ ØªØ­Ù…ÙŠÙ„ ØµÙˆØ± Ø¨Ø­Ø¯ Ø£Ù‚ØµÙ‰ Ù¥ Ù…ÙŠØ¬Ø§Ø¨Ø§ÙŠØª',
+            'يمكنك تحميل صور بحد أقصى ٥ ميجابايت',
             style: context.bodySmallTextStyle.copyWith(color: context.colors.textSecondary.withValues(alpha: 0.5)),
           ),
         ],

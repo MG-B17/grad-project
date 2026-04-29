@@ -53,7 +53,7 @@ class _NotificationIcon extends StatelessWidget {
           child: Container(
             padding: EdgeInsets.all(4.aw),
             decoration: const BoxDecoration(color: Colors.red, shape: BoxShape.circle),
-            child: Text('Ù¢', style: context.bodySmallTextStyle.copyWith(color: Colors.white, fontSize: 10, fontWeight: FontWeight.bold)),
+            child: Text('٢', style: context.bodySmallTextStyle.copyWith(color: Colors.white, fontSize: 10, fontWeight: FontWeight.bold)),
           ),
         ),
       ],

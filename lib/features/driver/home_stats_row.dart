@@ -17,7 +17,7 @@ class HomeStatsRow extends StatelessWidget {
         SizedBox(width: AppSpacing.sm.aw),
         Expanded(child: DriverCircularStat(title: AppStrings.tripsCount, value: stats.tripsCount.toString(), icon: Icons.route_outlined, iconColor: darkGreen, valueColor: darkGreen)),
         SizedBox(width: AppSpacing.sm.aw),
-        Expanded(child: DriverCircularStat(title: AppStrings.todayEarnings, value: '${stats.todayEarnings.toInt()}Ø¬', icon: Icons.account_balance_wallet_outlined, iconColor: darkGreen, valueColor: const Color(0xFFE28B5A))),
+        Expanded(child: DriverCircularStat(title: AppStrings.todayEarnings, value: '${stats.todayEarnings.toInt()}ج', icon: Icons.account_balance_wallet_outlined, iconColor: darkGreen, valueColor: const Color(0xFFE28B5A))),
       ],
     );
   }

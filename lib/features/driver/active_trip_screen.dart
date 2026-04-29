@@ -18,10 +18,10 @@ class _ActiveTripScreenState extends State<ActiveTripScreen> {
   bool _isCompleted = false;
 
   final _dummyTrip = {
-    'passengerName': 'Ù…Ø­Ù…Ø¯ Ø¹Ù„ÙŠ',
+    'passengerName': 'محمد علي',
     'fare': 45.0,
-    'pickupLocation': 'Ø§Ù„Ù…Ø¹Ø§Ø¯ÙŠ - Ø´Ø§Ø±Ø¹ Ù©',
-    'dropoffLocation': 'Ø§Ù„ØªØ­Ø±ÙŠØ± - ÙˆØ³Ø· Ø§Ù„Ø¨Ù„Ø¯',
+    'pickupLocation': 'المعادي - شارع ٩',
+    'dropoffLocation': 'التحرير - وسط البلد',
   };
 
   void _handleStatusUpdate() {

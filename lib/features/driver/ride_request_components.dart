@@ -20,7 +20,7 @@ class PassengerInfoRow extends StatelessWidget {
           child: Row(
             children: [
               Text(
-                'Ù¤.Ù¨',
+                '٤.٨',
                 style: context.bodyMediumTextStyle.copyWith(
                   color: orangeColor,
                   fontWeight: FontWeight.bold,
@@ -36,7 +36,7 @@ class PassengerInfoRow extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [
             Text(
-              'Ù…Ø­Ù…Ø¯ Ø¬Ù„Ø§Ù„',
+              'محمد جلال',
               style: context.titleMediumTextStyle.copyWith(
                 color: darkGreen,
                 fontWeight: FontWeight.bold,
@@ -44,10 +44,10 @@ class PassengerInfoRow extends StatelessWidget {
             ),
             Row(
               children: [
-                StatusBadge(text: 'Ø±Ø§ÙƒØ¨ Ø¯Ø§Ø¦Ù…', darkGreen: darkGreen),
+                StatusBadge(text: 'راكب دائم', darkGreen: darkGreen),
                 SizedBox(width: 8.aw),
                 Text(
-                  'Ù¤Ù¢ Ø±Ø­Ù„Ø© Ø³Ø§Ø¨Ù‚Ø©',
+                  '٤٢ رحلة سابقة',
                   style: context.bodySmallTextStyle.copyWith(color: context.colors.textSecondary),
                 ),
               ],
@@ -107,11 +107,11 @@ class LocationInfoRow extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [
             Text(
-              'Ù†Ù‚Ø·Ø© Ø§Ù„Ø±ÙƒÙˆØ¨',
+              'نقطة الركوب',
               style: context.bodySmallTextStyle.copyWith(color: context.colors.textSecondary),
             ),
             Text(
-              'Ù…Ø­Ø·Ø© Ù…ØµØ±',
+              'محطة مصر',
               style: context.titleMediumTextStyle.copyWith(
                 color: darkGreen,
                 fontWeight: FontWeight.bold,
@@ -119,11 +119,11 @@ class LocationInfoRow extends StatelessWidget {
             ),
             SizedBox(height: AppSpacing.lg.ah),
             Text(
-              'Ø§Ù„ÙˆØ¬Ù‡Ø©',
+              'الوجهة',
               style: context.bodySmallTextStyle.copyWith(color: context.colors.textSecondary),
             ),
             Text(
-              'Ø§Ù„Ø¬Ø§Ù…Ø¹Ø©',
+              'الجامعة',
               style: context.titleMediumTextStyle.copyWith(
                 color: darkGreen,
                 fontWeight: FontWeight.bold,
@@ -176,15 +176,15 @@ class RideDetailsChips extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
-            const _Chip(text: 'Ù¡Ù¢ Ø¯Ù‚ÙŠÙ‚Ø©', icon: Icons.access_time),
+            const _Chip(text: '١٢ دقيقة', icon: Icons.access_time),
             SizedBox(width: 8.aw),
-            const _Chip(text: 'Ù¢ Ù…Ù‚Ø§Ø¹Ø¯', icon: Icons.airline_seat_recline_normal),
+            const _Chip(text: '٢ مقاعد', icon: Icons.airline_seat_recline_normal),
           ],
         ),
         SizedBox(height: 8.ah),
         Row(
           mainAxisAlignment: MainAxisAlignment.end,
-          children: [const _Chip(text: 'Ù£.Ù¢ ÙƒÙ…', icon: Icons.route)],
+          children: [const _Chip(text: '٣.٢ كم', icon: Icons.route)],
         ),
       ],
     );

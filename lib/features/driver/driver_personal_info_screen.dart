@@ -25,7 +25,7 @@ class DriverPersonalInfoScreen extends StatelessWidget {
                 children: [
                   const SizedBox(width: 24), // Placeholder for balance
                   Text(
-                    'Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ø§Ù„Ø´Ø®ØµÙŠØ©',
+                    'المعلومات الشخصية',
                     style: context.titleLargeTextStyle.copyWith(
                       color: darkGreen,
                       fontWeight: FontWeight.w800,
@@ -90,11 +90,11 @@ class DriverPersonalInfoScreen extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
-                    _buildLabel(context, 'Ø§Ù„Ø§Ø³Ù… Ø§Ù„ÙƒØ§Ù…Ù„', darkGreen),
-                    _buildTextField(context, 'Ø£Ø­Ù…Ø¯ Ù…Ø­Ù…Ø¯ Ù…Ø­Ù…ÙˆØ¯', Icons.person_outline),
+                    _buildLabel(context, 'الاسم الكامل', darkGreen),
+                    _buildTextField(context, 'أحمد محمد محمود', Icons.person_outline),
                     SizedBox(height: AppSpacing.md.ah),
 
-                    _buildLabel(context, 'Ø±Ù‚Ù… Ø§Ù„Ù…ÙˆØ¨Ø§ÙŠÙ„', darkGreen),
+                    _buildLabel(context, 'رقم الموبايل', darkGreen),
                     _buildTextField(
                       context,
                       '+20 122 333 4444',
@@ -103,7 +103,7 @@ class DriverPersonalInfoScreen extends StatelessWidget {
                     ),
                     SizedBox(height: AppSpacing.md.ah),
 
-                    _buildLabel(context, 'Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ', darkGreen),
+                    _buildLabel(context, 'البريد الإلكتروني', darkGreen),
                     _buildTextField(context, 'ahmed.m@email.com', Icons.email_outlined),
                   ],
                 ),
@@ -131,7 +131,7 @@ class DriverPersonalInfoScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         Text(
-                          'ØªØºÙŠÙŠØ± ÙƒÙ„Ù…Ø© Ø§Ù„Ø³Ø±',
+                          'تغيير كلمة السر',
                           style: context.titleMediumTextStyle.copyWith(
                             color: darkGreen,
                             fontWeight: FontWeight.bold,
@@ -150,7 +150,7 @@ class DriverPersonalInfoScreen extends StatelessWidget {
                     ),
                     SizedBox(height: AppSpacing.lg.ah),
 
-                    _buildLabel(context, 'ÙƒÙ„Ù…Ø© Ø§Ù„Ø³Ø± Ø§Ù„Ø­Ø§Ù„ÙŠØ©', darkGreen),
+                    _buildLabel(context, 'كلمة السر الحالية', darkGreen),
                     _buildTextField(
                       context,
                       '********',
@@ -159,10 +159,10 @@ class DriverPersonalInfoScreen extends StatelessWidget {
                     ),
                     SizedBox(height: AppSpacing.md.ah),
 
-                    _buildLabel(context, 'ÙƒÙ„Ù…Ø© Ø§Ù„Ø³Ø± Ø§Ù„Ø¬Ø¯ÙŠØ¯Ø©', darkGreen),
+                    _buildLabel(context, 'كلمة السر الجديدة', darkGreen),
                     _buildTextField(
                       context,
-                      'Ø£Ø¯Ø®Ù„ ÙƒÙ„Ù…Ø© Ø§Ù„Ø³Ø± Ø§Ù„Ø¬Ø¯ÙŠØ¯Ø©',
+                      'أدخل كلمة السر الجديدة',
                       Icons.lock_reset_outlined,
                       prefixWidget: Icon(Icons.visibility_outlined, color: context.colors.textSecondary, size: 20.aw),
                     ),
@@ -181,7 +181,7 @@ class DriverPersonalInfoScreen extends StatelessWidget {
                 ),
                 alignment: Alignment.center,
                 child: Text(
-                  'Ø­ÙØ¸ Ø§Ù„ØªØºÙŠÙŠØ±Ø§Øª',
+                  'حفظ التغييرات',
                   style: context.titleMediumTextStyle.copyWith(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,

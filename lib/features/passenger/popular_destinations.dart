@@ -30,11 +30,11 @@ class PopularDestinations extends StatelessWidget {
           scrollDirection: Axis.horizontal,
           child: Row(
             children: [
-              _buildChip(context, 'Ù…Ø·Ø§Ø± Ø§Ù„Ù‚Ø§Ù‡Ø±Ø©'),
+              _buildChip(context, 'مطار القاهرة'),
               const HorizontalSpace(12),
-              _buildChip(context, 'Ø§Ù„Ø¬Ø§Ù…Ø¹Ø©'),
+              _buildChip(context, 'الجامعة'),
               const HorizontalSpace(12),
-              _buildChip(context, 'Ù…Ø­Ø·Ø© Ù…ØµØ±'),
+              _buildChip(context, 'محطة مصر'),
             ],
           ),
         ),

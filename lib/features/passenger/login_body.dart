@@ -42,7 +42,7 @@ class LoginBody extends StatelessWidget {
               const VerticalSpace(24),
               const LoginForm(),
               const VerticalSpace(32),
-              const PassengerAuthDivider(text: 'Ø£Ùˆ'),
+              const PassengerAuthDivider(text: 'أو'),
               const VerticalSpace(24),
               SocialSignInButton(
                 label: AppStrings.continueWithGoogle,

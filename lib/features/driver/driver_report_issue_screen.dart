@@ -33,7 +33,7 @@ class DriverReportIssueScreen extends StatelessWidget {
                   Row(
                     children: [
                       Text(
-                        'Ø¥Ø¨Ù„Ø§Øº Ø¹Ù† Ù…Ø´ÙƒÙ„Ø©',
+                        'إبلاغ عن مشكلة',
                         style: context.titleLargeTextStyle.copyWith(
                           color: darkGreen,
                           fontWeight: FontWeight.w800,
@@ -68,7 +68,7 @@ class DriverReportIssueScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     // Issue Type
-                    _buildLabel(context, 'Ù†ÙˆØ¹ Ø§Ù„Ù…Ø´ÙƒÙ„Ø©', darkGreen),
+                    _buildLabel(context, 'نوع المشكلة', darkGreen),
                     Container(
                       padding: EdgeInsets.symmetric(horizontal: AppSpacing.md.aw, vertical: 12.ah),
                       decoration: BoxDecoration(
@@ -80,7 +80,7 @@ class DriverReportIssueScreen extends StatelessWidget {
                         children: [
                           Icon(Icons.keyboard_arrow_down_rounded, color: darkGreen),
                           Text(
-                            'Ø§Ø®ØªØ± Ù†ÙˆØ¹ Ø§Ù„Ù…Ø´ÙƒÙ„Ø©...',
+                            'اختر نوع المشكلة...',
                             style: context.bodyMediumTextStyle.copyWith(
                               color: context.colors.textSecondary,
                             ),
@@ -91,7 +91,7 @@ class DriverReportIssueScreen extends StatelessWidget {
                     SizedBox(height: AppSpacing.xl.ah),
 
                     // Issue Details
-                    _buildLabel(context, 'ØªÙØ§ØµÙŠÙ„ Ø§Ù„Ù…Ø´ÙƒÙ„Ø©', darkGreen),
+                    _buildLabel(context, 'تفاصيل المشكلة', darkGreen),
                     Container(
                       height: 120.ah,
                       padding: EdgeInsets.symmetric(horizontal: AppSpacing.md.aw, vertical: 12.ah),
@@ -104,7 +104,7 @@ class DriverReportIssueScreen extends StatelessWidget {
                         maxLines: null,
                         decoration: InputDecoration(
                           border: InputBorder.none,
-                          hintText: 'ØµÙ Ø§Ù„Ù…Ø´ÙƒÙ„Ø© Ø¨Ø§Ù„ØªÙØµÙŠÙ„...',
+                          hintText: 'صف المشكلة بالتفصيل...',
                           hintStyle: context.bodyMediumTextStyle.copyWith(
                             color: context.colors.textSecondary,
                           ),
@@ -114,7 +114,7 @@ class DriverReportIssueScreen extends StatelessWidget {
                     SizedBox(height: AppSpacing.xl.ah),
 
                     // Attachments
-                    _buildLabel(context, 'Ø£Ø¶Ù ØµÙˆØ±Ø© ØªÙˆØ¶ÙŠØ­ÙŠØ© (Ø§Ø®ØªÙŠØ§Ø±ÙŠ)', darkGreen),
+                    _buildLabel(context, 'أضف صورة توضيحية (اختياري)', darkGreen),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
@@ -136,7 +136,7 @@ class DriverReportIssueScreen extends StatelessWidget {
                               Icon(Icons.add_a_photo_outlined, color: darkGreen),
                               SizedBox(height: 4.ah),
                               Text(
-                                'Ø¥Ø¶Ø§ÙØ©',
+                                'إضافة',
                                 style: context.bodySmallTextStyle.copyWith(
                                   color: Colors.lightGreen,
                                   fontWeight: FontWeight.bold,
@@ -188,7 +188,7 @@ class DriverReportIssueScreen extends StatelessWidget {
                           Icon(Icons.send_outlined, color: Colors.white, size: 20.aw),
                           SizedBox(width: 8.aw),
                           Text(
-                            'Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„Ø¨Ù„Ø§Øº',
+                            'إرسال البلاغ',
                             style: context.titleMediumTextStyle.copyWith(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
@@ -229,7 +229,7 @@ class DriverReportIssueScreen extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.end,
                           children: [
                             Text(
-                              'ÙƒÙŠÙ Ù†ØªØ¹Ø§Ù…Ù„ Ù…Ø¹ Ø¨Ù„Ø§ØºÙƒØŸ',
+                              'كيف نتعامل مع بلاغك؟',
                               style: context.bodyLargeTextStyle.copyWith(
                                 color: darkGreen,
                                 fontWeight: FontWeight.bold,
@@ -248,7 +248,7 @@ class DriverReportIssueScreen extends StatelessWidget {
                         ),
                         SizedBox(height: AppSpacing.md.ah),
                         Text(
-                          'Ø³ÙŠÙ‚ÙˆÙ… ÙØ±ÙŠÙ‚ Ø§Ù„Ø¯Ø¹Ù… Ø¨Ù…Ø±Ø§Ø¬Ø¹Ø© Ø§Ù„Ø¨Ù„Ø§Øº Ø®Ù„Ø§Ù„ 24 Ø³Ø§Ø¹Ø©. Ø³ÙŠØªÙ… Ø¥Ø®Ø·Ø§Ø±Ùƒ ÙÙˆØ± Ø§ØªØ®Ø§Ø° Ø£ÙŠ Ø¥Ø¬Ø±Ø§Ø¡ Ø¨Ø®ØµÙˆØµ Ù‡Ø°Ù‡ Ø§Ù„Ù…Ø´ÙƒÙ„Ø© Ø¹Ø¨Ø± Ø§Ù„Ø¥Ø´Ø¹Ø§Ø±Ø§Øª.',
+                          'سيقوم فريق الدعم بمراجعة البلاغ خلال 24 ساعة. سيتم إخطارك فور اتخاذ أي إجراء بخصوص هذه المشكلة عبر الإشعارات.',
                           textAlign: TextAlign.right,
                           style: context.bodyMediumTextStyle.copyWith(
                             color: context.colors.textSecondary,

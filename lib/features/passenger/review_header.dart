@@ -42,11 +42,11 @@ class ReviewHeader extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          _buildStat(context, '25', 'Ø¬'),
+          _buildStat(context, '25', 'ج'),
           Container(width: 1, height: 20, color: Colors.grey.shade300),
-          _buildStat(context, 'Ø§Ù„Ù…Ø¹Ø§Ø¯ÙŠ - Ø§Ù„ØªØ¬Ù…Ø¹', 'Ù…Ø³Ø§Ø±'),
+          _buildStat(context, 'المعادي - التجمع', 'مسار'),
           Container(width: 1, height: 20, color: Colors.grey.shade300),
-          _buildStat(context, '45', 'Ø¯Ù‚ÙŠÙ‚Ø©'),
+          _buildStat(context, '45', 'دقيقة'),
         ],
       ),
     );

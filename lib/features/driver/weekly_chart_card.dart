@@ -14,7 +14,7 @@ class WeeklyChartCard extends StatelessWidget {
       padding: EdgeInsets.all(AppSpacing.md.aw),
       child: Column(
         children: [
-          const DriverSectionHeader(title: 'Ø£Ø±Ø¨Ø§Ø­ Ø§Ù„Ø£Ø³Ø¨ÙˆØ¹'),
+          const DriverSectionHeader(title: 'أرباح الأسبوع'),
           SizedBox(height: AppSpacing.xxl.ah),
           SizedBox(
             height: 120.ah,
@@ -22,13 +22,13 @@ class WeeklyChartCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
-                _ChartBar(day: 'Ø³', percent: 0.3, darkGreen: darkGreen),
-                _ChartBar(day: 'Ø­', percent: 0.5, darkGreen: darkGreen),
-                _ChartBar(day: 'Ù†', percent: 0.7, darkGreen: darkGreen),
-                _ChartBar(day: 'Ø«', percent: 0.4, darkGreen: darkGreen),
-                _ChartBar(day: 'Ø±', percent: 0.6, darkGreen: darkGreen),
-                _ChartBar(day: 'Ø®', percent: 0.8, darkGreen: darkGreen),
-                _ChartBar(day: 'Ø¬', percent: 0.2, darkGreen: darkGreen),
+                _ChartBar(day: 'س', percent: 0.3, darkGreen: darkGreen),
+                _ChartBar(day: 'ح', percent: 0.5, darkGreen: darkGreen),
+                _ChartBar(day: 'ن', percent: 0.7, darkGreen: darkGreen),
+                _ChartBar(day: 'ث', percent: 0.4, darkGreen: darkGreen),
+                _ChartBar(day: 'ر', percent: 0.6, darkGreen: darkGreen),
+                _ChartBar(day: 'خ', percent: 0.8, darkGreen: darkGreen),
+                _ChartBar(day: 'ج', percent: 0.2, darkGreen: darkGreen),
               ],
             ),
           ),

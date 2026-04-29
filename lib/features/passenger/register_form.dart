@@ -71,7 +71,7 @@ class _RegisterFormState extends State<RegisterForm> {
           ),
           SizedBox(height: 24.ah),
           AppButton(
-            label: 'Ø¥Ù†Ø´Ø§Ø¡ Ø­Ø³Ø§Ø¨',
+            label: 'إنشاء حساب',
             isLoading: _isLoading,
             isDisabled: !_agreeToTerms,
             onPressed: _handleRegister,

@@ -17,8 +17,8 @@ class ReviewDriverCard extends StatelessWidget {
         children: [
           const CircleAvatar(radius: 40, child: Icon(Icons.person, size: 40)),
           const VerticalSpace(12),
-          Text('Ø£Ø­Ù…Ø¯ Ù…Ø­Ù…Ø¯', style: context.titleLargeTextStyle.copyWith(fontWeight: FontWeight.bold)),
-          Text('ØªÙˆÙŠÙˆØªØ§ Ù‡Ø§ÙŠØ³ - Ø£ Ø¨ Ø¬ 123', style: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary)),
+          Text('أحمد محمد', style: context.titleLargeTextStyle.copyWith(fontWeight: FontWeight.bold)),
+          Text('تويوتا هايس - أ ب ج 123', style: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary)),
           const VerticalSpace(24),
           const RatingStars(),
           const VerticalSpace(24),
@@ -37,7 +37,7 @@ class ReviewDriverCard extends StatelessWidget {
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(color: context.colors.background, borderRadius: BorderRadius.circular(16)),
       child: TextField(
-        decoration: InputDecoration(hintText: 'Ø´Ø§Ø±ÙƒÙ†Ø§ Ø±Ø£ÙŠÙƒ...', hintStyle: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary), border: InputBorder.none),
+        decoration: InputDecoration(hintText: 'شاركنا رأيك...', hintStyle: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary), border: InputBorder.none),
         maxLines: 3,
       ),
     );

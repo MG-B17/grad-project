@@ -1,357 +1,346 @@
-﻿class AppStrings {
+class AppStrings {
   const AppStrings._();
 
-  static const String appName = 'Ù…ÙŠÙƒØ±Ùˆ Ù…ØµØ±';
+  static const String appName = 'ميكرو مصر';
 
-  static const String next = 'Ø§Ù„ØªØ§Ù„ÙŠ';
-  static const String back = 'Ø±Ø¬ÙˆØ¹';
-  static const String skip = 'ØªØ®Ø·Ù‰';
-  static const String start = 'Ø§Ø¨Ø¯Ø£';
-  static const String getStarted = 'Ø§Ø¨Ø¯Ø£ Ø§Ù„Ø¢Ù†';
-  static const String confirm = 'ØªØ£ÙƒÙŠØ¯';
-  static const String cancel = 'Ø¥Ù„ØºØ§Ø¡';
-  static const String save = 'Ø­ÙØ¸';
-  static const String retry = 'Ø¥Ø¹Ø§Ø¯Ø© Ø§Ù„Ù…Ø­Ø§ÙˆÙ„Ø©';
-  static const String logout = 'ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø®Ø±ÙˆØ¬';
-  static const String loading = 'Ø¬Ø§Ø±ÙŠ Ø§Ù„ØªØ­Ù…ÙŠÙ„...';
-  static const String edit = 'ØªØ¹Ø¯ÙŠÙ„';
-  static const String delete = 'Ø­Ø°Ù';
-  static const String submit = 'Ø¥Ø±Ø³Ø§Ù„';
-  static const String close = 'Ø¥ØºÙ„Ø§Ù‚';
-  static const String errorTitle = 'Ø®Ø·Ø£';
+  static const String next = 'التالي';
+  static const String back = 'رجوع';
+  static const String skip = 'تخطى';
+  static const String start = 'ابدأ';
+  static const String getStarted = 'ابدأ الآن';
+  static const String confirm = 'تأكيد';
+  static const String cancel = 'إلغاء';
+  static const String save = 'حفظ';
+  static const String retry = 'إعادة المحاولة';
+  static const String logout = 'تسجيل الخروج';
+  static const String loading = 'جاري التحميل...';
+  static const String edit = 'تعديل';
+  static const String delete = 'حذف';
+  static const String submit = 'إرسال';
+  static const String close = 'إغلاق';
+  static const String errorTitle = 'خطأ';
 
   // Role Selection
-  static const String selectRoleTitle = 'Ø­Ø¯Ø¯ Ù†ÙˆØ¹ Ø§Ù„Ø­Ø³Ø§Ø¨ Ù„Ù„Ù…ØªØ§Ø¨Ø¹Ø©';
-  static const String passengerRole = 'Ø£Ù†Ø§ Ø±Ø§ÙƒØ¨';
-  static const String passengerRoleSubtitle = 'Ø¹Ø§ÙŠØ² Ù…ÙŠÙƒØ±ÙˆØ¨Ø§Øµ ÙŠÙˆØµÙ„Ù†ÙŠ';
-  static const String passengerRoleButton = 'Ø¯Ø®ÙˆÙ„ ÙƒØ±Ø§ÙƒØ¨';
-  static const String driverRole = 'Ø£Ù†Ø§ Ø³Ø§Ø¦Ù‚';
-  static const String driverRoleSubtitle = "Ø¹Ø§ÙŠØ² Ø£Ø²ÙˆØ¯ Ø¯Ø®Ù„ÙŠ";
-  static const String driverRoleButton = 'Ø¯Ø®ÙˆÙ„ ÙƒØ³Ø§Ø¦Ù‚';
+  static const String selectRoleTitle = 'حدد نوع الحساب للمتابعة';
+  static const String passengerRole = 'أنا راكب';
+  static const String passengerRoleSubtitle = 'عايز ميكروباص يوصلني';
+  static const String passengerRoleButton = 'دخول كراكب';
+  static const String driverRole = 'أنا سائق';
+  static const String driverRoleSubtitle = "عايز أزود دخلي";
+  static const String driverRoleButton = 'دخول كسائق';
 
-  static const String passenger = 'Ø±Ø§ÙƒØ¨';
-  static const String driver = 'Ø³Ø§Ø¦Ù‚';
-  static const String selectRole = 'Ø§Ø®ØªØ§Ø± Ø¯ÙˆØ±Ùƒ';
-  static const String selectRoleSubtitle = 'ÙƒÙŠÙ ØªØ±ÙŠØ¯ Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ØŸ';
+  static const String passenger = 'راكب';
+  static const String driver = 'سائق';
+  static const String selectRole = 'اختار دورك';
+  static const String selectRoleSubtitle = 'كيف تريد استخدام التطبيق؟';
 
-  static const String signIn = 'ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„';
-  static const String signUp = 'Ø¥Ù†Ø´Ø§Ø¡ Ø­Ø³Ø§Ø¨';
-  static const String register = 'ØªØ³Ø¬ÙŠÙ„';
-  static const String loginIdentifier = 'Ø±Ù‚Ù… Ø§Ù„Ù…ÙˆØ¨Ø§ÙŠÙ„ Ø£Ùˆ Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ';
-  static const String phoneNumber = 'Ø±Ù‚Ù… Ø§Ù„Ù‡Ø§ØªÙ';
-  static const String password = 'ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±';
-  static const String confirmPassword = 'ØªØ£ÙƒÙŠØ¯ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±';
-  static const String fullName = 'Ø§Ù„Ø§Ø³Ù… Ø¨Ø§Ù„ÙƒØ§Ù…Ù„';
-  static const String email = 'Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ';
-  static const String emailOptional = 'Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ (Ø§Ø®ØªÙŠØ§Ø±ÙŠ)';
-  static const String otpVerification = 'Ø§Ù„ØªØ­Ù‚Ù‚ Ù…Ù† Ø§Ù„Ø±Ù…Ø²';
-  static const String otpSentTo = 'ØªÙ… Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„Ø±Ù…Ø² Ø¥Ù„Ù‰';
-  static const String resendCode = 'Ø¥Ø¹Ø§Ø¯Ø© Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„Ø±Ù…Ø²';
-  static const String resendIn = 'Ø¥Ø¹Ø§Ø¯Ø© Ø§Ù„Ø¥Ø±Ø³Ø§Ù„ Ø¨Ø¹Ø¯';
-  static const String dontHaveAccount = 'Ù…Ø´ Ø¹Ù†Ø¯Ùƒ Ø­Ø³Ø§Ø¨ØŸ ';
-  static const String alreadyHaveAccount = 'Ø¹Ù†Ø¯Ùƒ Ø­Ø³Ø§Ø¨ Ø¨Ø§Ù„ÙØ¹Ù„ØŸ ';
-  static const String invalidCredentials = 'Ø±Ù‚Ù… Ø§Ù„Ù‡Ø§ØªÙ Ø£Ùˆ ÙƒÙ„Ù…Ø© Ù…ÙˆØ±ÙˆØ± ØºÙ„Ø·';
-  static const String otpExpired = 'Ø§Ù†ØªÙ‡Øª ØµÙ„Ø§Ø­ÙŠØ© Ø§Ù„Ø±Ù…Ø²ØŒ Ø§Ø¶ØºØ· Ø¥Ø¹Ø§Ø¯Ø© Ø§Ù„Ø¥Ø±Ø³Ø§Ù„';
-  static const String welcomeBack = 'Ù…Ø±Ø­Ø¨Ø§Ù‹ Ø¨ÙŠÙƒ! ðŸ‘‹';
-  static const String signInTitle = 'Ø³Ø¬Ù„ Ø¯Ø®ÙˆÙ„Ùƒ';
-  static const String signUpTitle = 'Ø¥Ù†Ø´Ø§Ø¡ Ø­Ø³Ø§Ø¨ Ø¬Ø¯ÙŠØ¯';
-  static const String signUpSubtitle = 'Ø³Ø¬Ù„ ÙˆØ§Ø¨Ø¯Ø£ Ø±Ø­Ù„ØªÙƒ Ø§Ù„Ø°ÙƒÙŠØ©';
-  static const String continueWithGoogle = 'Ù…ØªØ§Ø¨Ø¹Ø© Ø¨Ø­Ø³Ø§Ø¨ Google';
-  static const String forgotPassword = 'Ù†Ø³ÙŠØª ÙƒÙ„Ù…Ø© Ø§Ù„Ø³Ø±ØŸ';
-  static const String confirmPhoneNumber = 'ØªØ£ÙƒÙŠØ¯ Ø±Ù‚Ù… Ø§Ù„Ù‡Ø§ØªÙ';
+  static const String signIn = 'تسجيل الدخول';
+  static const String signUp = 'إنشاء حساب';
+  static const String register = 'تسجيل';
+  static const String loginIdentifier = 'رقم الموبايل أو البريد الإلكتروني';
+  static const String phoneNumber = 'رقم الهاتف';
+  static const String password = 'كلمة المرور';
+  static const String confirmPassword = 'تأكيد كلمة المرور';
+  static const String fullName = 'الاسم بالكامل';
+  static const String email = 'البريد الإلكتروني';
+  static const String emailOptional = 'البريد الإلكتروني (اختياري)';
+  static const String otpVerification = 'التحقق من الرمز';
+  static const String otpSentTo = 'تم إرسال الرمز إلى';
+  static const String resendCode = 'إعادة إرسال الرمز';
+  static const String resendIn = 'إعادة الإرسال بعد';
+  static const String dontHaveAccount = 'مش عندك حساب؟ ';
+  static const String alreadyHaveAccount = 'عندك حساب بالفعل؟ ';
+  static const String invalidCredentials = 'رقم الهاتف أو كلمة مورور غلط';
+  static const String otpExpired = 'انتهت صلاحية الرمز، اضغط إعادة الإرسال';
+  static const String welcomeBack = 'مرحباً بيك! 👋';
+  static const String signInTitle = 'سجل دخولك';
+  static const String signUpTitle = 'إنشاء حساب جديد';
+  static const String signUpSubtitle = 'سجل وابدأ رحلتك الذكية';
+  static const String continueWithGoogle = 'متابعة بحساب Google';
+  static const String forgotPassword = 'نسيت كلمة السر؟';
+  static const String confirmPhoneNumber = 'تأكيد رقم الهاتف';
 
-  static const String onboarding1Title = 'ØªØªØ¨Ø¹ ÙÙŠ Ø§Ù„ÙˆÙ‚Øª Ø§Ù„Ø­Ù‚ÙŠÙ‚ÙŠ';
-  static const String onboarding1Subtitle = 'Ø§Ø¹Ø±Ù Ù…ÙƒØ§Ù† Ø§Ù„Ù…ÙŠÙƒØ±ÙˆØ¨Ø§Øµ Ù‚Ø¨Ù„ Ù…Ø§ ØªÙˆØµÙ„';
-  static const String onboarding2Title = 'Ø§Ø­Ø¬Ø² Ù…Ù‚Ø¹Ø¯Ùƒ Ø¨Ø³Ù‡ÙˆÙ„Ø©';
-  static const String onboarding2Subtitle = 'Ø§Ø­Ø¬Ø² Ù…Ù† Ù…ÙˆØ¨Ø§ÙŠÙ„Ùƒ ÙÙŠ Ø«ÙˆØ§Ù†';
-  static const String onboarding3Title = 'Ø§Ø¯ÙØ¹ Ø¨Ø£Ù…Ø§Ù†';
-  static const String onboarding3Subtitle = 'Ø¯ÙØ¹ Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ Ø³Ø±ÙŠØ¹ ÙˆØ¢Ù…Ù†';
+  static const String onboarding1Title = 'تتبع في الوقت الحقيقي';
+  static const String onboarding1Subtitle = 'اعرف مكان الميكروباص قبل ما توصل';
+  static const String onboarding2Title = 'احجز مقعدك بسهولة';
+  static const String onboarding2Subtitle = 'احجز من موبايلك في ثوان';
+  static const String onboarding3Title = 'ادفع بأمان';
+  static const String onboarding3Subtitle = 'دفع إلكتروني سريع وآمن';
 
-  static const String passengerOnboarding1Title = "Ø§Ø¹Ø«Ø± Ø¹Ù„Ù‰ Ø±Ø­Ù„ØªÙƒ Ø¨Ø³Ù‡ÙˆÙ„Ø©";
-  static const String passengerOnboarding1Subtitle = "  Ø´Ø§Ù‡Ø¯ Ø§Ù„Ù…ÙŠÙƒØ±ÙˆØ¨Ø§ØµØ§Øª Ø§Ù„Ù…ØªØ§Ø­Ø© Ø­ÙˆØ§Ù„ÙŠÙƒ ÙÙŠ Ø§Ù„ÙˆÙ‚Øª Ø§Ù„Ø­Ù‚ÙŠÙ‚ÙŠ ";
-  static const String passengerOnboarding2Title = 'Ø§Ø­Ø¬Ø² Ù…Ù‚Ø¹Ø¯Ùƒ Ù…Ø³Ø¨Ù‚Ø§Ù‹';
-  static const String passengerOnboarding2Subtitle = "Ø§Ø®ØªØ§Ø± Ù…Ù‚Ø¹Ø¯Ùƒ ÙˆØ§Ù…Ù† Ø­Ø¬Ø²Ùƒ Ù‚Ø¨Ù„ Ù…Ø§ ØªÙˆØµÙ„ Ø§Ù„Ù…Ø­Ø·Ø©";
-  static const String passengerOnboarding3Title = 'Ø³Ø§ÙØ± Ø¨Ø£Ù…Ø§Ù† ÙˆØ°ÙƒØ§Ø¡';
-  static const String passengerOnboarding3Subtitle = "ØªØ§Ø¨Ø¹ Ø±Ø­Ù„ØªÙƒ Ù…Ø¨Ø§Ø´Ø±Ø© ÙˆØ§Ø¯ÙØ¹ Ø¨Ø£Ù…Ø§Ù† Ø¨Ø¯ÙˆÙ† ÙƒØ§Ø´";
+  static const String passengerOnboarding1Title = "اعثر على رحلتك بسهولة";
+  static const String passengerOnboarding1Subtitle = "  شاهد الميكروباصات المتاحة حواليك في الوقت الحقيقي ";
+  static const String passengerOnboarding2Title = 'احجز مقعدك مسبقاً';
+  static const String passengerOnboarding2Subtitle = "اختار مقعدك وامن حجزك قبل ما توصل المحطة";
+  static const String passengerOnboarding3Title = 'سافر بأمان وذكاء';
+  static const String passengerOnboarding3Subtitle = "تابع رحلتك مباشرة وادفع بأمان بدون كاش";
 
-  static const String home = 'Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ©';
-  static const String trips = 'Ø±Ø­Ù„Ø§ØªÙŠ';
-  static const String notifications = 'Ø§Ù„ØªÙ†Ø¨ÙŠÙ‡Ø§Øª';
-  static const String profile = 'Ø­Ø³Ø§Ø¨ÙŠ';
+  static const String home = 'الرئيسية';
+  static const String trips = 'رحلاتي';
+  static const String notifications = 'التنبيهات';
+  static const String profile = 'حسابي';
 
-  static const String searchDestination = 'Ø§Ø±ÙˆØ­ ÙÙŠÙ†ØŸ';
-  static const String recentDestinations = 'ÙˆØ¬Ù‡Ø§Øª Ø³Ø§Ø¨Ù‚Ø©';
-  static const String popularRoutes = 'Ø®Ø·ÙˆØ· Ø´Ø§Ø¦Ø¹Ø©';
-  static const String availableRides = 'Ø§Ù„Ù…ÙŠÙƒØ±ÙˆØ¨Ø§ØµØ§Øª Ø§Ù„Ù…ØªØ§Ø­Ø©';
-  static const String bookNow = 'Ø§Ø­Ø¬Ø²';
-  static const String seats = 'Ù…Ù‚Ø§Ø¹Ø¯';
-  static const String availableSeats = 'Ù…Ù‚Ø§Ø¹Ø¯ Ù…ØªØ§Ø­Ø©';
-  static const String eta = 'ÙˆÙ‚Øª Ø§Ù„ÙˆØµÙˆÙ„';
-  static const String fare = 'Ø§Ù„Ø£Ø¬Ø±Ø©';
-  static const String minutes = 'Ø¯Ù‚ÙŠÙ‚Ø©';
+  static const String searchDestination = 'اروح فين؟';
+  static const String recentDestinations = 'وجهات سابقة';
+  static const String popularRoutes = 'خطوط شائعة';
+  static const String availableRides = 'الميكروباصات المتاحة';
+  static const String bookNow = 'احجز';
+  static const String seats = 'مقاعد';
+  static const String availableSeats = 'مقاعد متاحة';
+  static const String eta = 'وقت الوصول';
+  static const String fare = 'الأجرة';
+  static const String minutes = 'دقيقة';
 
-  static const String selectSeat = 'Ø§Ø®ØªØ§Ø± Ù…Ù‚Ø¹Ø¯Ùƒ';
-  static const String seatAvailable = 'Ù…ØªØ§Ø­';
-  static const String seatOccupied = 'Ù…Ø­Ø¬ÙˆØ²';
-  static const String seatSelected = 'Ù…Ø®ØªØ§Ø±';
-  static const String paymentMethod = 'Ø·Ø±ÙŠÙ‚Ø© Ø§Ù„Ø¯ÙØ¹';
-  static const String cash = 'ÙƒØ§Ø´';
-  static const String card = 'ÙƒØ§Ø±Øª';
-  static const String wallet = 'Ù…Ø­ÙØ¸Ø©';
-  static const String fareSummary = 'Ù…Ù„Ø®Øµ Ø§Ù„Ø£Ø¬Ø±Ø©';
-  static const String bookingConfirmed = 'ØªÙ… Ø§Ù„Ø­Ø¬Ø² Ø¨Ù†Ø¬Ø§Ø­!';
-  static const String bookingRef = 'Ø±Ù‚Ù… Ø§Ù„Ø­Ø¬Ø²';
-  static const String trackNow = 'ØªØªØ¨Ø¹ Ø§Ù„Ø¢Ù†';
+  static const String selectSeat = 'اختار مقعدك';
+  static const String seatAvailable = 'متاح';
+  static const String seatOccupied = 'محجوز';
+  static const String seatSelected = 'مختار';
+  static const String paymentMethod = 'طريقة الدفع';
+  static const String cash = 'كاش';
+  static const String card = 'كارت';
+  static const String wallet = 'محفظة';
+  static const String fareSummary = 'ملخص الأجرة';
+  static const String bookingConfirmed = 'تم الحجز بنجاح!';
+  static const String bookingRef = 'رقم الحجز';
+  static const String trackNow = 'تتبع الآن';
 
-  static const String liveTracking = 'ØªØªØ¨Ø¹ Ù…Ø¨Ø§Ø´Ø±';
-  static const String driverOnTheWay = 'Ø§Ù„Ø³Ø§Ø¦Ù‚ ÙÙŠ Ø§Ù„Ø·Ø±ÙŠÙ‚ Ø¥Ù„ÙŠÙƒ';
-  static const String connectionLost = 'Ø§Ù†Ù‚Ø·Ø¹ Ø§Ù„Ø§ØªØµØ§Ù„ØŒ Ø¬Ø§Ø±ÙŠ Ø¥Ø¹Ø§Ø¯Ø© Ø§Ù„Ø§ØªØµØ§Ù„...';
+  static const String liveTracking = 'تتبع مباشر';
+  static const String driverOnTheWay = 'السائق في الطريق إليك';
+  static const String connectionLost = 'انقطع الاتصال، جاري إعادة الاتصال...';
 
-  static const String tripHistory = 'Ø³Ø¬Ù„ Ø§Ù„Ø±Ø­Ù„Ø§Øª';
-  static const String upcomingTrips = 'Ø§Ù„Ø±Ø­Ù„Ø§Øª Ø§Ù„Ù‚Ø§Ø¯Ù…Ø©';
-  static const String pastTrips = 'Ø§Ù„Ø±Ø­Ù„Ø§Øª Ø§Ù„Ø³Ø§Ø¨Ù‚Ø©';
-  static const String reBook = 'Ø§Ø­Ø¬Ø² Ù…Ø±Ø© ØªØ§Ù†ÙŠØ©';
+  static const String tripHistory = 'سجل الرحلات';
+  static const String upcomingTrips = 'الرحلات القادمة';
+  static const String pastTrips = 'الرحلات السابقة';
+  static const String reBook = 'احجز مرة تانية';
 
-  static const String online = 'Ù…ØªØ§Ø­';
-  static const String offline = 'ØºÙŠØ± Ù…ØªØ§Ø­';
-  static const String accept = 'Ù‚Ø¨ÙˆÙ„';
-  static const String decline = 'Ø±ÙØ¶';
-  static const String activeTrip = 'Ø±Ø­Ù„Ø© Ø¬Ø§Ø±ÙŠØ©';
-  static const String completeTrip = 'Ø¥Ù†Ù‡Ø§Ø¡ Ø§Ù„Ø±Ø­Ù„Ø©';
-  static const String earnings = 'Ø£Ø±Ø¨Ø§Ø­ÙŠ';
-  static const String todayEarnings = 'Ø£Ø±Ø¨Ø§Ø­ Ø§Ù„ÙŠÙˆÙ…';
-  static const String weeklyEarnings = 'Ø£Ø±Ø¨Ø§Ø­ Ø§Ù„Ø£Ø³Ø¨ÙˆØ¹';
-  static const String pendingVerification = 'Ø¬Ø§Ø±ÙŠ Ù…Ø±Ø§Ø¬Ø¹Ø© Ø¨ÙŠØ§Ù†Ø§ØªÙƒ';
-  static const String pendingVerificationBody = 'Ø³ÙŠØªÙ… Ø¥Ø®Ø·Ø§Ø±Ùƒ ÙÙˆØ± Ø§Ù„Ù…ÙˆØ§ÙÙ‚Ø© Ø¹Ù„Ù‰ Ø­Ø³Ø§Ø¨Ùƒ';
+  static const String online = 'متاح';
+  static const String offline = 'غير متاح';
+  static const String accept = 'قبول';
+  static const String decline = 'رفض';
+  static const String activeTrip = 'رحلة جارية';
+  static const String completeTrip = 'إنهاء الرحلة';
+  static const String earnings = 'أرباحي';
+  static const String todayEarnings = 'أرباح اليوم';
+  static const String weeklyEarnings = 'أرباح الأسبوع';
+  static const String pendingVerification = 'جاري مراجعة بياناتك';
+  static const String pendingVerificationBody = 'سيتم إخطارك فور الموافقة على حسابك';
 
-  static const String personalInfo = 'Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„Ø´Ø®ØµÙŠØ©';
-  static const String vehicleInfo = 'Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„Ø³ÙŠØ§Ø±Ø©';
-  static const String documents = 'Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª';
-  static const String payoutInfo = 'Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„Ø§Ø³ØªÙ„Ø§Ù…';
-  static const String nationalId = 'Ø±Ù‚Ù… Ø§Ù„Ù‡ÙˆÙŠØ© Ø§Ù„ÙˆØ·Ù†ÙŠØ©';
-  static const String vehicleType = 'Ù†ÙˆØ¹ Ø§Ù„Ù…Ø±ÙƒØ¨Ø©';
-  static const String licensePlate = 'Ø±Ù‚Ù… Ø§Ù„Ù„ÙˆØ­Ø©';
-  static const String capacity = 'Ø¹Ø¯Ø¯ Ø§Ù„Ø±ÙƒØ§Ø¨';
-  static const String uploadLicense = 'Ø±ÙØ¹ Ø±Ø®ØµØ© Ø§Ù„Ù‚ÙŠØ§Ø¯Ø©';
-  static const String uploadRegistration = 'Ø±ÙØ¹ Ø§Ø³ØªÙ…Ø§Ø±Ø© Ø§Ù„Ø³ÙŠØ§Ø±Ø©';
-  static const String bankAccount = 'Ø±Ù‚Ù… Ø§Ù„Ø­Ø³Ø§Ø¨ Ø§Ù„Ø¨Ù†ÙƒÙŠ';
+  static const String personalInfo = 'البيانات الشخصية';
+  static const String vehicleInfo = 'بيانات السيارة';
+  static const String documents = 'المستندات';
+  static const String payoutInfo = 'بيانات الاستلام';
+  static const String nationalId = 'رقم الهوية الوطنية';
+  static const String vehicleType = 'نوع المركبة';
+  static const String licensePlate = 'رقم اللوحة';
+  static const String capacity = 'عدد الركاب';
+  static const String uploadLicense = 'رفع رخصة القيادة';
+  static const String uploadRegistration = 'رفع استمارة السيارة';
+  static const String bankAccount = 'رقم الحساب البنكي';
 
-  static const String editProfile = 'ØªØ¹Ø¯ÙŠÙ„ Ø§Ù„Ù…Ù„Ù Ø§Ù„Ø´Ø®ØµÙŠ';
-  static const String savedPlaces = 'Ø§Ù„Ø£Ù…Ø§ÙƒÙ† Ø§Ù„Ù…Ø­ÙÙˆØ¸Ø©';
-  static const String paymentMethods = 'Ø·Ø±Ù‚ Ø§Ù„Ø¯ÙØ¹';
-  static const String coupons = 'Ø§Ù„ÙƒÙˆØ¨ÙˆÙ†Ø§Øª';
-  static const String helpCenter = 'Ù…Ø±ÙƒØ² Ø§Ù„Ù…Ø³Ø§Ø¹Ø¯Ø©';
-  static const String reportProblem = 'Ø§Ù„Ø¥Ø¨Ù„Ø§Øº Ø¹Ù† Ù…Ø´ÙƒÙ„Ø©';
-  static const String contactUs = 'ØªÙˆØ§ØµÙ„ Ù…Ø¹Ù†Ø§';
-  static const String homePlace = 'Ø§Ù„Ø¨ÙŠØª';
-  static const String workPlace = 'Ø§Ù„Ø´ØºÙ„';
+  static const String editProfile = 'تعديل الملف الشخصي';
+  static const String savedPlaces = 'الأماكن المحفوظة';
+  static const String paymentMethods = 'طرق الدفع';
+  static const String coupons = 'الكوبونات';
+  static const String helpCenter = 'مركز المساعدة';
+  static const String reportProblem = 'الإبلاغ عن مشكلة';
+  static const String contactUs = 'تواصل معنا';
+  static const String homePlace = 'البيت';
+  static const String workPlace = 'الشغل';
 
-  static const String genericError = 'Ø­Ø¯Ø« Ø®Ø·Ø£ØŒ ÙŠØ±Ø¬Ù‰ Ø§Ù„Ù…Ø­Ø§ÙˆÙ„Ø© Ù…Ø±Ø© Ø£Ø®Ø±Ù‰';
-  static const String networkError = 'ØªØ­Ù‚Ù‚ Ù…Ù† Ø§ØªØµØ§Ù„Ùƒ Ø¨Ø§Ù„Ø¥Ù†ØªØ±Ù†Øª';
-  static const String noRidesAvailable = 'Ù…ÙÙŠØ´ Ù…ÙŠÙƒØ±ÙˆØ¨Ø§ØµØ§Øª Ù…ØªØ§Ø­Ø© Ø¯Ù„ÙˆÙ‚ØªÙŠ';
-  static const String noTripHistory = 'Ù…Ø³Ø§ÙØ±ØªØ´ Ù‚Ø¨Ù„ ÙƒØ¯Ø©';
-  static const String noNotifications = 'Ù…ÙÙŠØ´ Ø¥Ø´Ø¹Ø§Ø±Ø§Øª';
-  static const String noEarningsToday = 'Ù…ÙÙŠØ´ Ø±Ø­Ù„Ø§Øª Ø§Ù„Ù†Ù‡Ø§Ø±Ø¯Ù‡';
-  static const String sessionExpired = 'Ø§Ù†ØªÙ‡Øª Ø¬Ù„Ø³ØªÙƒØŒ Ø³Ø¬Ù„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ù…Ø±Ø© Ø£Ø®Ø±Ù‰';
-  static const String profileSaveError = 'ÙØ´Ù„ Ø­ÙØ¸ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§ØªØŒ Ø­Ø§ÙˆÙ„ Ù…Ø±Ø© Ø£Ø®Ø±Ù‰';
-  static const String seatConflict = 'Ø§Ù„Ù…Ù‚Ø¹Ø¯ Ø¯Ù‡ Ø§ØªØ­Ø¬Ø² Ù„Ù„ØªÙˆØŒ Ø§Ø®ØªØ§Ø± Ù…Ù‚Ø¹Ø¯ ØªØ§Ù†ÙŠ';
-  static const String paymentFailed = 'ÙØ´Ù„Øª Ø¹Ù…Ù„ÙŠØ© Ø§Ù„Ø¯ÙØ¹ØŒ Ø­Ø§ÙˆÙ„ Ù…Ø±Ø© Ø£Ø®Ø±Ù‰';
+  static const String genericError = 'حدث خطأ، يرجى المحاولة مرة أخرى';
+  static const String networkError = 'تحقق من اتصالك بالإنترنت';
+  static const String noRidesAvailable = 'مفيش ميكروباصات متاحة دلوقتي';
+  static const String noTripHistory = 'مسافرتش قبل كدة';
+  static const String noNotifications = 'مفيش إشعارات';
+  static const String noEarningsToday = 'مفيش رحلات النهارده';
+  static const String sessionExpired = 'انتهت جلستك، سجل الدخول مرة أخرى';
+  static const String profileSaveError = 'فشل حفظ البيانات، حاول مرة أخرى';
+  static const String seatConflict = 'المقعد ده اتحجز للتو، اختار مقعد تاني';
+  static const String paymentFailed = 'فشلت عملية الدفع، حاول مرة أخرى';
 
-  static const String rateYourTrip = 'Ù‚ÙŠÙ‘Ù… Ø±Ø­Ù„ØªÙƒ';
-  static const String rateDriver = 'Ù‚ÙŠÙ‘Ù… Ø§Ù„Ø³Ø§Ø¦Ù‚';
-  static const String addComment = 'Ø£Ø¶Ù ØªØ¹Ù„ÙŠÙ‚ (Ø§Ø®ØªÙŠØ§Ø±ÙŠ)';
-  static const String submitRating = 'Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„ØªÙ‚ÙŠÙŠÙ…';
-  static const String skipRating = 'ØªØ®Ø·Ù‰';
+  static const String rateYourTrip = 'قيّم رحلتك';
+  static const String rateDriver = 'قيّم السائق';
+  static const String addComment = 'أضف تعليق (اختياري)';
+  static const String submitRating = 'إرسال التقييم';
+  static const String skipRating = 'تخطى';
 
-  static const String requiredField = 'Ù‡Ø°Ø§ Ø§Ù„Ø­Ù‚Ù„ Ù…Ø·Ù„ÙˆØ¨';
-  static const String invalidPhone = 'Ø±Ù‚Ù… Ù‡Ø§ØªÙ ØºÙŠØ± ØµØ­ÙŠØ­';
-  static const String invalidEmail = 'Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ ØºÙŠØ± ØµØ­ÙŠØ­';
-  static const String invalidPassword = 'ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± ÙŠØ¬Ø¨ Ø£Ù† ØªÙƒÙˆÙ† 8 Ø£Ø­Ø±Ù Ø¹Ù„Ù‰ Ø§Ù„Ø£Ù‚Ù„';
-  static const String passwordMismatch = 'ÙƒÙ„Ù…Ø§Øª Ø§Ù„Ø³Ø± ØºÙŠØ± Ù…ØªØ·Ø§Ø¨Ù‚Ø©';
-  static const String agreeToTermsError = 'ÙŠØ¬Ø¨ Ø§Ù„Ù…ÙˆØ§ÙÙ‚Ø© Ø¹Ù„Ù‰ Ø§Ù„Ø´Ø±ÙˆØ· ÙˆØ§Ù„Ø£Ø­ÙƒØ§Ù…';
+  static const String requiredField = 'هذا الحقل مطلوب';
+  static const String invalidPhone = 'رقم هاتف غير صحيح';
+  static const String invalidEmail = 'البريد الإلكتروني غير صحيح';
+  static const String invalidPassword = 'كلمة المرور يجب أن تكون 8 أحرف على الأقل';
+  static const String passwordMismatch = 'كلمات السر غير متطابقة';
+  static const String agreeToTermsError = 'يجب الموافقة على الشروط والأحكام';
 
   // Home & Booking
-  static const String goodMorning = 'ØµØ¨Ø§Ø­ Ø§Ù„Ø®ÙŠØ± ðŸ‘‹';
-  static const String whereToToday = 'Ø±Ø§ÙŠØ­ ÙÙŠÙ† Ø§Ù„Ù†Ù‡Ø§Ø±Ø¯Ù‡ØŸ';
-  static const String nearbyStations = 'Ø§Ù„Ù…Ø­Ø·Ø§Øª Ø§Ù„Ù‚Ø±ÙŠØ¨Ø© Ù…Ù†Ùƒ';
-  static const String viewAll = 'Ø¹Ø±Ø¶ Ø§Ù„ÙƒÙ„';
-  static const String selectDestination = 'Ø§Ø®ØªØ§Ø± ÙˆØ¬Ù‡ØªÙƒ';
-  static const String currentLocation = 'Ù…ÙˆÙ‚Ø¹Ùƒ Ø§Ù„Ø­Ø§Ù„ÙŠ';
-  static const String whereTo = 'Ø±Ø§ÙŠØ­ ÙÙŠÙ†ØŸ';
-  static const String savedPlacesTitle = 'Ø§Ù„Ø£Ù…Ø§ÙƒÙ† Ø§Ù„Ù…Ø­ÙÙˆØ¸Ø©';
-  static const String recentLocationsTitle = 'Ø§Ù„Ù…ÙˆØ§Ù‚Ø¹ Ø§Ù„Ø£Ø®ÙŠØ±Ø©';
-  static const String popularDestinationsTitle = 'ÙˆØ¬Ù‡Ø§Øª Ø´Ø§Ø¦Ø¹Ø©';
-  static const String availableRidesTitle = 'Ø§Ù„Ø±Ø­Ù„Ø§Øª Ø§Ù„Ù…ØªØ§Ø­Ø©';
-  static const String all = 'Ø§Ù„ÙƒÙ„';
-  static const String nearest = 'Ø§Ù„Ø£Ù‚Ø±Ø¨';
-  static const String cheapest = 'Ø§Ù„Ø£Ø±Ø®Øµ';
-  static const String egp = 'Ø¬Ù†ÙŠÙ‡';
-  static const String completedRides = 'Ø±Ø­Ù„Ø© Ù…ÙƒØªÙ…Ù„Ø©';
-  static const String arrivingIn = 'ÙŠØµÙ„ Ø®Ù„Ø§Ù„';
-  static const String minutesSuffix = 'Ø¯Ù‚Ø§Ø¦Ù‚';
-  static const String seatsAvailableCount = 'Ù…Ù‚Ø§Ø¹Ø¯ Ù…ØªØ§Ø­Ø©';
-  static const String tripDetailsTitle = 'ØªÙØ§ØµÙŠÙ„ Ø§Ù„Ø±Ø­Ù„Ù‡';
-  static const String contactDriver = 'ØªÙˆØ§ØµÙ„ Ù…Ø¹ Ø§Ù„Ø³Ø§Ø¦Ù‚';
-  static const String seatsOccupiedCount = 'Ù…Ø£Ø®ÙˆØ°Ø©';
-  static const String tripStations = 'Ù…Ø­Ø·Ø§Øª Ø§Ù„Ø±Ø­Ù„Ø©';
-  static const String bookNowLarge = 'Ø§Ø­Ø¬Ø² Ø¯Ù„ÙˆÙ‚ØªÙ‰';
-  static const String tripTotal = 'Ø¥Ø¬Ù…Ø§Ù„ÙŠ Ø§Ù„Ø±Ø­Ù„Ø©';
-  static const String selectSeatTitle = 'Ø§Ø®ØªØ§Ø± Ù…Ù‚Ø¹Ø¯Ùƒ';
-  static const String selectedSeatsCountLabel = 'Ø§Ù„Ù…Ù‚Ø§Ø¹Ø¯ Ø§Ù„Ù…Ø®ØªØ§Ø±Ø©';
-  static const String confirmSeats = 'ØªØ£ÙƒÙŠØ¯ Ø§Ù„Ù…Ù‚Ø§Ø¹Ø¯';
-  static const String driverLabel = 'Ø§Ù„Ø³Ø§Ø¦Ù‚';
+  static const String goodMorning = 'صباح الخير 👋';
+  static const String whereToToday = 'رايح فين النهارده؟';
+  static const String nearbyStations = 'المحطات القريبة منك';
+  static const String viewAll = 'عرض الكل';
+  static const String selectDestination = 'اختار وجهتك';
+  static const String currentLocation = 'موقعك الحالي';
+  static const String whereTo = 'رايح فين؟';
+  static const String savedPlacesTitle = 'الأماكن المحفوظة';
+  static const String recentLocationsTitle = 'المواقع الأخيرة';
+  static const String popularDestinationsTitle = 'وجهات شائعة';
+  static const String availableRidesTitle = 'الرحلات المتاحة';
+  static const String all = 'الكل';
+  static const String nearest = 'الأقرب';
+  static const String cheapest = 'الأرخص';
+  static const String egp = 'جنيه';
+  static const String completedRides = 'رحلة مكتملة';
+  static const String arrivingIn = 'يصل خلال';
+  static const String minutesSuffix = 'دقائق';
+  static const String seatsAvailableCount = 'مقاعد متاحة';
+  static const String tripDetailsTitle = 'تفاصيل الرحله';
+  static const String contactDriver = 'تواصل مع السائق';
+  static const String seatsOccupiedCount = 'مأخوذة';
+  static const String tripStations = 'محطات الرحلة';
+  static const String bookNowLarge = 'احجز دلوقتى';
+  static const String tripTotal = 'إجمالي الرحلة';
+  static const String selectSeatTitle = 'اختار مقعدك';
+  static const String selectedSeatsCountLabel = 'المقاعد المختارة';
+  static const String confirmSeats = 'تأكيد المقاعد';
+  static const String driverLabel = 'السائق';
 
   // Bottom Nav
-  static const String homeTab = 'Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ©';
-  static const String myRidesTab = 'Ø±Ø­Ù„Ø§ØªÙŠ';
-  static const String notificationsTab = 'Ø§Ù„Ø¥Ø´Ø¹Ø§Ø±Ø§Øª';
-  static const String profileTab = 'Ø­Ø³Ø§Ø¨ÙŠ';
-  static const String skipAndGuest = 'ØªØ®Ø·ÙŠ ÙˆØªØ³Ø¬ÙŠÙ„ ÙƒØ²Ø§Ø¦Ø±';
+  static const String homeTab = 'الرئيسية';
+  static const String myRidesTab = 'رحلاتي';
+  static const String notificationsTab = 'الإشعارات';
+  static const String profileTab = 'حسابي';
+  static const String skipAndGuest = 'تخطي وتسجيل كزائر';
 
   // Booking Confirmation
-  static const String bookingConfirmation = 'ØªØ£ÙƒÙŠØ¯ Ø§Ù„Ø­Ø¬Ø²';
-  static const String tripDetails = 'ØªÙØ§ØµÙŠÙ„ Ø§Ù„Ø±Ø­Ù„Ø©';
-  static const String paymentMethodLabel = 'Ø·Ø±ÙŠÙ‚Ø© Ø§Ù„Ø¯ÙØ¹';
-  static const String paymentDetails = 'ØªÙØ§ØµÙŠÙ„ Ø§Ù„Ø¯ÙØ¹';
-  static const String serviceFee = 'Ø±Ø³ÙˆÙ… Ø§Ù„Ø®Ø¯Ù…Ø©';
-  static const String confirmAndPay = 'ØªØ£ÙƒÙŠØ¯ ÙˆØ¯ÙØ¹';
-  static const String change = 'ØªØºÙŠÙŠØ±';
-  static const String ticketsCount = 'ØªØ°ÙƒØ±Ø© (Ù…Ù‚Ø¹Ø¯ÙŠÙ†)';
+  static const String bookingConfirmation = 'تأكيد الحجز';
+  static const String tripDetails = 'تفاصيل الرحلة';
+  static const String paymentMethodLabel = 'طريقة الدفع';
+  static const String paymentDetails = 'تفاصيل الدفع';
+  static const String serviceFee = 'رسوم الخدمة';
+  static const String confirmAndPay = 'تأكيد ودفع';
+  static const String change = 'تغيير';
+  static const String ticketsCount = 'تذكرة (مقعدين)';
 
   // Payment Methods
-  static const String totalAmountLabel = 'Ø§Ù„Ù…Ø¨Ù„Øº Ø§Ù„Ø¥Ø¬Ù…Ø§Ù„ÙŠ';
-  static const String creditCard = 'Ø¨Ø·Ø§Ù‚Ø© Ø§Ø¦ØªÙ…Ø§Ù†';
-  static const String fawry = 'ÙÙˆØ±ÙŠ';
-  static const String vodafoneCash = 'ÙÙˆØ¯Ø§ÙÙˆÙ† ÙƒØ§Ø´';
-  static const String cashOnPickup = 'Ù†Ù‚Ø¯Ø§Ù‹ Ù„Ù„Ø³Ø§Ø¦Ù‚';
-  static const String payAmount = 'Ø§Ø¯ÙØ¹';
+  static const String totalAmountLabel = 'المبلغ الإجمالي';
+  static const String creditCard = 'بطاقة ائتمان';
+  static const String fawry = 'فوري';
+  static const String vodafoneCash = 'فودافون كاش';
+  static const String cashOnPickup = 'نقداً للسائق';
+  static const String payAmount = 'ادفع';
 
   // Payment Success
-  static const String paymentSuccessful = 'ØªÙ… Ø§Ù„Ø¯ÙØ¹ Ø¨Ù†Ø¬Ø§Ø­!';
-  static const String bookingSuccessMessage = 'Ø­Ø¬Ø²Ùƒ Ø§ØªØ£ÙƒØ¯ ÙŠØ§ Ù…Ø­Ù…Ø¯ ðŸ¥³';
-  static const String bookingNumber = 'Ø±Ù‚Ù… Ø§Ù„Ø­Ø¬Ø²';
-  static const String trackTrip = 'ØªØ§Ø¨Ø¹ Ø±Ø­Ù„ØªÙƒ';
-  static const String backToHome = 'Ø§Ù„Ø±Ø¬ÙˆØ¹ Ù„Ù„Ø±Ø¦ÙŠØ³ÙŠØ©';
+  static const String paymentSuccessful = 'تم الدفع بنجاح!';
+  static const String bookingSuccessMessage = 'حجزك اتأكد يا محمد 🥳';
+  static const String bookingNumber = 'رقم الحجز';
+  static const String trackTrip = 'تابع رحلتك';
+  static const String backToHome = 'الرجوع للرئيسية';
 
   // Tracking
-  static const String driverOnWay = 'Ø§Ù„Ø³Ø§Ø¦Ù‚ ÙÙŠ Ø§Ù„Ø·Ø±ÙŠÙ‚ Ø¥Ù„ÙŠÙƒ';
-  static const String arrivesIn = 'ÙŠØµÙ„ Ø®Ù„Ø§Ù„';
-  static const String minutesLabel = 'Ø¯Ù‚Ø§ÙŠÙ‚';
-  static const String tripCost = 'ØªÙƒÙ„ÙØ© Ø§Ù„Ø±Ø­Ù„Ø©';
-  static const String shareTripRoute = 'Ø´Ø§Ø±Ùƒ Ù…Ø³Ø§Ø± Ø§Ù„Ø±Ø­Ù„Ø©';
-  static const String sos = 'Ø·ÙˆØ§Ø±Ø¦ SOS';
-  static const String statusOnWay = 'ÙÙŠ Ø§Ù„Ø·Ø±ÙŠÙ‚';
-  static const String statusArrived = 'ÙˆØµÙ„ Ù„Ù„ØµØ¹ÙˆØ¯';
-  static const String statusInTrip = 'ÙÙŠ Ø§Ù„Ø±Ø­Ù„Ø©';
-  static const String statusReached = 'ÙˆØµÙ„!';
+  static const String driverOnWay = 'السائق في الطريق إليك';
+  static const String arrivesIn = 'يصل خلال';
+  static const String minutesLabel = 'دقايق';
+  static const String tripCost = 'تكلفة الرحلة';
+  static const String shareTripRoute = 'شارك مسار الرحلة';
+  static const String sos = 'طوارئ SOS';
+  static const String statusOnWay = 'في الطريق';
+  static const String statusArrived = 'وصل للصعود';
+  static const String statusInTrip = 'في الرحلة';
+  static const String statusReached = 'وصل!';
 
   // Review
-  static const String arrivedSafely = 'ÙˆØµÙ„Øª Ø¨Ø³Ù„Ø§Ù…!';
-  static const String thanksForUsing = 'Ø´ÙƒØ±Ø§Ù‹ Ø¹Ù„Ù‰ Ø§Ø³ØªØ®Ø¯Ø§Ù…Ùƒ Micro Masr';
-  static const String whatDidYouLike = 'Ù…Ø§ Ø§Ù„Ø°ÙŠ Ø£Ø¹Ø¬Ø¨ÙƒØŸ';
-  static const String safeDriving = 'Ù‚ÙŠØ§Ø¯Ø© Ø¢Ù…Ù†Ø©';
-  static const String onTime = 'ÙÙŠ ÙˆÙ‚ØªÙ‡';
-  static const String cleanCar = 'Ù†Ø¸Ø§ÙØ© Ø§Ù„Ø³ÙŠØ§Ø±Ø©';
-  static const String politeDriver = 'Ø³Ø§Ø¦Ù‚ Ù…Ø­ØªØ±Ù…';
-  static const String addTipOptional = 'Ø¥Ø¶Ø§ÙØ© Ø¥ÙƒØ±Ø§Ù…ÙŠØ© (Ø§Ø®ØªÙŠØ§Ø±ÙŠ)';
-  static const String sendReview = 'Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„ØªÙ‚ÙŠÙŠÙ…';
-  static const String markAllAsRead = 'ØªØ­Ø¯ÙŠØ¯ Ø§Ù„ÙƒÙ„ ÙƒÙ…Ù‚Ø±ÙˆØ¡';
-  static const String today = 'Ø§Ù„ÙŠÙˆÙ…';
-  static const String yesterday = 'Ø£Ù…Ø³';
-  static const String bookingConfirmedAlert = 'ØªÙ… ØªØ£ÙƒÙŠØ¯ Ø­Ø¬Ø²Ùƒ! âœ”ï¸';
-  static const String bookingConfirmedAlertBody = 'Ø±Ø­Ù„Ø© Ù…Ø­Ø·Ø© Ù…ØµØ± â† Ø§Ù„Ø¬Ø§Ù…Ø¹Ø©ØŒ Ù…Ù‚Ø¹Ø¯ 3';
-  static const String driverOnWayAlert = 'Ø§Ù„Ø³Ø§Ø¦Ù‚ ÙÙŠ Ø§Ù„Ø·Ø±ÙŠÙ‚ Ø¥Ù„ÙŠÙƒ ðŸšŒ';
-  static const String driverOnWayAlertBody = 'Ø£Ø­Ù…Ø¯ Ù…Ø­Ù…Ø¯ Ù‡ÙŠÙˆØµÙ„Ùƒ ÙÙŠ 6 Ø¯Ù‚Ø§ÙŠÙ‚';
-  static const String paymentSuccessAlert = 'ØªÙ… Ø§Ù„Ø¯ÙØ¹ Ø¨Ù†Ø¬Ø§Ø­ ðŸ’³';
-  static const String paymentSuccessAlertBody = '32 Ø¬Ù†ÙŠÙ‡ Ø§Ø¯ÙØ¹ÙˆØ§ Ø¨Ù†Ø¬Ø§Ø­ Ù…Ù† ÙÙˆØ±ÙŠ';
-  static const String specialOfferAlert = 'Ø¹Ø±Ø¶ Ø®Ø§Øµ Ø¹Ù„ÙŠÙƒ! ðŸŽ';
-  static const String specialOfferAlertBody = 'Ø§Ø­ØµÙ„ Ø¹Ù„Ù‰ 20% Ø®ØµÙ… Ø¹Ù„Ù‰ Ø±Ø­Ù„ØªÙƒ Ø§Ù„Ø¬Ø§ÙŠØ©';
-  static const String rateTripAlert = 'Ù‚ÙŠÙ… Ø±Ø­Ù„ØªÙƒ Ù…Ø¹ Ø£Ø­Ù…Ø¯ âœ¨';
-  static const String rateTripAlertBody = 'Ø¹Ù…Ù„Øª Ø±Ø­Ù„Ø© Ø§Ù„Ù†Ù‡Ø§Ø±Ø¯Ù‡ â€” Ø´Ø§Ø±ÙƒÙ†Ø§ Ø±Ø£ÙŠÙƒ';
-  static const String tripReminderAlert = 'ØªØ°ÙƒÙŠØ± Ø¨Ø§Ù„Ø±Ø­Ù„Ø©';
-  static const String tripReminderAlertBody = 'Ø±Ø­Ù„ØªÙƒ Ø§Ù„Ù…Ø¬Ø¯ÙˆÙ„Ø© ØºØ¯Ø§ ÙÙŠ 8 ØµØ¨Ø§Ø­Ø§Ù‹';
-  static const String appUpdateAlert = 'ØªØ­Ø¯ÙŠØ« Ø§Ù„ØªØ·Ø¨ÙŠÙ‚';
-  static const String appUpdateAlertBody = 'ØªÙ… ØªØ­Ø¯ÙŠØ« Ø³ÙŠØ§Ø³Ø© Ø§Ù„Ø®ØµÙˆØµÙŠØ©';
+  static const String arrivedSafely = 'وصلت بسلام!';
+  static const String thanksForUsing = 'شكراً على استخدامك Micro Masr';
+  static const String whatDidYouLike = 'ما الذي أعجبك؟';
+  static const String safeDriving = 'قيادة آمنة';
+  static const String onTime = 'في وقته';
+  static const String cleanCar = 'نظافة السيارة';
+  static const String politeDriver = 'سائق محترم';
+  static const String addTipOptional = 'إضافة إكرامية (اختياري)';
+  static const String sendReview = 'إرسال التقييم';
+  static const String markAllAsRead = 'تحديد الكل كمقروء';
+  static const String today = 'اليوم';
+  static const String yesterday = 'أمس';
+  static const String bookingConfirmedAlert = 'تم تأكيد حجزك! ✔️';
+  static const String bookingConfirmedAlertBody = 'رحلة محطة مصر ← الجامعة، مقعد 3';
+  static const String driverOnWayAlert = 'السائق في الطريق إليك 🚌';
+  static const String driverOnWayAlertBody = 'أحمد محمد هيوصلك في 6 دقايق';
+  static const String paymentSuccessAlert = 'تم الدفع بنجاح 💳';
+  static const String paymentSuccessAlertBody = '32 جنيه ادفعوا بنجاح من فوري';
+  static const String specialOfferAlert = 'عرض خاص عليك! 🎁';
+  static const String specialOfferAlertBody = 'احصل على 20% خصم على رحلتك الجاية';
+  static const String rateTripAlert = 'قيم رحلتك مع أحمد ✨';
+  static const String rateTripAlertBody = 'عملت رحلة النهارده — شاركنا رأيك';
+  static const String tripReminderAlert = 'تذكير بالرحلة';
+  static const String tripReminderAlertBody = 'رحلتك المجدولة غدا في 8 صباحاً';
+  static const String appUpdateAlert = 'تحديث التطبيق';
+  static const String appUpdateAlertBody = 'تم تحديث سياسة الخصوصية';
   // --- Driver Onboarding Slides ---
-  static const String driverOnboarding1Title = 'Ø¯ÙŠØ± Ø§Ù„Ø´ØºÙ„ Ù…Ù† Ù…ÙˆØ¨Ø§ÙŠÙ„Ùƒ';
+  static const String driverOnboarding1Title = 'دير الشغل من موبايلك';
   static const String driverOnboarding1Body =
-      'Ù‚Ø¨ÙˆÙ„ Ø±Ø­Ù„Ø§ØªØŒ ØªØ§Ø¨Ø¹ Ø£Ø±Ø¨Ø§Ø­ÙƒØŒ ÙˆØªØ­ÙƒÙ… ÙÙŠ ÙˆÙ‚ØªÙƒ Ù…Ù† Ù…ÙƒØ§Ù† ÙˆØ§Ø­Ø¯';
-  static const String driverOnboarding2Title = 'Ù‚Ø¨ÙˆÙ„ Ø±Ø­Ù„Ø§Øª Ø¨Ø¶ØºØ·Ø© ÙˆØ§Ø­Ø¯Ø©';
+      'قبول رحلات، تابع أرباحك، وتحكم في وقتك من مكان واحد';
+  static const String driverOnboarding2Title = 'قبول رحلات بضغطة واحدة';
   static const String driverOnboarding2Body =
-      'ÙˆØµÙ‘Ù„Ùƒ Ø·Ù„Ø¨Ø§Øª Ø§Ù„Ø±Ø­Ù„Ø§Øª ÙÙˆØ±Ø§Ù‹ ÙˆØ§Ù‚Ø¨Ù„ Ø§Ù„Ù„ÙŠ ÙŠÙ†Ø§Ø³Ø¨Ùƒ';
-  static const String driverOnboarding3Title = 'ØªØ§Ø¨Ø¹ Ø£Ø±Ø¨Ø§Ø­Ùƒ ÙŠÙˆÙ… Ø¨ÙŠÙˆÙ…';
+      'وصّلك طلبات الرحلات فوراً واقبل اللي يناسبك';
+  static const String driverOnboarding3Title = 'تابع أرباحك يوم بيوم';
   static const String driverOnboarding3Body =
-      'Ø´Ø§Ù‡Ø¯ Ø±Ø­Ù„Ø§ØªÙƒØŒ Ø£Ø±Ø¨Ø§Ø­ÙƒØŒ ÙˆØ§Ø³Ø­Ø¨ ÙÙ„ÙˆØ³Ùƒ ÙÙŠ Ø£ÙŠ ÙˆÙ‚Øª';
-  static const String startNow = 'Ø§Ø¨Ø¯Ø£ Ø§Ù„Ø¢Ù†';
+      'شاهد رحلاتك، أرباحك، واسحب فلوسك في أي وقت';
+  static const String startNow = 'ابدأ الآن';
 
   // --- Driver Registration ---
-  static const String driverRegistrationTitle = 'Ø³Ø¬Ù„ ÙƒØ³Ø§Ø¦Ù‚';
+  static const String driverRegistrationTitle = 'سجل كسائق';
   static const String driverRegistrationSubtitle =
-      'Ø§Ù†Ø¶Ù… Ù„Ø¢Ù„Ø§Ù Ø§Ù„Ø³Ø§Ø¦Ù‚ÙŠÙ† ÙÙŠ Ù…ÙŠÙƒØ±Ùˆ Ù…ØµØ±';
-  static const String driverRegisterTitle = 'ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø³Ø§Ø¦Ù‚';
-  static const String stepBasicInfo = 'Ù…Ø¹Ù„ÙˆÙ…Ø§ØªÙƒ';
-  static const String stepDocuments = 'ÙˆØ«Ø§Ø¦Ù‚Ùƒ';
-  static const String vehiclePlate = 'Ø±Ù‚Ù… Ø§Ù„Ù„ÙˆØ­Ø©';
-  static const String continueToDocuments = 'Ø§Ù„ØªØ§Ù„ÙŠ â€” Ø§Ù„ÙˆØ«Ø§Ø¦Ù‚';
-  static const String orContinueWith = 'Ø£Ùˆ';
+      'انضم لآلاف السائقين في ميكرو مصر';
+  static const String driverRegisterTitle = 'تسجيل السائق';
+  static const String stepBasicInfo = 'معلوماتك';
+  static const String stepDocuments = 'وثائقك';
+  static const String vehiclePlate = 'رقم اللوحة';
+  static const String continueToDocuments = 'التالي — الوثائق';
+  static const String orContinueWith = 'أو';
 
   // --- Driver Documents Upload ---
-  static const String uploadDocumentsTitle = 'Ø§Ø±ÙØ¹ ÙˆØ«Ø§Ø¦Ù‚Ùƒ';
+  static const String uploadDocumentsTitle = 'ارفع وثائقك';
   static const String uploadDocumentsSubtitle =
-      'Ø³ÙŠØªÙ… Ù…Ø±Ø§Ø¬Ø¹ØªÙ‡Ø§ Ø®Ù„Ø§Ù„ Ù¢Ù¤-Ù¤Ù¨ Ø³Ø§Ø¹Ø©';
-  static const String drivingLicense = 'Ø±Ø®ØµØ© Ø§Ù„Ù‚ÙŠØ§Ø¯Ø©';
-  static const String drivingLicenseUploaded = 'ØªÙ… Ø§Ù„Ø±ÙØ¹ Ø¨Ù†Ø¬Ø§Ø­';
-  static const String nationalIdCard = 'Ø¨Ø·Ø§Ù‚Ø© Ø§Ù„Ø±Ù‚Ù… Ø§Ù„Ù‚ÙˆÙ…ÙŠ';
-  static const String nationalIdCardSubtitle = 'Ø§Ù„ÙˆØ¬Ù‡ÙŠÙ† Ø§Ù„Ø£Ù…Ø§Ù…ÙŠ ÙˆØ§Ù„Ø®Ù„ÙÙŠ';
-  static const String vehiclePhoto = 'ØµÙˆØ±Ø© Ø§Ù„Ù…Ø±ÙƒØ¨Ø©';
-  static const String vehiclePhotoSubtitle = 'ØªØ¸Ù‡Ø± Ø§Ù„Ù„ÙˆØ­Ø© Ø¨ÙˆØ¶ÙˆØ­';
-  static const String preferredRoute = 'Ø§Ù„Ø®Ø· Ø§Ù„Ù…ÙØ¶Ù„';
-  static const String chooseRoute = 'Ø§Ø®ØªØ§Ø± Ø®Ø·Ùƒ';
-  static const String sendForReview = 'Ø¥Ø±Ø³Ø§Ù„ Ù„Ù„Ù…Ø±Ø§Ø¬Ø¹Ø©';
+      'سيتم مراجعتها خلال ٢٤-٤٨ ساعة';
+  static const String drivingLicense = 'رخصة القيادة';
+  static const String drivingLicenseUploaded = 'تم الرفع بنجاح';
+  static const String nationalIdCard = 'بطاقة الرقم القومي';
+  static const String nationalIdCardSubtitle = 'الوجهين الأمامي والخلفي';
+  static const String vehiclePhoto = 'صورة المركبة';
+  static const String vehiclePhotoSubtitle = 'تظهر اللوحة بوضوح';
+  static const String preferredRoute = 'الخط المفضل';
+  static const String chooseRoute = 'اختار خطك';
+  static const String sendForReview = 'إرسال للمراجعة';
   static const String reviewDisclaimer =
-      'Ø¨Ø§Ù„Ù†Ù‚Ø± Ø¹Ù„Ù‰ "Ø¥Ø±Ø³Ø§Ù„ Ù„Ù„Ù…Ø±Ø§Ø¬Ø¹Ø©"ØŒ Ø£Ù†Øª ØªÙˆØ§ÙÙ‚ Ø¹Ù„Ù‰ Ø´Ø±ÙˆØ· Ø§Ù„Ø®Ø¯Ù…Ø© Ùˆ Ø³ÙŠØ§Ø³Ø© Ø§Ù„Ø®ØµÙˆØµÙŠØ© Ø§Ù„Ø®Ø§ØµØ© Ø¨Ù€ Micro Masr';
+      'بالنقر على "إرسال للمراجعة"، أنت توافق على شروط الخدمة و سياسة الخصوصية الخاصة بـ Micro Masr';
 
-  // --- Driver Auth (Login // OTP) ---
-  static const String driverLoginTitle = 'Ù…Ø±Ø­Ø¨Ø§Ù‹ Ø¨Ø¹ÙˆØ¯ØªÙƒ!';
-  static const String driverLoginSubtitle = 'Ø³Ø¬Ù„ Ø¯Ø®ÙˆÙ„Ùƒ Ù„Ù…ØªØ§Ø¨Ø¹Ø© Ø±Ø­Ù„Ø§ØªÙƒ ÙˆØ£Ø±Ø¨Ø§Ø­Ùƒ';
-  static const String enterPhoneDetails = 'Ø£Ø¯Ø®Ù„ Ø±Ù‚Ù… Ø§Ù„Ù‡Ø§ØªÙ Ù„ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„';
-  static const String getOtpCode = 'Ø§Ø­ØµÙ„ Ø¹Ù„Ù‰ Ø§Ù„Ø±Ù…Ø²';
-  static const String noAccountYet = 'Ù„ÙŠØ³ Ù„Ø¯ÙŠÙƒ Ø­Ø³Ø§Ø¨ØŸ';
-  static const String createAccountNow = 'Ø³Ø¬Ù„ Ø§Ù„Ø¢Ù†';
+  // --- Driver Auth (Login / OTP) ---
+  static const String driverLoginTitle = 'مرحباً بعودتك!';
+  static const String driverLoginSubtitle = 'سجل دخولك لمتابعة رحلاتك وأرباحك';
+  static const String enterPhoneDetails = 'أدخل رقم الهاتف لتسجيل الدخول';
+  static const String getOtpCode = 'احصل على الرمز';
+  static const String noAccountYet = 'ليس لديك حساب؟';
+  static const String createAccountNow = 'سجل الآن';
 
-  static const String otpTitle = 'Ø£Ø¯Ø®Ù„ Ø±Ù…Ø² Ø§Ù„ØªØ­Ù‚Ù‚';
-  static const String otpSubtitle = 'Ø£Ø±Ø³Ù„Ù†Ø§ ÙƒÙˆØ¯ Ù…Ù† Ù¤ Ø£Ø±Ù‚Ø§Ù… Ø¥Ù„Ù‰ Ø§Ù„Ø±Ù‚Ù…';
-  static const String verifyOtp = 'ØªØ£ÙƒÙŠØ¯ Ø§Ù„Ø±Ù…Ø²';
-  static const String resendOtpText = 'Ù„Ù… ÙŠØµÙ„Ùƒ Ø§Ù„Ø±Ù…Ø²ØŸ';
-  static const String resendOtpAction = 'Ø¥Ø¹Ø§Ø¯Ø© Ø¥Ø±Ø³Ø§Ù„';
+  static const String otpTitle = 'أدخل رمز التحقق';
+  static const String otpSubtitle = 'أرسلنا كود من ٤ أرقام إلى الرقم';
+  static const String verifyOtp = 'تأكيد الرمز';
+  static const String resendOtpText = 'لم يصلك الرمز؟';
+  static const String resendOtpAction = 'إعادة إرسال';
 
   // --- Driver Home Screen ---
-  static const String driverWelcome = 'Ø£Ù‡Ù„Ø§Ù‹ ÙŠØ§ Ø£Ø­Ù…Ø¯ ðŸ‘‹';
-  static const String driverRank = 'Ø§Ù„Ø³Ø§Ø¦Ù‚ Ø§Ù„Ø°Ù‡Ø¨ÙŠ â­ï¸';
-  static const String currentStatus = 'Ø­Ø§Ù„ØªÙƒ Ø§Ù„Ø­Ø§Ù„ÙŠØ©';
-  static const String availableForTrips = 'Ù…ØªØ§Ø­ Ù„Ù„Ø±Ø­Ù„Ø§Øª';
-  static const String driverOffline = 'ØºÙŠØ± Ù…ØªØµÙ„';
-  static const String visibleToPassengers = 'Ø£Ù†Øª Ù…Ø±Ø¦ÙŠ Ù„Ù„Ø±ÙƒØ§Ø¨ Ø§Ù„Ø¢Ù†';
-  static const String invisibleToPassengers = 'Ø£Ù†Øª ØºÙŠØ± Ù…Ø±Ø¦ÙŠ Ù„Ù„Ø±ÙƒØ§Ø¨ Ø­Ø§Ù„ÙŠØ§Ù‹';
-  static const String newTripRequest = 'Ø·Ù„Ø¨ Ø±Ø­Ù„Ø© Ø¬Ø¯ÙŠØ¯! ðŸš¨';
-  static const String viewRequest = 'Ø¹Ø±Ø¶ Ø§Ù„Ø·Ù„Ø¨';
-  static const String now = 'Ø§Ù„Ø¢Ù†';
-  static const String tripsCount = 'Ø§Ù„Ø±Ø­Ù„Ø§Øª';
-  static const String myRating = 'ØªÙ‚ÙŠÙŠÙ…ÙŠ';
-  static const String quickAccess = 'ÙˆØµÙˆÙ„ Ø³Ø±ÙŠØ¹';
-  static const String myLocation = 'Ù…ÙˆÙ‚Ø¹ÙŠ';
-  static const String myStats = 'Ø¥Ø­ØµØ§Ø¦ÙŠØ§ØªÙŠ';
-  static const String myRoutes = 'Ø®Ø·ÙˆØ·ÙŠ';
-  static const String support = 'Ø§Ù„Ø¯Ø¹Ù…';
+  static const String driverWelcome = 'أهلاً يا أحمد 👋';
+  static const String driverRank = 'السائق الذهبي ⭐️';
+  static const String currentStatus = 'حالتك الحالية';
+  static const String availableForTrips = 'متاح للرحلات';
+  static const String driverOffline = 'غير متصل';
+  static const String visibleToPassengers = 'أنت مرئي للركاب الآن';
+  static const String invisibleToPassengers = 'أنت غير مرئي للركاب حالياً';
+  static const String newTripRequest = 'طلب رحلة جديد! 🚨';
+  static const String viewRequest = 'عرض الطلب';
+  static const String now = 'الآن';
+  static const String tripsCount = 'الرحلات';
+  static const String myRating = 'تقييمي';
+  static const String quickAccess = 'وصول سريع';
+  static const String myLocation = 'موقعي';
+  static const String myStats = 'إحصائياتي';
+  static const String myRoutes = 'خطوطي';
+  static const String support = 'الدعم';
 }
-
-
-
-
-
-
-
-
-
-
-

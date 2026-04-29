@@ -20,12 +20,12 @@ class _LanguageScreenState extends State<LanguageScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFF2EFE8),
-      appBar: const ProfileAppBar(title: 'Ø§Ù„Ù„ØºØ©'),
+      appBar: const ProfileAppBar(title: 'اللغة'),
       body: Padding(
         padding: EdgeInsets.all(20.aw),
         child: Column(
           children: [
-            _buildLanguageItem(context, 'Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©', 'ar', isSelected: selectedLanguage == 'ar'),
+            _buildLanguageItem(context, 'العربية', 'ar', isSelected: selectedLanguage == 'ar'),
             const VerticalSpace(16),
             _buildLanguageItem(context, 'English', 'en', isSelected: selectedLanguage == 'en'),
           ],

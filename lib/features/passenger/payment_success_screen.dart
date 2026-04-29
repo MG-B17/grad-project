@@ -54,8 +54,8 @@ class PaymentSuccessScreen extends StatelessWidget {
       text: TextSpan(
         style: context.bodyLargeTextStyle.copyWith(color: Colors.white),
         children: [
-          const TextSpan(text: 'Ø­Ø¬Ø²Ùƒ Ø§ØªØ£ÙƒØ¯ ÙŠØ§ '),
-          TextSpan(text: 'Ù…Ø­Ù…Ø¯', style: context.bodyLargeTextStyle.copyWith(color: const Color(0xFF9CCC65), fontWeight: FontWeight.bold)),
+          const TextSpan(text: 'حجزك اتأكد يا '),
+          TextSpan(text: 'محمد', style: context.bodyLargeTextStyle.copyWith(color: const Color(0xFF9CCC65), fontWeight: FontWeight.bold)),
           const TextSpan(text: ' ðŸ¥³'),
         ],
       ),

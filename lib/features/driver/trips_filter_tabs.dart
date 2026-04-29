@@ -19,8 +19,8 @@ class TripsFilterTabs extends StatelessWidget {
     return Container(
       height: 48.ah, decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(24)),
       child: Row(children: [
-        _Tab(title: 'Ø§Ù„Ù…Ù„ØºÙŠØ©', isSelected: selectedTab == 1, color: darkGreen, onTap: () => onTabSelected(1)),
-        _Tab(title: 'Ø§Ù„Ù…ÙƒØªÙ…Ù„Ø©', isSelected: selectedTab == 0, color: darkGreen, onTap: () => onTabSelected(0)),
+        _Tab(title: 'الملغية', isSelected: selectedTab == 1, color: darkGreen, onTap: () => onTabSelected(1)),
+        _Tab(title: 'المكتملة', isSelected: selectedTab == 0, color: darkGreen, onTap: () => onTabSelected(0)),
       ]),
     );
   }

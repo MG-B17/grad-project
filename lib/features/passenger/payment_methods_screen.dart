@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:micromasr/core/size_extensions.dart';
 import 'package:micromasr/core/app_button.dart';
+import 'package:micromasr/core/app_route_constant.dart';
 import 'package:micromasr/features/passenger/profile_app_bar.dart';
 import 'package:micromasr/features/passenger/profile_payment_card.dart';
 
@@ -11,33 +13,33 @@ class PaymentMethodsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFF2EFE8),
-      appBar: const ProfileAppBar(title: 'Ø·Ø±Ù‚ Ø§Ù„Ø¯ÙØ¹'),
+      appBar: const ProfileAppBar(title: 'طرق الدفع'),
       body: Padding(
         padding: EdgeInsets.all(20.aw),
         child: Column(
           children: [
             ProfilePaymentCard(
-              label: 'Ø¨Ø·Ø§Ù‚Ø© Ù…Ø¯Ù‰',
-              subtitle: '**** **** **** Ù¤Ù¥Ù¦Ù§',
+              label: 'بطاقة مدى',
+              subtitle: '**** **** **** ٤٥٦٧',
               icon: Icons.credit_card_rounded,
               isSelected: true,
-              onTap: () {},
+              onTap: () => context.go(AppRouteConstants.passengerPaymentSuccess),
             ),
             ProfilePaymentCard(
-              label: 'ÙÙŠØ²Ø§ ÙƒØ§Ø±Ø¯',
-              subtitle: '**** **** **** Ù¡Ù¢Ù£Ù¤',
+              label: 'فيزا كارد',
+              subtitle: '**** **** **** ١٢٣٤',
               icon: Icons.credit_card_rounded,
-              onTap: () {},
+              onTap: () => context.go(AppRouteConstants.passengerPaymentSuccess),
             ),
             ProfilePaymentCard(
-              label: 'ÙÙˆØ¯Ø§ÙÙˆÙ† ÙƒØ§Ø´',
-              subtitle: 'Ù Ù¡Ù Ù  **** ***',
+              label: 'فودافون كاش',
+              subtitle: '٠١٠٠ **** ***',
               icon: Icons.phone_android_rounded,
-              onTap: () {},
+              onTap: () => context.go(AppRouteConstants.passengerPaymentSuccess),
             ),
             const Spacer(),
             AppButton(
-              label: 'Ø¥Ø¶Ø§ÙØ© Ø¨Ø·Ø§Ù‚Ø© Ø¬Ø¯ÙŠØ¯Ø©',
+              label: 'إضافة بطاقة جديدة',
               icon: Icons.add_circle_outline_rounded,
               onPressed: () {},
             ),
@@ -47,14 +49,3 @@ class PaymentMethodsScreen extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-

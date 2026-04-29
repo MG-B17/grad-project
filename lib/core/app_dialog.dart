@@ -88,7 +88,7 @@ class _AppDialogBody extends StatelessWidget {
           Text(message, style: context.bodyLargeTextStyle.copyWith(color: context.colors.textSecondary), textAlign: TextAlign.center),
           const VerticalSpace(24),
           AppButton(
-            label: confirmLabel ?? 'Ø­Ø³Ù†Ø§Ù‹',
+            label: confirmLabel ?? 'حسناً',
             onPressed: () {
               Navigator.of(context).pop();
               onConfirm?.call();

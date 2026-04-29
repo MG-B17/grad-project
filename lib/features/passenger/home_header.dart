@@ -11,7 +11,7 @@ class HomeHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const String userName = "Ù…ØµØ·ÙÙ‰";
+    const String userName = "مصطفى";
     const int notificationCount = 2;
 
     return Container(

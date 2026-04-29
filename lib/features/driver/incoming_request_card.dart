@@ -26,7 +26,7 @@ class IncomingRequestCard extends StatelessWidget {
             ],
           ),
           SizedBox(height: AppSpacing.sm.ah),
-          Text('Ù…Ø­Ø·Ø© Ù…ØµØ± â† Ø§Ù„Ø¬Ø§Ù…Ø¹Ø© Ù  Ù£Ù¢ Ø¬Ù†ÙŠÙ‡ Ù  Ù¢ Ù…Ù‚Ø§Ø¹Ø¯', textAlign: TextAlign.right, style: context.bodyMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.w600)),
+          Text('محطة مصر ← الجامعة ٠ ٣٢ جنيه ٠ ٢ مقاعد', textAlign: TextAlign.right, style: context.bodyMediumTextStyle.copyWith(color: darkGreen, fontWeight: FontWeight.w600)),
           SizedBox(height: AppSpacing.md.ah),
           _ViewRequestButton(orangeColor: orangeColor),
         ],

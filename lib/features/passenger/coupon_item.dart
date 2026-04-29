@@ -41,7 +41,7 @@ class CouponItem extends StatelessWidget {
                   child: RotatedBox(
                     quarterTurns: 3,
                     child: Text(
-                      'ØªÙØ¹ÙŠÙ„',
+                      'تفعيل',
                       style: context.titleSmallTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold),
                     ),
                   ),
@@ -72,7 +72,7 @@ class CouponItem extends StatelessWidget {
                       style: context.titleMediumTextStyle.copyWith(fontWeight: FontWeight.bold, color: context.colors.primary),
                     ),
                     Text(
-                      'ÙŠÙ†ØªÙ‡ÙŠ ÙÙŠ $expiry',
+                      'ينتهي في $expiry',
                       style: context.bodySmallTextStyle.copyWith(color: context.colors.textSecondary),
                     ),
                   ],

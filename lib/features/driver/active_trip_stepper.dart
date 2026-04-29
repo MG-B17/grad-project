@@ -21,11 +21,11 @@ class ActiveTripStepper extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          _buildStep(context, title: 'ÙˆØµÙ„ØªÙˆØ§!', icon: Icons.check, isActive: false),
+          _buildStep(context, title: 'وصلتوا!', icon: Icons.check, isActive: false),
           Expanded(child: Divider(color: Colors.grey[300], thickness: 2)),
-          _buildStep(context, title: 'Ø§Ù„Ø±Ø§ÙƒØ¨\nÙ…Ø¹Ø§Ùƒ', icon: Icons.person, isActive: false),
+          _buildStep(context, title: 'الراكب\nمعاك', icon: Icons.person, isActive: false),
           Expanded(child: Divider(color: darkGreen, thickness: 2)),
-          _buildStep(context, title: 'ÙÙŠ Ø§Ù„Ø·Ø±ÙŠÙ‚\nÙ„Ù„Ø±Ø§ÙƒØ¨', icon: Icons.directions_bus, isActive: true, activeColor: darkGreen),
+          _buildStep(context, title: 'في الطريق\nللراكب', icon: Icons.directions_bus, isActive: true, activeColor: darkGreen),
         ],
       ),
     );

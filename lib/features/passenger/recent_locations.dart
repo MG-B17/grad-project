@@ -44,11 +44,11 @@ class RecentLocations extends StatelessWidget {
           ),
           child: Column(
             children: [
-              _buildLocationItem(context, 'Ø³ÙŠØªÙŠ Ø³ØªØ§Ø±Ø² Ù…ÙˆÙ„', 'Ø´Ø§Ø±Ø¹ Ø¹Ù…Ø± Ø¨Ù† Ø§Ù„Ø®Ø·Ø§Ø¨ØŒ Ù…Ø¯ÙŠÙ†Ø© Ù†ØµØ±'),
+              _buildLocationItem(context, 'سيتي ستارز مول', 'شارع عمر بن الخطاب، مدينة نصر'),
               const Divider(height: 32),
-              _buildLocationItem(context, 'Ù†Ø§Ø¯ÙŠ Ø§Ù„ØµÙŠØ¯', 'Ø§Ù„Ø¯Ù‚ÙŠØŒ Ø§Ù„Ø¬ÙŠØ²Ø©'),
+              _buildLocationItem(context, 'نادي الصيد', 'الدقي، الجيزة'),
               const Divider(height: 32),
-              _buildLocationItem(context, 'Ù…Ø³ØªØ´ÙÙ‰ Ø¯Ø§Ø± Ø§Ù„ÙØ¤Ø§Ø¯', 'Ø§Ù„Ø³Ø§Ø¯Ø³ Ù…Ù† Ø£ÙƒØªÙˆØ¨Ø±'),
+              _buildLocationItem(context, 'مستشفى دار الفؤاد', 'السادس من أكتوبر'),
             ],
           ),
         ),

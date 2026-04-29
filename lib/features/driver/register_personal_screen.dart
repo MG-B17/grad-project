@@ -31,7 +31,7 @@ class _RegisterPersonalScreenState extends State<RegisterPersonalScreen> {
 
   bool _obscurePassword = true, _obscureConfirm = true;
   String? _selectedVehicleType;
-  static const _vehicleTypes = ['Ù…ÙŠÙƒØ±ÙˆØ¨Ø§Øµ', 'ØªØ§ÙƒØ³ÙŠ', 'Ø£ØªÙˆØ¨ÙŠØ³ ØµØºÙŠØ±'];
+  static const _vehicleTypes = ['ميكروباص', 'تاكسي', 'أتوبيس صغير'];
 
   @override
   void dispose() {
@@ -85,7 +85,7 @@ class _RegisterPersonalScreenState extends State<RegisterPersonalScreen> {
         SizedBox(height: AppSpacing.md.ah),
         AppTextField(controller: _passwordController, label: AppStrings.password, obscureText: _obscurePassword, prefixIcon: const FieldIcon(Icons.lock_outline_rounded), suffixIcon: PasswordToggle(isObscure: _obscurePassword, onToggle: () => setState(() => _obscurePassword = !_obscurePassword)), validator: _req),
         SizedBox(height: AppSpacing.md.ah),
-        AppTextField(controller: _confirmPasswordController, label: AppStrings.confirmPassword, obscureText: _obscureConfirm, prefixIcon: const FieldIcon(Icons.refresh_rounded), suffixIcon: PasswordToggle(isObscure: _obscureConfirm, onToggle: () => setState(() => _obscureConfirm = !_obscureConfirm)), validator: (v) => v != _passwordController.text ? 'ØºÙŠØ± Ù…ØªØ·Ø§Ø¨Ù‚' : null),
+        AppTextField(controller: _confirmPasswordController, label: AppStrings.confirmPassword, obscureText: _obscureConfirm, prefixIcon: const FieldIcon(Icons.refresh_rounded), suffixIcon: PasswordToggle(isObscure: _obscureConfirm, onToggle: () => setState(() => _obscureConfirm = !_obscureConfirm)), validator: (v) => v != _passwordController.text ? 'غير متطابق' : null),
         SizedBox(height: AppSpacing.md.ah),
         Row(children: [
           Expanded(child: VehicleTypeDropdown(value: _selectedVehicleType, items: _vehicleTypes, onChanged: (v) => setState(() => _selectedVehicleType = v))),
@@ -97,7 +97,7 @@ class _RegisterPersonalScreenState extends State<RegisterPersonalScreen> {
   }
 
   void _submit() { if (_formKey.currentState?.validate() ?? false) context.push(AppRouteConstants.driverRegisterDocuments); }
-  String? _req(String? v) => (v == null || v.isEmpty) ? 'Ù…Ø·Ù„ÙˆØ¨' : null;
+  String? _req(String? v) => (v == null || v.isEmpty) ? 'مطلوب' : null;
 }
 
 

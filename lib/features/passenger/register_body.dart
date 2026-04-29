@@ -47,7 +47,7 @@ class RegisterBody extends StatelessWidget {
           child: const RegisterForm(),
         ),
         const VerticalSpace(24),
-        const PassengerAuthDivider(text: 'Ø£Ùˆ'),
+        const PassengerAuthDivider(text: 'أو'),
         const VerticalSpace(24),
         SocialSignInButton(
           label: AppStrings.continueWithGoogle,

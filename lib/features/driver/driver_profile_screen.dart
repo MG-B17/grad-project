@@ -14,11 +14,11 @@ class DriverProfileScreen extends StatelessWidget {
 
     // Dummy profile data
     final profile = DummyDriverProfile(
-      name: "Ø£Ø­Ù…Ø¯ Ù…Ø­Ù…Ø¯",
+      name: "أحمد محمد",
       phone: "01012345678",
       rating: 4.9,
       tripsCount: 156,
-      memberSince: "Ø£ÙƒØªÙˆØ¨Ø± 2023",
+      memberSince: "أكتوبر 2023",
     );
 
     return Scaffold(

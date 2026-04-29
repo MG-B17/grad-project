@@ -37,7 +37,7 @@ class _DriverWithdrawEarningsScreenState extends State<DriverWithdrawEarningsScr
                     child: Icon(Icons.arrow_back_rounded, color: darkGreen), // usually back is left, but image shows arrow pointing right on the right side. Wait, if it's RTL, arrow_forward on the right is back. Let's use arrow_forward if RTL, or just pop icon. We will use arrow_forward to match image.
                   ),
                   Text(
-                    'Ø³Ø­Ø¨ Ø§Ù„Ø£Ø±Ø¨Ø§Ø­',
+                    'سحب الأرباح',
                     style: context.titleLargeTextStyle.copyWith(
                       color: darkGreen,
                       fontWeight: FontWeight.w800,
@@ -73,7 +73,7 @@ class _DriverWithdrawEarningsScreenState extends State<DriverWithdrawEarningsScr
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         Text(
-                          'Ø§Ù„Ø±ØµÙŠØ¯ Ø§Ù„Ù…ØªØ§Ø­',
+                          'الرصيد المتاح',
                           style: context.titleMediumTextStyle.copyWith(
                             color: darkGreen,
                             fontWeight: FontWeight.bold,
@@ -98,7 +98,7 @@ class _DriverWithdrawEarningsScreenState extends State<DriverWithdrawEarningsScr
                         Padding(
                           padding: EdgeInsets.only(bottom: 6.ah, right: 8.aw),
                           child: Text(
-                            'Ø¬Ù…',
+                            'جم',
                             style: context.titleMediumTextStyle.copyWith(
                               color: darkGreen,
                               fontWeight: FontWeight.bold,
@@ -126,7 +126,7 @@ class _DriverWithdrawEarningsScreenState extends State<DriverWithdrawEarningsScr
               SizedBox(height: AppSpacing.xl.ah),
 
               // Enter Amount
-              _buildSectionHeader(context, 'Ø£Ø¯Ø®Ù„ Ø§Ù„Ù…Ø¨Ù„Øº', darkGreen),
+              _buildSectionHeader(context, 'أدخل المبلغ', darkGreen),
               SizedBox(height: AppSpacing.sm.ah),
               Container(
                 decoration: BoxDecoration(
@@ -142,7 +142,7 @@ class _DriverWithdrawEarningsScreenState extends State<DriverWithdrawEarningsScr
                     hintText: '0.00',
                     prefixIcon: Padding(
                       padding: EdgeInsets.only(top: 14.ah),
-                      child: Text('Ø¬Ù…', style: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary)),
+                      child: Text('جم', style: context.bodyMediumTextStyle.copyWith(color: context.colors.textSecondary)),
                     ),
                   ),
                 ),
@@ -150,12 +150,12 @@ class _DriverWithdrawEarningsScreenState extends State<DriverWithdrawEarningsScr
               SizedBox(height: AppSpacing.xl.ah),
 
               // Choose Withdrawal Method
-              _buildSectionHeader(context, 'Ø§Ø®ØªØ± ÙˆØ³ÙŠÙ„Ø© Ø§Ù„Ø³Ø­Ø¨', darkGreen),
+              _buildSectionHeader(context, 'اختر وسيلة السحب', darkGreen),
               SizedBox(height: AppSpacing.sm.ah),
               _buildMethodCard(
                 context: context,
                 index: 0,
-                title: 'ÙÙˆØ¯Ø§ÙÙˆÙ† ÙƒØ§Ø´',
+                title: 'فودافون كاش',
                 subtitle: '010 **** 5678',
                 icon: Icons.sim_card, // Placeholder for Vodafone icon
                 darkGreen: darkGreen,
@@ -164,8 +164,8 @@ class _DriverWithdrawEarningsScreenState extends State<DriverWithdrawEarningsScr
               _buildMethodCard(
                 context: context,
                 index: 1,
-                title: 'Ø­Ø³Ø§Ø¨ Ø¨Ù†ÙƒÙŠ',
-                subtitle: 'Ø§Ù„Ø¨Ù†Ùƒ Ø§Ù„Ø£Ù‡Ù„ÙŠ Ø§Ù„Ù…ØµØ±ÙŠ',
+                title: 'حساب بنكي',
+                subtitle: 'البنك الأهلي المصري',
                 icon: Icons.account_balance_rounded,
                 darkGreen: darkGreen,
               ),
@@ -173,8 +173,8 @@ class _DriverWithdrawEarningsScreenState extends State<DriverWithdrawEarningsScr
               _buildMethodCard(
                 context: context,
                 index: 2,
-                title: 'Ù…Ø­ÙØ¸Ø© Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠØ©',
-                subtitle: 'Ø£Ø¶Ù Ù…Ø­ÙØ¸Ø© Ø¬Ø¯ÙŠØ¯Ø©',
+                title: 'محفظة إلكترونية',
+                subtitle: 'أضف محفظة جديدة',
                 icon: Icons.account_balance_wallet_rounded,
                 darkGreen: darkGreen,
               ),
@@ -197,7 +197,7 @@ class _DriverWithdrawEarningsScreenState extends State<DriverWithdrawEarningsScr
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         Text(
-                          'Ù…Ù„Ø§Ø­Ø¸Ø©',
+                          'ملاحظة',
                           style: context.bodyMediumTextStyle.copyWith(
                             color: darkGreen,
                             fontWeight: FontWeight.bold,
@@ -209,7 +209,7 @@ class _DriverWithdrawEarningsScreenState extends State<DriverWithdrawEarningsScr
                     ),
                     SizedBox(height: 8.ah),
                     Text(
-                      'ØªØªÙ… Ù…Ø¹Ø§Ù„Ø¬Ø© Ø·Ù„Ø¨Ø§Øª Ø§Ù„Ø³Ø­Ø¨ Ø®Ù„Ø§Ù„ 24 Ø³Ø§Ø¹Ø© Ø¹Ù…Ù„. Ù‚Ø¯ ÙŠØªÙ… ØªØ·Ø¨ÙŠÙ‚ Ø±Ø³ÙˆÙ… Ø¨Ø³ÙŠØ·Ø© Ø­Ø³Ø¨ ÙˆØ³ÙŠÙ„Ø© Ø§Ù„Ø³Ø­Ø¨ Ø§Ù„Ù…Ø®ØªØ§Ø±Ø©.',
+                      'تتم معالجة طلبات السحب خلال 24 ساعة عمل. قد يتم تطبيق رسوم بسيطة حسب وسيلة السحب المختارة.',
                       textAlign: TextAlign.right,
                       style: context.bodySmallTextStyle.copyWith(
                         color: context.colors.textSecondary,
@@ -239,7 +239,7 @@ class _DriverWithdrawEarningsScreenState extends State<DriverWithdrawEarningsScr
                       Icon(Icons.keyboard_double_arrow_left_rounded, color: Colors.white),
                       SizedBox(width: 8.aw),
                       Text(
-                        'ØªØ£ÙƒÙŠØ¯ Ø§Ù„Ø³Ø­Ø¨',
+                        'تأكيد السحب',
                         style: context.titleMediumTextStyle.copyWith(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
@@ -267,14 +267,14 @@ class _DriverWithdrawEarningsScreenState extends State<DriverWithdrawEarningsScr
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           Text(
-                            'ØªÙ… Ø·Ù„Ø¨ Ø§Ù„Ø³Ø­Ø¨ Ø¨Ù†Ø¬Ø§Ø­',
+                            'تم طلب السحب بنجاح',
                             style: context.bodyLargeTextStyle.copyWith(
                               color: darkGreen,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
                           Text(
-                            'Ø±Ù‚Ù… Ø§Ù„Ø¹Ù…Ù„ÙŠØ©: #MS-99421',
+                            'رقم العملية: #MS-99421',
                             style: context.bodySmallTextStyle.copyWith(
                               color: context.colors.textSecondary,
                             ),

@@ -50,7 +50,7 @@ class PhoneField extends StatelessWidget {
         Expanded(child: AppTextField(
           controller: controller, label: AppStrings.phoneNumber, keyboardType: TextInputType.phone,
           prefixIcon: Icon(Icons.phone_outlined, color: context.colors.textSecondary, size: 20.aw),
-          validator: (v) => (v == null || v.isEmpty) ? 'Ù…Ø·Ù„ÙˆØ¨' : null,
+          validator: (v) => (v == null || v.isEmpty) ? 'مطلوب' : null,
         )),
       ],
     );
@@ -78,7 +78,7 @@ class VehicleTypeDropdown extends StatelessWidget {
       ),
       items: items.map((t) => DropdownMenuItem(value: t, child: Text(t))).toList(),
       onChanged: onChanged,
-      validator: (v) => v == null ? 'Ù…Ø·Ù„ÙˆØ¨' : null,
+      validator: (v) => v == null ? 'مطلوب' : null,
     );
   }
 }

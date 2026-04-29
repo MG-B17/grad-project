@@ -15,27 +15,27 @@ class _CouponsScreenState extends State<CouponsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFF2EFE8),
-      appBar: const ProfileAppBar(title: 'ÙƒÙˆØ¨ÙˆÙ†Ø§Øª Ø§Ù„Ø®ØµÙ…'),
+      appBar: const ProfileAppBar(title: 'كوبونات الخصم'),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20.aw),
         child: Column(
           children: [
             CouponItem(
-              title: 'Ø®ØµÙ… Ø§Ù„Ù…Ø´ÙˆØ§Ø± Ø§Ù„Ø£ÙˆÙ„',
-              discount: 'Ø®ØµÙ… Ù¥Ù Ùª',
-              expiry: 'Ù£Ù  Ù…Ø§ÙŠÙˆ Ù¢Ù Ù¢Ù¦',
+              title: 'خصم المشوار الأول',
+              discount: 'خصم ٥٠٪',
+              expiry: '٣٠ مايو ٢٠٢٦',
               onActivate: () {},
             ),
             CouponItem(
-              title: 'Ø¹Ø±Ø¶ Ø§Ù„ÙˆÙŠÙƒ Ø¥Ù†Ø¯',
-              discount: 'Ø®ØµÙ… Ù¢Ù  Ø¬.Ù…',
-              expiry: 'Ù¡Ù¥ Ù…Ø§ÙŠÙˆ Ù¢Ù Ù¢Ù¦',
+              title: 'عرض الويك إند',
+              discount: 'خصم ٢٠ ج.م',
+              expiry: '١٥ مايو ٢٠٢٦',
               onActivate: () {},
             ),
             CouponItem(
-              title: 'ÙƒÙˆØ¨ÙˆÙ† Ø±Ù…Ø¶Ø§Ù† ÙƒØ±ÙŠÙ…',
-              discount: 'Ù…Ø´ÙˆØ§Ø± Ù…Ø¬Ø§Ù†ÙŠ',
-              expiry: 'Ù¡Ù  Ù…Ø§ÙŠÙˆ Ù¢Ù Ù¢Ù¦',
+              title: 'كوبون رمضان كريم',
+              discount: 'مشوار مجاني',
+              expiry: '١٠ مايو ٢٠٢٦',
               onActivate: () {},
             ),
           ],
